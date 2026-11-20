@@ -1,78 +1,113 @@
-# Rank Intelligence — Design System v2 (Best UI/UX)
+# Rank Intelligence — Production Design System (v3)
 
-Status: v2 supersedes v1 (`DESIGN_SYSTEM.md`, the faithful extraction) for all new builds. v1 remains the record of the live site.
-Tokens: `brand/tokens-v2.css` (`--ri-*`). Rules below are mandatory for every page.
+Status: **This is the single source of truth for building Rank Intelligence pages.** It merges the live site's visual identity (rankintelligence.net) with every design decision the owner made while fixing the homepage section by section (2026-11-20). It supersedes v1 (faithful extraction, `DESIGN_SYSTEM_V1.md`) and v2 (best-UI/UX experiment, `DESIGN_SYSTEM_V2.md`).
 
-## What changed from v1, and why
+**Working rule (owner instruction, 2026-11-20): apply this system automatically. Do not ask for per-section guidance.** Build each section to this spec, push to GitHub `main`, verify, and report what was done. Ask only when a required asset is genuinely missing (e.g. a brand logo that was never supplied) — and still finish everything that does not depend on it.
 
-1. **Palette cut from 8 accents to 2.** Blue #102088 (brand) + action green #006E00 + neutrals. Removed as decorative colours: lavender, mint, orange, cyan bands, deep navy, dark-green footer. Dark surfaces are now one colour, `--ri-blue-dark` #0A1445 (footer and CTA bands). Light tints are one colour, `--ri-blue-wash`.
-2. **Contrast is a rule, not a hope.** Every text/background pairing must meet WCAG AA (4.5:1 body, 3:1 large text/icons). Primary buttons use the darkened green so white text passes at ~6.9:1. Orange buttons are gone.
-3. **Two typefaces with jobs.** Poppins for headings, Inter for body/UI (more readable at 14–16px). Fixed scale in tokens; body never below 16px, small text never below 14px.
-4. **Sticky, accessible header.** Header sticks with a shadow on scroll. Dropdowns open on click *and* hover, work by keyboard, and collapse into a hamburger menu under 1024px. All interactive elements are ≥44px tall with a visible focus ring.
-5. **One primary CTA per page.** "Get Free Proposal" (green) is primary everywhere. "Book a Call" is a secondary outline button. No third competing CTA in the same viewport; "View all…" links are text links, not buttons.
-6. **Shorter homepage.** 18 sections → 10 (see §3). Everything cut was either duplicated proof or a second conversion ask.
-7. **Forms ask less, in steps.** The lead form is 2 steps with visible labels, inline validation and error/success states (§4).
-8. **Component states are specified.** Buttons, inputs, cards, tabs and accordions each define default / hover / focus / active / disabled / (where relevant) loading, error and success. Nothing ships with hover-only styling.
-9. **Motion respects the user.** Carousels do not auto-scroll by default; any animation stops under `prefers-reduced-motion` and pauses on hover/focus.
-10. **Real scales.** Spacing uses only the 4pt steps in tokens; radius is 8px (controls) / 12px (cards) / pill (tags only — buttons are no longer pills except tags).
+---
 
-## 1. Foundations
+## 1. Brand foundations
 
-- Colour, type, spacing, radius, shadows, touch and motion: see `tokens-v2.css`. Highlights: container 1180px; section padding clamp(56px, 7vw, 96px); breakpoints 480 / 768 / 1024 / 1280px, mobile-first.
-- Headings: Poppins 600–700, ink, one accent word in blue maximum. Eyebrow labels: small caps text in blue on `--ri-blue-wash` pill — retained from v1, recoloured.
-- Alternate section backgrounds white / `--ri-surface-grey` only. No gradient bands except a subtle white→blue-wash hero wash.
+### Colour
+| Token | Value | Use |
+|---|---|---|
+| `--blue` | #102088 | Brand blue: headings accents, links, active states |
+| `--blue-dark` | #0A1445 | Deep navy: icon circles, shop band |
+| `--green` | #00A651 | Primary buttons, % figures, progress bars, checks |
+| `--green-dark` | #006E00 | Button hover / AA-safe green text |
+| `--cyan` | #35D7F3 | Gradient end, SERPLoft band |
+| `--cyan-pale` | #EAFBFE | Gradient mid, floating cards |
+| `--lav` | #E6E3FA (family of #ABA9F5) | Eyebrow pills, category pills |
+| `--orange` | #FF8C42 | Only: CTA-band button, "Visit Shop" |
+| `--mint` | #E2F5E3 | Lead-form left panel |
+| `--grey-bg` | #F5F5F5 / panel #F8F8F8 | Alternating section backgrounds, panels |
+| `--ink` | #0E1220 | Body headings |
+| `--muted` | #5A6070 | Secondary text |
+| `--border` | #E3E6EF | Card and input borders |
+| Footer | #005500 → #006400 | Dark-green footer gradient |
 
-## 2. Components
+### Typography
+- Headings: **Poppins**, 700–800. Body/UI: **Inter**.
+- Hero H1: uppercase, clamp(2.4rem, 5.2vw, 4rem), three-colour split — black / royal blue / green lines.
+- Section H2: ~2rem Poppins 700, centred unless the section spec says left.
+- Eyebrow: small lavender pill, uppercase, centred above the H2 (e.g. "Measurable Performance", "Our Clientele", "Our Work").
+- Section headings are **descriptive benefit sentences**, not labels — e.g. Clientele: "We are the digital partners for brands to achieve organic growth"; Case Studies: "We elevate your brand to create success stories like these."
 
-**Header (sticky)** — White, logo left, nav centre (Services ▾, Industries ▾, About Us, Contact Us), right: "Book a Call" outline + hamburger on mobile. Shadow appears on scroll. Skip-to-content link retained. Dropdown panels: white, 12px radius, shadow, ≥44px rows.
+### Layout
+- Container 1180px, side padding 20px. Sections alternate white / light grey.
+- Section padding ~84px top/bottom. Cards radius 14px, panels 18px, soft shadows `0 6px 24px rgba(14,18,32,.08)`.
+- Breakpoint 900px: multi-column grids collapse to one column.
 
-**Buttons** — Primary: `--ri-action` fill, white text, 8px radius, min-height 44px. Secondary: white, 1.5px blue border, blue text. Text link: blue, underlined on hover/focus. States: hover darkens one step; focus = 3px focus ring with white offset; disabled = 45% opacity, no pointer events; loading = spinner + disabled, label retained.
+## 2. Header
+Sticky, near-white (#F4F6F5 family), subtle shadow once scrolled. Logo left (navy "R" mark with green arrow + "Rank" navy / "Intelligence" green). Nav: Services ▾, Industries ▾, About Us, Contact Us. Right: black pill "Book a Call" with phone icon. Mobile: hamburger toggling the nav.
 
-**Inputs** — Visible label above every field (never placeholder-only), 44px+ height, 8px radius, border `--ri-border`. Error: red border + message below with icon, `aria-describedby`. Success: green border + confirmation text. Help text in `--ri-muted`.
+## 3. Hero
+- Background: full-bleed vertical gradient white → pale cyan → cyan, running uninterrupted behind everything including the partner strip. **No band, box or background behind the partner logos.**
+- Columns: text ≈59% / image ≈35%, 48px gap, **top-aligned** (image is top-biased, never centred or bottom-flush).
+- Image: the agency illustration, square 1:1, displayed at max ~420px wide, radius 18px, soft shadow.
+- Left column order: eyebrow ("AI Powered Search Marketing Agency Driven By") → H1 → URL field + green "Get Free Proposal" (submitting scrolls to the lead form and pre-fills the URL) → CMO faces strip image at **natural size** beside "Rank Intelligence is the CMO's most preferred partner".
+- Partners block (below, left-aligned under the text column): small bold label "Our Partners", then the partner strip image at natural proportion (max ~700px wide). Logos sit directly on the gradient.
 
-**Cards** — White, 12px radius, `--ri-shadow-card`, 1px border. Solutions cards keep the blue top border from v1 but no colour-change hover — hover is shadow + 2px lift only. Whole card is not a link; the title/link is.
+## 4. Buttons & tabs
+- Primary button: green, white text, radius 999px, min-height 44px. Outline button: 1.5px ink border, transparent bg.
+- **Tabs are rectangular** (radius 10px), never oval pills. Applies to Case Studies and all tab groups.
+- Tab groups switch panels on click; active tab gets the blue border + shadow treatment.
 
-**Tabs (Performance, Testimonials)** — Button semantics, `aria-selected`, arrow-key navigation, active = blue fill/white text (Performance) with panel labelled. One panel visible.
+## 5. Measurable Performance
+- Light-grey rounded panel. **Left: the 8 goal tabs in ONE vertical column.** Right: the active panel.
+- Each tab: white pill-card with a **coloured circular icon containing a real inline SVG icon** (sparkles, growth chart, target, cart, storefront, pen, browser, phone) — never unicode glyphs or emoji.
+- **Tabs auto-switch every ~5.6s** with a green progress bar filling along the bottom of the active tab. Pause on panel hover and when the browser tab is hidden; clicking a tab restarts the cycle from it; no auto-switch under `prefers-reduced-motion`.
+- Panel content order: **image on top → heading → text → button below all.** Every panel has its own real photo (1024×585 landscape, radius 14px).
 
-**Accordion (FAQ)** — Button headers, chevron rotates, `aria-expanded`, only one open at a time, focus ring visible, no colour-change-on-hover trick (v1's orange text is removed).
+## 6. Case Studies
+- Grey section, eyebrow "Our Work", descriptive H2 (see §1).
+- 6 rectangular tabs × 3 cards. Card: white, radius 14px; **real client website screenshot** on top (190px, cover crop); **client logo** in the logo slot (30px tall, max 140px wide); lavender category pill; black headline with the % figure in green bold.
+- **Cards grow slightly on hover** (scale 1.03 + deeper shadow, .35s ease).
+- **The whole card is clickable** (image and text). Until individual case studies exist, cards link to their tab's case-study index (website-traffic / leads-generation / revenue-growth / app-downloads / website-development / content-writing case-studies).
 
-**Logo wall** — Static responsive grid/wrap by default (max 2 rows on homepage). If a carousel is used it must have pause on hover/focus and respect reduced-motion.
+## 7. Our Clientele (logo scroller)
+- Descriptive H2 (see §1). **Two rows of real client logos, auto-scrolling slowly (~58s per loop), seamless.**
+- **Upper row scrolls right → left. Lower row scrolls left → right.** Split the logo set half / half (±1).
+- Logos 52px tall, generous gaps, soft fade mask at both edges, **larger vertical gap between the rows (~38px)**, and the rows **never pause on hover**.
+- Animation off under `prefers-reduced-motion`. Logos are embedded once and duplicated in the DOM by JS (keeps the file lean).
 
-**Lead form** — See §4.
+## 8. Testimonials
+Eyebrow "Our Client Testimonial", H2 with "Love" underlined in green. Rectangular industry tabs (7) × 3 reviewers. Layout: big quote on the left, large green circle avatar (initials) on the right; 3 reviewer selector cards below with green initial avatars; clicking a reviewer swaps the quote. No star ratings (the live site shows none).
 
-**Footer** — `--ri-blue-dark`, white text (AA on that background), 4 columns on desktop (brand+socials, Company, Services, Industries) + offices row, policy bar with copyright. Social icons are ≥44px targets.
+## 9. SERPLoft band
+Cyan gradient band. "SERPLoft™" wordmark centred, H2 "The Secret Weapon Behind Our Success", 4 rectangular tabs (Rank Tracker, GeniuSearch, Custom Reporting, Competitor Analysis). Panel: heading with green underline, text, 3 green-check bullets, outline "Try SERPLoft Now". Rank Tracker panel carries a CSS dashboard mock (browser bar, "Keyword Distribution", big number, SVG chart, blue "Live demo" chip, floating "Report Categorization" card).
+**The product is named SERPLoft everywhere. The old name (DazziGrowth) must never appear.**
 
-## 3. Homepage v2 — section order (10)
+## 10. Our Solutions
+Infidigit format in Rank Intelligence card style: eyebrow, H2 "Explore Our Comprehensive Suite of Digital Growth Solutions", 12 cards (SEO, LLM SEO, AI SEO, E-commerce SEO, CRO, SEO Audit, Local SEO, Small Business SEO, Enterprise SEO, ASO, Website Development, Content Writing), each with title + one-line description + "View Solution →", light-grey card with dark-navy top border, whole card links to its service page. "View All Services" button below.
 
-1. Sticky header
-2. Hero — headline, one-line subcopy, URL + email capture (step 1 of the form pattern), proof line (avatars + line), partners row
-3. Measurable Performance — tabbed selector (8 goals, content shortened)
-4. Case Studies — 3 cards, results % in blue, no filter pills (filters return on the Case Studies page, not the homepage)
-5. Solutions — 6 core cards (SEO, Local SEO, Link Building, PPC, Web Development, Content Marketing) + text link to all 12
-6. Proof band — clientele logos (static), awards + featured-in as one quiet row of names/badges, one testimonial with tabs by industry
-7. Why Us — USP 6 merged with Features copy, 3×2 grid, team photo
-8. FAQ — 6 highest-value questions, accordion
-9. Lead form — 2-step card (§4) on blue-wash background
-10. Footer
+## 11. Awards, USP, Team, Knowledge Base
+- Awards: cyan band, badge chips (white cards, bold name + small caption) in wrapped rows.
+- USP: 6 items, dark-navy circular SVG icons, centred. Items: AI Skills, SERPLoft™, Data-Based, 50+ Awards, 100+ Professionals, Win-Win Strategy.
+- Meet Our Team: grey section, bold intro line + real team photo side by side, then 4 divider-separated value columns, outline "View Our Team".
+- Knowledge Base: 2×2 article cards with illustration, category pill and title; "View All Blogs →".
 
-Removed from the homepage (moved to their own pages): DazziGrowth™ tool band (→ product page, linked from Solutions), Knowledge Base teasers (→ blog), shop banner (→ footer link), second CTA banner (the lead form is the CTA).
+## 12. CTA band, Proudly Featured, FAQs
+- CTA: deep royal-blue rounded band on grey; illustration left; white H2 "Get ready to boost your Organic Rankings" with the last word **rotating Traffic / Sales / Leads / Revenue** (static under reduced motion); orange "Get Free Proposal" + "Contact Us" link.
+- Proudly Featured: left H2 "Proudly featured in the best media outlets"; right, staggered white logo cards over a pale-cyan blob (10 outlets).
+- FAQs: grey section, single ~50%-width column of white rounded accordion boxes with chevrons, the live site's 9 questions.
 
-## 4. Lead form pattern (site-wide)
+## 13. Lead form, shop banner, footer
+- Lead form: two-panel card. Left mint panel: headline "100+ brands scaled revenue using our data-driven strategies.", consultant photo, white pill badges with green borders (Boost ROI, Multifold Growth, Global Reach). Right white panel "Let's Start Growing Together": Full Name*, Work Email*, WhatsApp Number, Website URL*, business textarea, "How are your SEO activities managed" dropdown, the 14 service checkboxes, pre-checked terms checkbox, phone +44-7782259462, "100% SSL Secured" / "No spam, no unwanted calls", green "Send My Free Proposal". Inline validation + success state.
+- Shop banner: dark-navy band, royal-blue inner panel, monitor mock, service list text, orange "Visit Shop".
+- Footer: dark green; logo + blurb + social circles; columns Company / Services / Industries / Follow Us; offices Orlando FL + Islamabad; 9 trust-badge chips; bottom bar Privacy Policy · Cookies Policy · Terms · Write for us · Sitemap + "© 2015-2026 | Rank Intelligence".
 
-- Step 1 (3 fields): Website URL*, Work Email*, primary service (select)*. Button: "Get My Free Proposal".
-- Step 2 (optional-feeling, skippable fields marked): Full Name, Phone, "Tell us about your business" textarea, how SEO is currently managed (select). Button: "Send My Free Proposal".
-- Progress indicator "Step 1 of 2", back link, inline validation on blur, error summary on submit, success state replaces the form (tick, what happens next, response-time promise). Terms checkbox on step 2 only, unchecked by default. Privacy microcopy under the button.
-- The hero form *is* step 1 — submitting it scrolls to the lead form with step 1 already completed.
+## 14. Images & assets — hard rules
+1. **Use the real brand assets the owner supplies** (illustrations, photos, logos, screenshots). Generated stand-ins are placeholders only until the real asset arrives.
+2. **Never flatten a transparent image to RGB** — it bakes in a black background (learned the hard way on the partner strip). Embed transparent logos/strips from the original bytes.
+3. Optimize photos to WebP q72–78 at the display width; embed as data URIs (the GitHub push path is text-only, binaries are rejected).
+4. After embedding, **verify counts inside the correct section** (a page-level count once hid an image that landed in the wrong place).
+5. Alt text on every image; `loading="lazy"` below the fold.
 
-## 5. Accessibility & quality checklist (every page)
+## 15. Motion & accessibility
+- Motion is purposeful: marquee scroll, tab auto-switch with progress, CTA word rotation, card hover grow. Everything respects `prefers-reduced-motion`.
+- Interactive targets ≥44px, visible focus states, tabs use `role=tablist/tab` with `aria-selected`, reviewer cards use `aria-pressed`.
 
-- [ ] All text AA contrast; icons 3:1
-- [ ] Fully keyboard-operable; visible focus everywhere; logical tab order
-- [ ] Touch targets ≥44px; labels visible; errors announced
-- [ ] `prefers-reduced-motion` honoured; no forced auto-scroll
-- [ ] Works at 360px wide with no horizontal scroll; images have alt text
-- [ ] One H1 per page; heading order never skips
-
-## Amendment — 2026-11-20 (owner direction)
-
-The homepage restores the live site's full sections inside v2 (superseding the v2 "cut to 10 sections" decision for the homepage only): Measurable Performance (8 tabs), Case Studies (6 tabs × 3), Testimonials (7 tabs × 3 reviewers), Knowledge Base, "Get ready to boost your Organic Rankings" CTA band, and Proudly Featured. Our Solutions follows Infidigit's format (12 cards, one-line descriptions, single "View All Services" link). **Brand change: the proprietary tool is now SERPLoft™** (formerly DazziGrowth™) — use SERPLoft in the tool band, the USP item, FAQs and all new pages.
+## 16. Workflow
+- Every change: edit `index.html` → serve locally and verify (HTTP 200, section counts, JS syntax) → push to `dazzlitco/Rank-Intelligence` `main` → confirm the new head commit → report to the owner here. Cloudflare Pages deploys from `main` automatically (preset None, build command empty, output `/`).
+- Missing assets on record: logos for **BioDigital, MyVitaminStore.pk, Instacart** (their case cards use a styled text wordmark until supplied).
