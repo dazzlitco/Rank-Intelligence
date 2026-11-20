@@ -72,3 +72,7 @@ Removed from the homepage (moved to their own pages): DazziGrowth™ tool band (
 - [ ] `prefers-reduced-motion` honoured; no forced auto-scroll
 - [ ] Works at 360px wide with no horizontal scroll; images have alt text
 - [ ] One H1 per page; heading order never skips
+
+## Amendment — 2026-11-20 (owner direction)
+
+The homepage restores the live site's full sections inside v2 (superseding the v2 "cut to 10 sections" decision for the homepage only): Measurable Performance (8 tabs), Case Studies (6 tabs × 3), Testimonials (7 tabs × 3 reviewers), Knowledge Base, "Get ready to boost your Organic Rankings" CTA band, and Proudly Featured. Our Solutions follows Infidigit's format (12 cards, one-line descriptions, single "View All Services" link). **Brand change: the proprietary tool is now SERPLoft™** (formerly DazziGrowth™) — use SERPLoft in the tool band, the USP item, FAQs and all new pages.
