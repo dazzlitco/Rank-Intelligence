@@ -72,7 +72,7 @@ nav.main a:hover{color:var(--green-dark)}
 @keyframes scroll{to{transform:translateX(-50%)}}
 @media(prefers-reduced-motion:reduce){.mtrack{animation:none}html{scroll-behavior:auto}}
 .quotebox{display:grid;grid-template-columns:1.5fr .8fr;gap:34px;align-items:start;max-width:980px;margin:0 auto}
-.bigquote{font-family:Poppins,sans-serif;font-size:clamp(1.02rem,1.7vw,1.28rem);font-weight:600;color:var(--ink);line-height:1.4;margin:0}
+.bigquote{font-family:Poppins,sans-serif;font-size:18px;font-weight:600;color:var(--ink);line-height:1.4;margin:0}
 .bigavatar{width:190px;height:190px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-family:Poppins,sans-serif;font-weight:700;font-size:2.2rem;margin:0 auto}
 .revrow{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:980px;margin:26px auto 0}
 .revcard{display:flex;gap:12px;align-items:center;text-align:left;background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px 16px;cursor:pointer;font:inherit;color:var(--body);width:100%}
@@ -172,15 +172,17 @@ footer.site h3{color:#fff;font-size:1rem}
 .cardlogo{height:30px;width:auto;max-width:140px;object-fit:contain;display:block;margin:2px 0 8px}
 .brandword{display:block;font-family:Poppins,sans-serif;font-weight:700;color:var(--ink);margin:2px 0 8px}
 
-.bigphoto{width:248px;height:248px;border-radius:50%;object-fit:cover;flex:none;box-shadow:0 14px 34px rgba(14,18,32,.18)}
+.bigphoto{width:200px;height:200px;border-radius:50%;object-fit:cover;flex:none;box-shadow:0 14px 34px rgba(14,18,32,.18)}
 .rthumb{width:52px;height:52px;border-radius:50%;object-fit:cover;flex:none}
 .qlogo{height:36px;width:auto;max-width:160px;object-fit:contain;display:block;margin:0 0 18px}
 .qside{text-align:center}
 .qwho{margin-top:14px}
-.qwho strong{font-family:Poppins,sans-serif;color:var(--ink);font-size:1.05rem}
+.qwho strong{font-family:Poppins,sans-serif;color:var(--ink);font-size:14px}
 .qwho span{color:var(--muted);font-size:.92rem}
 .revcard{display:flex;align-items:center;gap:10px;text-align:left}
 @media(max-width:760px){.bigphoto{width:200px;height:200px}}
+
+.revcard strong{font-size:10px}
 </style></head><body>
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site"><div class="wrap nav">
