@@ -228,6 +228,27 @@ footer.site h3{color:#fff;font-size:1rem}
 .featcell img{max-height:22px;max-width:84px}
 .featrow{margin-bottom:24px}
 .featrow:nth-child(2){margin-bottom:18px}
+
+[data-tabs="serp"] button{border-radius:10px}
+.rankbadge{position:absolute;top:70px;right:20px;background:var(--green);color:#fff;font-family:Poppins,sans-serif;font-weight:700;font-size:.85rem;border-radius:8px;padding:5px 10px;box-shadow:0 8px 20px rgba(0,166,81,.35);animation:floaty 3.6s ease-in-out infinite alternate}
+.drawline{stroke-dasharray:640;stroke-dashoffset:640;animation:draw 2.8s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.tdot{animation:tblink 1.2s ease-in-out infinite}
+@keyframes tblink{0%,100%{opacity:.25}50%{opacity:1}}
+.scan rect{animation:shimmer 3.2s ease-in-out infinite alternate}
+.scan rect:nth-child(2){animation-delay:.3s}.scan rect:nth-child(3){animation-delay:.6s}
+@keyframes shimmer{from{opacity:.25}to{opacity:.65}}
+.spark{transform-box:fill-box;transform-origin:center;animation:sparkpulse 2.2s ease-in-out infinite}
+@keyframes sparkpulse{0%,100%{transform:scale(.7);opacity:.5}50%{transform:scale(1.15);opacity:1}}
+.gbar{transform-box:fill-box;transform-origin:50% 100%;animation:growy 2.4s ease-in-out infinite alternate}
+@keyframes growy{from{transform:scaleY(.55)}to{transform:scaleY(1)}}
+.donut{animation:donutspin 5s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes donutspin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.xbar{transform-box:fill-box;transform-origin:0 50%;animation:growx 2.8s ease-in-out infinite alternate}
+@keyframes growx{from{transform:scaleX(.45)}to{transform:scaleX(1)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulseout 2s ease-out infinite}
+@keyframes pulseout{0%{transform:scale(.6);opacity:1}100%{transform:scale(2.1);opacity:0}}
+@media (prefers-reduced-motion: reduce){.rankbadge,.drawline,.tdot,.scan rect,.spark,.gbar,.donut,.xbar,.pulse{animation:none}.drawline{stroke-dashoffset:0}}
 </style></head><body>
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site"><div class="wrap nav">
@@ -376,25 +397,54 @@ footer.site h3{color:#fff;font-size:1rem}
 <div class="dash"><div class="bar"><i></i><i></i><i></i></div><div class="in">
 <p style="margin:0;color:var(--muted);font-size:.85rem">Keyword Distribution</p>
 <p style="margin:0;font-family:Poppins,sans-serif;font-weight:700;font-size:1.8rem;color:var(--ink)">2,570</p>
-<svg viewBox="0 0 300 90" width="100%" height="90" aria-hidden="true"><path d="M0,70 C40,60 60,30 100,38 C140,46 160,20 200,24 C240,28 270,10 300,14 L300,90 L0,90 Z" fill="#35d7f3" opacity=".45"/><path d="M0,70 C40,60 60,30 100,38 C140,46 160,20 200,24 C240,28 270,10 300,14" fill="none" stroke="#102088" stroke-width="2.5"/></svg>
+<svg viewBox="0 0 300 90" width="100%" height="90" aria-hidden="true"><path d="M0,70 C40,60 60,30 100,38 C140,46 160,20 200,24 C240,28 270,10 300,14 L300,90 L0,90 Z" fill="#35d7f3" opacity=".45"/><path class="drawline" d="M0,70 C40,60 60,30 100,38 C140,46 160,20 200,24 C240,28 270,10 300,14" fill="none" stroke="#102088" stroke-width="2.5"/></svg><span class="rankbadge">#3 &#9650;</span>
 <p style="text-align:right;margin:0"><span style="background:#2046d8;color:#fff;border-radius:6px;padding:5px 12px;font-size:.8rem;font-weight:600">Live demo</span></p>
 </div><div class="floatcard">▤ Report Categorization</div></div>
 </div></div>
-<div class="panel"><div style="max-width:640px"><h3 style="border-bottom:3px solid var(--green);display:inline-block;padding-bottom:4px">GeniuSearch™</h3>
+<div class="panel"><div class="grid c2" style="grid-template-columns:.9fr 1.1fr;align-items:start"><div><h3 style="border-bottom:3px solid var(--green);display:inline-block;padding-bottom:4px">GeniuSearch™</h3>
 <p>Improve your marketing approach by examining traffic data and identifying potential growth opportunities.</p>
 <ul class="check"><li>Utilize data to inform your choices with Landing Page Analysis.</li><li>Comprehend how every category contributes to outcomes through Page Categorization.</li><li>Unified perspective of GA4 and GSC information.</li></ul>
 <p><span class="catpill">Integrate your Google Analytics and Search Console in one dashboard</span></p>
-<p><a class="btn outline" href="/tools/search-sense/">Try SERPLoft Now</a></p></div></div>
-<div class="panel"><div style="max-width:640px"><h3 style="border-bottom:3px solid var(--green);display:inline-block;padding-bottom:4px">Custom Dashboard</h3>
+<p><a class="btn outline" href="/tools/search-sense/">Try SERPLoft Now</a></p></div><div class="dash"><div class="bar"><i></i><i></i><i></i></div><div class="in">
+<svg viewBox="0 0 320 190" width="100%" height="190" role="img" aria-label="Animated illustration of AI search analysis">
+<rect x="28" y="26" width="264" height="36" rx="18" fill="#fff" stroke="#d7dce8" stroke-width="2"/>
+<circle cx="52" cy="44" r="9" fill="none" stroke="#102088" stroke-width="3"/><path d="M58.5 50.5 L66 58" stroke="#102088" stroke-width="3" stroke-linecap="round"/>
+<circle class="tdot" cx="88" cy="44" r="4" fill="#102088"/><circle class="tdot" cx="104" cy="44" r="4" fill="#102088" style="animation-delay:.25s"/><circle class="tdot" cx="120" cy="44" r="4" fill="#102088" style="animation-delay:.5s"/>
+<g class="scan"><rect x="28" y="82" width="200" height="13" rx="6.5" fill="#35d7f3" opacity=".55"/><rect x="28" y="108" width="248" height="13" rx="6.5" fill="#102088" opacity=".28"/><rect x="28" y="134" width="168" height="13" rx="6.5" fill="#00a651" opacity=".4"/></g>
+<path class="spark" d="M282 96l2.6 6.4 6.4 2.6-6.4 2.6L282 114l-2.6-6.4-6.4-2.6 6.4-2.6z" fill="#ffb020"/>
+<path class="spark" style="animation-delay:.7s" d="M52 148l2 4.9 4.9 2-4.9 2-2 4.9-2-4.9-4.9-2 4.9-2z" fill="#35d7f3"/>
+<path class="spark" style="animation-delay:1.3s" d="M252 148l1.8 4.4 4.4 1.8-4.4 1.8-1.8 4.4-1.8-4.4-4.4-1.8 4.4-1.8z" fill="#102088"/>
+</svg></div></div></div>
+<div class="panel"><div class="grid c2" style="grid-template-columns:.9fr 1.1fr;align-items:start"><div><h3 style="border-bottom:3px solid var(--green);display:inline-block;padding-bottom:4px">Custom Dashboard</h3>
 <p>Personalized Dashboards provide you with an overview of your SEO performance, customized to suit your requirements.</p>
 <ul class="check"><li>Quick Overview and familiarization.</li><li>Detailed View for each Module and different tool functions.</li><li>Different Data Presentation methods including Table / Graph Options.</li></ul>
 <p><span class="catpill">10+ Widgets &amp; Features</span></p>
-<p><a class="btn outline" href="/tools/">Try SERPLoft Now</a></p></div></div>
-<div class="panel"><div style="max-width:640px"><h3 style="border-bottom:3px solid var(--green);display:inline-block;padding-bottom:4px">Competitors Analysis</h3>
+<p><a class="btn outline" href="/tools/">Try SERPLoft Now</a></p></div><div class="dash"><div class="bar"><i></i><i></i><i></i></div><div class="in">
+<svg viewBox="0 0 320 190" width="100%" height="190" role="img" aria-label="Animated illustration of a custom reporting dashboard">
+<g>
+<rect class="gbar" x="36" y="86" width="24" height="54" rx="4" fill="#35d7f3"/>
+<rect class="gbar" style="animation-delay:.15s" x="70" y="66" width="24" height="74" rx="4" fill="#102088"/>
+<rect class="gbar" style="animation-delay:.3s" x="104" y="96" width="24" height="44" rx="4" fill="#aba9f5"/>
+<rect class="gbar" style="animation-delay:.45s" x="138" y="48" width="24" height="92" rx="4" fill="#00a651"/>
+</g>
+<circle cx="238" cy="82" r="34" fill="none" stroke="#e6e9f2" stroke-width="13"/>
+<circle class="donut" cx="238" cy="82" r="34" fill="none" stroke="#00a651" stroke-width="13" stroke-linecap="round" stroke-dasharray="160 214" transform="rotate(-90 238 82)"/>
+<path class="drawline" d="M30 168 C70 158 96 172 132 162 C168 152 196 166 232 156 C262 148 282 158 300 150" fill="none" stroke="#102088" stroke-width="3" stroke-linecap="round"/>
+</svg></div></div></div>
+<div class="panel"><div class="grid c2" style="grid-template-columns:.9fr 1.1fr;align-items:start"><div><h3 style="border-bottom:3px solid var(--green);display:inline-block;padding-bottom:4px">Competitors Analysis</h3>
 <p>Examine key metrics of your rivals to obtain valuable insights and discover opportunities to improve your SEO strategies.</p>
 <ul class="check"><li>Page Speed Performance Comparison and Insights.</li><li>Domain Authority Comparison</li><li>Click Share Analysis</li></ul>
 <p><span class="catpill">Organic Market Share Report</span></p>
-<p><a class="btn outline" href="/tools/">Try SERPLoft Now</a></p></div></div>
+<p><a class="btn outline" href="/tools/">Try SERPLoft Now</a></p></div><div class="dash"><div class="bar"><i></i><i></i><i></i></div><div class="in">
+<svg viewBox="0 0 320 190" width="100%" height="190" role="img" aria-label="Animated illustration of competitor comparison bars">
+<text x="28" y="36" font-family="Poppins,sans-serif" font-size="12" font-weight="700" fill="#0e1220">You</text>
+<rect class="xbar" x="28" y="44" width="252" height="16" rx="8" fill="#00a651"/>
+<text x="28" y="92" font-family="Poppins,sans-serif" font-size="12" font-weight="700" fill="#5a6070">Rival</text>
+<rect class="xbar" style="animation-delay:.35s" x="28" y="100" width="176" height="16" rx="8" fill="#c3c9d6"/>
+<rect class="xbar" style="animation-delay:.7s" x="28" y="140" width="216" height="16" rx="8" fill="#102088"/>
+<circle class="pulse" cx="282" cy="148" r="10" fill="none" stroke="#35d7f3" stroke-width="3"/>
+<circle cx="282" cy="148" r="4.5" fill="#35d7f3"/>
+</svg></div></div></div>
 </div>
 </div></section>
 
