@@ -345,7 +345,7 @@ footer.site .footlogo img.sitelogo{height:32px}
 html,body{overflow-x:clip}
 
 /* ===== Mega menu (Infidigit-style) ===== */
-.bookcall{background:#008000}
+.bookcall{background:#008000;white-space:nowrap;flex:none}
 .bookcall:hover{background:#006E00;color:#fff}
 .main{gap:2px;align-items:stretch}
 .navitem{display:flex;align-items:stretch}
@@ -360,11 +360,11 @@ html,body{overflow-x:clip}
 .megacols.plans{grid-template-columns:1fr}
 .megacol h4{display:flex;align-items:center;gap:9px;font-family:Poppins,sans-serif;font-size:15.5px;font-weight:600;color:var(--ink);margin:0 0 10px}
 .mico{width:30px;height:30px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;flex:none}
-.megacol a{display:block;padding:5px 0;color:#2c3550;text-decoration:none;font-size:14.5px;font-weight:400;min-height:0}
+.megacol a{display:block;padding:7px 0;color:#2c3550;text-decoration:none;font-size:14.5px;font-weight:400;min-height:0;line-height:1.35}
 .megacol a:hover{color:var(--green-dark);text-decoration:underline}
 .megacol a.vall{font-weight:600;color:#102088}
-.megacol .subcols{columns:2;column-gap:30px}
-.megacol .subcols a{break-inside:avoid}
+.megacol .subcols{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(6,auto);grid-auto-flow:column;column-gap:30px}
+
 .megafeat{border-radius:14px;padding:20px;color:#fff;position:relative;overflow:hidden}
 .megafeat h5{font-family:Poppins,sans-serif;font-size:19px;margin:8px 0 6px;color:#fff}
 .megafeat p{font-size:13.5px;line-height:1.55;color:rgba(255,255,255,.92);margin:0 0 10px}
@@ -383,7 +383,7 @@ html,body{overflow-x:clip}
 .mfmore:hover{text-decoration:underline}
 .mfbars{display:flex;align-items:flex-end;gap:7px;height:64px;margin-top:14px;background:rgba(255,255,255,.14);border-radius:10px;padding:10px 12px}
 .mfbars i{flex:1;background:rgba(255,255,255,.85);border-radius:4px 4px 0 0;display:block}
-.megafeats{display:grid;gap:14px;align-content:start}
+.megafeats{display:grid;gap:14px;align-content:start}.megafeats .megafeat{padding:16px 18px}.megafeats .megafeat h5{font-size:17px;margin:6px 0 4px}
 .mfrow{display:flex;justify-content:space-between;align-items:center;gap:10px;background:rgba(255,255,255,.16);border-radius:10px;padding:11px 13px;color:#fff;text-decoration:none;font-size:13.5px;margin-top:10px}
 .mfrow:hover{background:rgba(255,255,255,.26)}
 .mfrow b{white-space:nowrap}
@@ -400,7 +400,7 @@ html,body{overflow-x:clip}
 .navitem.open .mega{display:block}
 .megain{grid-template-columns:1fr;padding:4px 0 14px;gap:16px}
 .megacols,.megacols.tools{grid-template-columns:1fr;gap:14px}
-.megacol .subcols{columns:1}
+.megacol .subcols{display:block}
 .megafeat,.megafeats,.megastrip{display:none}
 }
 </style></head><body>
