@@ -650,4 +650,21 @@ if(!ok)return;form.innerHTML='<div class="ok" role="status"><strong>Thanks — r
 <script data-x="faq-accordion">
 document.querySelectorAll('.faqwrap details').forEach(function(d){d.addEventListener('toggle',function(){if(d.open){document.querySelectorAll('.faqwrap details[open]').forEach(function(o){if(o!==d)o.removeAttribute('open');});}});});
 </script>
+
+<script data-x="cases-auto">
+(function(){
+var btns=document.querySelectorAll('[data-tabs="cases"] button');
+if(!btns.length||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+var i=0,t=null;
+btns.forEach(function(b,j){if(b.getAttribute('aria-selected')==='true')i=j});
+function go(n){i=(n+btns.length)%btns.length;btns[i].click()}
+function start(){stop();t=setInterval(function(){go(i+1)},10000)}
+function stop(){if(t)clearInterval(t)}
+btns.forEach(function(b,j){b.addEventListener('click',function(){i=j;start()})});
+var sec=document.querySelector('[data-panels="cases"]');
+if(sec){sec.addEventListener('mouseenter',stop);sec.addEventListener('mouseleave',start)}
+document.addEventListener('visibilitychange',function(){document.hidden?stop():start()});
+start();
+})();
+</script>
 </body></html>
