@@ -42,3 +42,6 @@ footer.site h3{color:#fff;font-size:1rem}
 .links{columns:2;column-gap:32px}.links a{display:block;padding:5px 0}
 @media(max-width:900px){.grid.c3,.grid.c2,.fcols{grid-template-columns:1fr}nav.main{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;flex-direction:column;padding:12px 20px;border-bottom:1px solid var(--ri-border)}nav.main.open{display:flex}.burger{display:block}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Guard against horizontal overflow (empty space on the right) */
+html,body{overflow-x:clip}
