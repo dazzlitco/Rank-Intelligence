@@ -1,0 +1,78 @@
+/* Rank Intelligence — Design Tokens v1
+   Extracted live from https://rankintelligence.net/ on 2026-11-19.
+   Colours are sampled close matches from the live page (not stylesheet values) —
+   verify against the production CSS before locking v2.
+   Use these variables on every page. Do not hard-code hex values in components. */
+
+:root {
+  /* Colour — core */
+  --ri-white: #ffffff;
+  --ri-header-bg: #f4f6f5;
+  --ri-surface: #ffffff;
+  --ri-surface-grey: #f5f5f5;
+  --ri-surface-grey-2: #f2f2f2;
+  --ri-card-grey: #efefef;
+  --ri-ink: #111111;
+  --ri-black: #000000;
+  --ri-body: #555555;
+  --ri-body-2: #666666;
+  --ri-border: #e3e6e5;
+
+  /* Colour — brand */
+  --ri-blue: #102088;          /* primary dark blue: headings, USP icons, card top border */
+  --ri-green: #008000;         /* primary green: primary buttons, active tabs, key words */
+  --ri-green-dark: #006400;
+  --ri-footer-green: #005500; /* footer background (range #005500–#006400) */
+  --ri-book-call: #151f16;     /* header Book a Call pill */
+  --ri-navy-deep: #0a0a9c;     /* CTA banner background (range #00008b–#0a0a9c) */
+  --ri-lavender: #aba9f5;      /* eyebrow pills */
+  --ri-lavender-hover: #b0a8f5;/* solutions card hover */
+  --ri-mint: #c8f7d0;          /* lead-form left panel (range #bff5c8–#c8f7d0) */
+  --ri-orange: #ff8c42;        /* CTA banner / shop buttons, FAQ hover (range #ff8c42–#ff8c5a) */
+  --ri-cyan: #2ed6f2;
+  --ri-cyan-2: #35d7f3;
+  --ri-cyan-wash: #eafbfe;
+  --ri-gold: #f5b301;          /* testimonial stars (visual estimate) */
+
+  /* Gradients */
+  --ri-gradient-hero: linear-gradient(180deg, #ffffff 0%, #eafbfe 78%, #c9f3fb 100%);
+  --ri-gradient-cyan-band: linear-gradient(90deg, #2ed6f2 0%, #35d7f3 55%, #eafbfe 100%);
+
+  /* Typography — geometric/humanist sans throughout (Poppins/Montserrat-style, visual ID) */
+  --ri-font-sans: "Poppins", "Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --ri-weight-regular: 400;
+  --ri-weight-medium: 500;
+  --ri-weight-semibold: 600;
+  --ri-weight-bold: 700;
+  --ri-weight-extrabold: 800;
+
+  --ri-text-hero: clamp(2.75rem, 6vw, 4.5rem);   /* 64–72px desktop */
+  --ri-text-h2: clamp(2rem, 3.4vw, 2.5rem);      /* 32–40px */
+  --ri-text-h3: 1.375rem;                        /* 20–22px card titles */
+  --ri-text-body: 1rem;                          /* 15–16px */
+  --ri-text-small: 0.875rem;                     /* 13–14px */
+  --ri-text-eyebrow: 0.75rem;                    /* 12–14px, uppercase, letter-spaced */
+
+  --ri-leading-hero: 1.05;
+  --ri-leading-heading: 1.15;
+  --ri-leading-body: 1.6;
+
+  /* Layout */
+  --ri-container: 1180px;      /* live content ~1150–1200px */
+  --ri-section-pad-y: clamp(4rem, 8vw, 6.25rem); /* ~80–100px desktop */
+  --ri-gap-grid: 1.625rem;     /* ~24–30px */
+
+  /* Radius */
+  --ri-radius-sm: 6px;         /* buttons, inputs: 4–8px */
+  --ri-radius-md: 12px;        /* cards, images: 8–12px */
+  --ri-radius-lg: 16px;        /* large containers */
+  --ri-radius-pill: 999px;     /* Book a Call, eyebrow/filter pills */
+
+  /* Shadows — soft and light only */
+  --ri-shadow-card: 0 6px 24px rgba(17, 17, 17, 0.07);
+  --ri-shadow-raised: 0 12px 36px rgba(17, 17, 17, 0.10);
+  --ri-shadow-none: none;
+
+  /* Header */
+  --ri-header-height: 68px;
+}

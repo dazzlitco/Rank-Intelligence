@@ -1,0 +1,79 @@
+/* Rank Intelligence — Design Tokens v2 (Best UI/UX)
+   Supersedes tokens.css (v1, faithful extraction) for new builds.
+   Changes from v1: simplified palette (blue + green + neutrals only),
+   AA-contrast action colour, unified dark surface, real type/spacing
+   scales, focus/error/success states, touch and motion rules.
+   Do not hard-code values in components — use these variables. */
+
+:root {
+  /* Colour — brand (2 colours only) */
+  --ri-blue: #102088;          /* primary brand: headings, icons, links */
+  --ri-blue-dark: #0a1445;     /* dark surfaces: footer, CTA bands (replaces v1 navy + dark-green) */
+  --ri-blue-wash: #eef1ff;     /* tint backgrounds, tags (replaces v1 lavender/mint) */
+  --ri-action: #006e00;        /* primary buttons — white text, AA contrast ~6.9:1 */
+  --ri-action-hover: #005a00;
+  --ri-action-text: #ffffff;
+
+  /* Colour — neutrals */
+  --ri-ink: #0e1220;           /* headings */
+  --ri-body: #3f4656;          /* body text — AA on white and on --ri-surface-grey */
+  --ri-muted: #5b6272;         /* secondary text, captions */
+  --ri-white: #ffffff;
+  --ri-surface-grey: #f5f6f8;  /* alternate section background */
+  --ri-card: #ffffff;
+  --ri-border: #d9dce6;
+
+  /* Colour — feedback (functional only, never decorative) */
+  --ri-focus: #102088;         /* focus ring, paired with 2px white offset */
+  --ri-error: #b3261e;
+  --ri-error-bg: #fdf0ef;
+  --ri-success: #006e00;
+  --ri-success-bg: #edf7ed;
+  --ri-star: #b7791f;          /* testimonial stars (icon use) */
+
+  /* Typography — Poppins for headings, Inter for body (readability at small sizes) */
+  --ri-font-heading: "Poppins", system-ui, sans-serif;
+  --ri-font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --ri-text-display: clamp(2.5rem, 5.5vw, 4rem); /* hero, 40–64px */
+  --ri-text-h1: clamp(2rem, 4vw, 3rem);
+  --ri-text-h2: clamp(1.75rem, 3vw, 2.375rem);   /* section headings */
+  --ri-text-h3: 1.25rem;                          /* card titles */
+  --ri-text-body: 1rem;                           /* 16px minimum for body */
+  --ri-text-small: 0.875rem;
+  --ri-leading-tight: 1.12;
+  --ri-leading-body: 1.65;
+
+  /* Spacing — 4pt scale, use only these steps */
+  --ri-space-1: 0.25rem;  /* 4 */
+  --ri-space-2: 0.5rem;   /* 8 */
+  --ri-space-3: 0.75rem;  /* 12 */
+  --ri-space-4: 1rem;     /* 16 */
+  --ri-space-6: 1.5rem;   /* 24 */
+  --ri-space-8: 2rem;     /* 32 */
+  --ri-space-12: 3rem;    /* 48 */
+  --ri-space-16: 4rem;    /* 64 */
+  --ri-space-24: 6rem;    /* 96 — max section padding */
+
+  /* Layout */
+  --ri-container: 1180px;
+  --ri-section-pad-y: clamp(3.5rem, 7vw, 6rem);
+  --ri-header-height: 68px;    /* sticky in v2 */
+
+  /* Radius — one system */
+  --ri-radius-sm: 8px;         /* buttons, inputs */
+  --ri-radius-md: 12px;        /* cards, images */
+  --ri-radius-pill: 999px;     /* tags/pills only, not buttons */
+
+  /* Shadows */
+  --ri-shadow-card: 0 4px 20px rgba(14, 18, 32, 0.07);
+  --ri-shadow-header: 0 2px 12px rgba(14, 18, 32, 0.08); /* appears on scroll */
+
+  /* Interaction */
+  --ri-touch-min: 44px;        /* minimum touch target height */
+  --ri-transition: 160ms ease; /* hover/focus transitions; disabled under reduced-motion */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --ri-transition: 0ms; }
+}
