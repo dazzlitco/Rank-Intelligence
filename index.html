@@ -705,7 +705,7 @@ function pgo(n){pi=(n+perfBtns.length)%perfBtns.length;perfBtns[pi].click()}
 function pstart(){pstop();ptimer=setInterval(function(){pgo(pi+1)},5600)}
 function pstop(){if(ptimer)clearInterval(ptimer)}
 perfBtns.forEach(function(b,i){b.addEventListener('click',function(){pi=i;pstart()})});
-var pp=document.querySelector('.perfpanel');if(pp){pp.addEventListener('mouseenter',pstop);pp.addEventListener('mouseleave',pstart)}
+
 document.addEventListener('visibilitychange',function(){document.hidden?pstop():pstart()});pstart()}
 var words=['Rankings','Traffic','Sales','Leads','Revenue'],wi=0,rot=document.getElementById('rotator');
 if(rot&&!matchMedia('(prefers-reduced-motion: reduce)').matches){setInterval(function(){wi=(wi+1)%words.length;rot.textContent=words[wi]},2200)}
