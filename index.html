@@ -587,4 +587,8 @@ if(er)er.textContent=bad?'Please enter a valid value.':'';if(bad)ok=false});
 if(!ok)return;form.innerHTML='<div class="ok" role="status"><strong>Thanks — request received.</strong><br>Our team will review your website and reply with your free proposal.</div>'});
 });
 </script>
+
+<script data-x="faq-accordion">
+document.querySelectorAll('.faqwrap details').forEach(function(d){d.addEventListener('toggle',function(){if(d.open){document.querySelectorAll('.faqwrap details[open]').forEach(function(o){if(o!==d)o.removeAttribute('open');});}});});
+</script>
 </body></html>
