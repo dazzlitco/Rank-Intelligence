@@ -741,4 +741,29 @@ document.addEventListener('visibilitychange',function(){document.hidden?stop():s
 start();
 })();
 </script>
+
+<script data-x="testi-auto">
+(function(){
+var sec=document.querySelector('[data-panels="testi"]');
+var btns=document.querySelectorAll('[data-tabs="testi"] button');
+if(!sec||!btns.length||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+var ti=0,tTab=null,tRev=null,autoClick=false;
+btns.forEach(function(b,j){if(b.getAttribute('aria-selected')==='true')ti=j});
+function nextTab(){ti=(ti+1)%btns.length;btns[ti].click()}
+function nextRev(){
+  var panel=sec.querySelector('.panel.active');if(!panel)return;
+  var cards=panel.querySelectorAll('.revcard');if(!cards.length)return;
+  var cur=0;cards.forEach(function(c,j){if(c.getAttribute('aria-pressed')==='true')cur=j});
+  autoClick=true;cards[(cur+1)%cards.length].click();autoClick=false;
+}
+function start(){stop();tTab=setInterval(nextTab,15000);tRev=setInterval(nextRev,5000)}
+function stop(){if(tTab)clearInterval(tTab);if(tRev)clearInterval(tRev)}
+btns.forEach(function(b,j){b.addEventListener('click',function(){ti=j;start()})});
+sec.addEventListener('click',function(e){if(autoClick)return;if(e.target.closest('.revcard'))start()});
+var wrap=sec.closest('section');
+if(wrap){wrap.addEventListener('mouseenter',stop);wrap.addEventListener('mouseleave',start)}
+document.addEventListener('visibilitychange',function(){document.hidden?stop():start()});
+start();
+})();
+</script>
 </body></html>
