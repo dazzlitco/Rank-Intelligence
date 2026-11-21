@@ -377,3 +377,9 @@ Maintained by: Muse, for the user
 - /ai-seo-services/ rebuilt to match, all in RI's own words: slim head → 8-paragraph essay (visibility baseline audit → entity clarity → citable content → AI-crawler accessibility → question-space coverage → authority in model-trusted sources → continuous answer-surface monitoring → honest value reporting) with inline links to SEO audit, content writing, link building and the model-perception sibling page → 8 FAQs (4 from R-046 + 4 new). Keeps the deliberate split: this page is citation visibility; /llm-seo-services/ is model perception.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /llm-seo-services/ — flow to be confirmed individually first, then built.
+
+### R-081 — 2026-11-21 — Service pages v2, Page 29: LLM SEO rebuilt as sector-breakdown essay + FAQ
+- Flow confirmed individually first: the reference page is Archetype B with a distinctive middle — short intro, then an industry-by-industry breakdown (8 headed sector blocks), a closing paragraph, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /llm-seo-services/ rebuilt to match, all in RI's own words: slim head → intro on model perception → 8 sector sections (e-commerce & retail, healthcare & wellness, finance & banking, SaaS & technology, education, real estate, legal services, travel & hospitality — what buyers ask models in each and what makes a brand recommendable) → closing paragraph with an inline link to AI SEO → 7 FAQs (4 from R-046 + 3 new). Keeps the deliberate split: AI SEO = citation visibility; this page = model perception.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /saas-seo-services/ — flow to be confirmed individually first, then built.
