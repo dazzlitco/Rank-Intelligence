@@ -227,3 +227,8 @@ Maintained by: Muse, for the user
 - /technical-seo-services/ rebuilt to its own flow (Archetype B, Q&A-led): slim head → 10 headed question blocks as the entire body (what technical SEO is / audit coverage / cost / timelines / audit frequency / one-time vs ongoing / technical vs on-page / platforms / working with in-house developers / site size), answers written from RI's own R-044 material plus new copy, with inline links to sibling services. No stats band, no cards, no separate FAQ section, no lead form — the Q&A is the content, as on the reference page.
 - Verified: balanced, zero dead links, serve 200, 10 Q&A blocks. Pushed with these records.
 - Next page (named in advance): /local-seo/ — Archetype B essay variant (intro + sub-headed essay sections + short FAQ).
+
+### R-055 — 2026-11-21 — Service pages v2, Page 3: Local SEO rebuilt as sub-headed essays + FAQ
+- /local-seo/ rebuilt to its own flow (Archetype B, essay variant): slim head → short intro essay → 5 sub-headed essay sections (Getting found / Getting chosen / Getting contacted / Where AI fits in local search / Tracking what matters) → 6 FAQs (4 from R-044 + 2 new). All copy original, drawn from RI's local service facts; inline links to AI SEO and hyper-local SEO. No stats band, cards, process steps or lead form.
+- Verified: balanced, zero dead links, serve 200, 5 essay sections + 6 FAQs. Pushed with these records.
+- Next page (named in advance): /e-commerce-seo/ — Archetype A, packages-table-led (3-tier comparison table + FAQ).
