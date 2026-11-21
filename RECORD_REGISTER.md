@@ -655,3 +655,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-b2b/ rebuilt in RI's own words following the same flow: slim head → 8 headed Q&A blocks (worth, B2B vs B2C difference with a cross-link to the B2C page, content types by buying stage, timelines, pipeline-based measurement, review cadence, strategy components, niche markets). No separate FAQ.
 - Verified: balanced, zero dead links, serve 200, new copy confirmed in page. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-law-firm/ — flow to be confirmed individually first, then built.
+
+### R-126 — 2026-11-21 — Industries v2, Page 16 of 27: SEO for Law Firms rebuilt as strategy essay + FAQ
+- Flow confirmed individually first: the reference page is a strategy essay (technical foundation/audit, dedicated practice-area pages, seniority vs current performance, local presence as a system, quality over volume, trust and accuracy stakes, conversion experience, SEO vs paid) closing with an FAQ block.
+- /industries/seo-for-law-firm/ rebuilt in RI's own words following the same flow: slim head → 8-paragraph essay with inline links to SEO audit, local SEO and PPC → 7 FAQs.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-doctor/ — flow to be confirmed individually first, then built.
