@@ -698,3 +698,9 @@ Maintained by: Muse, for the user
 - Build note: first attempt crashed on a packages_table group-shape mismatch; verification caught the stale file by size, the shape was fixed to (row, [cells]) and the page rebuilt and re-verified before pushing — nothing stale was pushed.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-insurance/ — flow to be confirmed individually first, then built.
+
+### R-133 — 2026-11-21 — Industries v2, Page 23 of 27: SEO for Insurance rebuilt as short essay + FAQ
+- Flow confirmed individually first: the reference page is a short framing essay (non-linear insurance journeys, stage-appropriate information, trust and compliance, lead quality over traffic) closing with an FAQ block.
+- /industries/seo-for-insurance/ rebuilt in RI's own words following the same flow: slim head → 5-paragraph essay → 6 FAQs, with inline links to BFSI SEO and international SEO.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-gaming/ — flow to be confirmed individually first, then built.
