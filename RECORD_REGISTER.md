@@ -347,3 +347,9 @@ Maintained by: Muse, for the user
 - /wordpress-seo-services/ rebuilt to match, all in RI's own words: slim head → 10-paragraph process essay (understand the business → full audit → competitor & keyword research → roadmap → technical foundation → architecture & internal linking → on-page implementation → content → authority growth → conversion & tracking) with inline links to SEO audit, local SEO, enterprise SEO, on-page SEO, content writing and link building → 8 FAQs (4 from R-046 + 4 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /amazon-seo-services/ — flow to be confirmed individually first, then built.
+
+### R-076 — 2026-11-21 — Service pages v2, Page 24: Amazon SEO (listings) rebuilt as essay + FAQ
+- Flow confirmed individually first: the reference page is Archetype B — a short prose essay (4 paragraphs) then an FAQ block (business-listing block skipped as a plugin artifact).
+- /amazon-seo-services/ rebuilt to match, all in RI's own words: slim head → 6-paragraph essay (Amazon as a search engine with a checkout, ranking-by-sales logic, listing anatomy, shopper-language keyword research, reviews & velocity, the economics of escaping ad dependence) with inline links to e-commerce SEO and the dual-channel sibling page → 8 FAQs (4 from R-046 + 4 new). Keeps the deliberate split: this page is listing SEO; /seo-services-amazon/ is dual-channel brand growth.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /seo-services-amazon/ — flow to be confirmed individually first, then built.
