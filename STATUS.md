@@ -1,6 +1,6 @@
 # STATUS — Rank Intelligence Homepage Clone & Design System
 
-Last updated: 2026-11-20 (after Register entry R-042)
+Last updated: 2026-11-20 (after Register entry R-043)
 Full history: see `RECORD_REGISTER.md` in this folder. This file is the current state only — it is rewritten after each build step, and the Register is appended at the same time.
 
 ## What this project is
@@ -18,17 +18,17 @@ A clone of https://rankintelligence.net/ — homepage rebuilt as a faithful visu
 |---|---|---|
 | Homepage | ✅ Complete & live | All 15 sections in live order; fully balanced valid HTML (R-040 audit); no horizontal overflow |
 | Header mega menu | ✅ Done (homepage) | Infidigit-style: 6 items, full-width hover panels, 99 links all verified live pages, Get Free Proposal CTA (R-039) |
-| Inner pages (242) | ✅ Live | Generated (R-006) + /terms-of-service/ (R-040); placeholder-standard copy; OLD simple header (see Open items) |
+| Inner pages (242) | ✅ Live | 12 core pages rebuilt in the full homepage design incl. mega menu (R-043); the other 230 remain generated placeholder pages with the OLD simple header (see Open items) |
 | Design System | ✅ v3 current | v1/v2 preserved as DESIGN_SYSTEM_V1/V2.md |
 | Favicon + logo | ✅ Done | User's icon traced to SVG, linked on all pages (R-031); user's logo as WebP in header/footer (R-030) |
 | Auto-behaviors | ✅ Verified live | Performance tabs 5.6s + progress bar; Case Studies 10s; Testimonials 15s tabs / 5s reviewers; clientele marquee; CTA word rotator. None pause on hover (R-037/R-040) |
-| Project records | ✅ Created 2026-11-20 | This file + RECORD_REGISTER.md (R-001–R-042), updated after each step/session per user's rule; mirrored in the repo root and pushed with each update (R-042 — so any future AI can pick up from the repo alone; publicly served, accepted by the user) |
+| Project records | ✅ Created 2026-11-20 | This file + RECORD_REGISTER.md (R-001–R-043), updated after each step/session per user's rule; mirrored in the repo root and pushed with each update (R-042 — so any future AI can pick up from the repo alone; publicly served, accepted by the user) |
 
 ## Open items (all waiting on the user — do not invent or nudge)
 
 | Item | What's needed |
 |---|---|
-| Mega menu on inner pages | User's go-ahead to roll the R-039 mega menu into generate.py so all 242 inner pages get it (they still show the old 4-link header) |
+| Mega menu on remaining inner pages | The 12 core pages now carry it (R-043); the other 230 generated pages still show the old 4-link header — rollout is part of each upcoming batch as those pages get rebuilt (core pages are hand-built now; do NOT re-run generate.py over them) |
 | 3 case-study logos | BioDigital, MyVitaminStore.pk, Instacart logos — cards show styled text wordmarks until the user uploads them |
 | Footer social links | Real Rank Intelligence profile URLs — icons currently link to the platform homepages |
 | Footer phone / Skype | +1-856-481-6893 (WhatsApp) and a Skype link appear on the live site; asked, unconfirmed — not added |
