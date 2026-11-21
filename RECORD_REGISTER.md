@@ -323,3 +323,9 @@ Maintained by: Muse, for the user
 - /blogger-outreach-services/ rebuilt to match, all in RI's own words: slim head → 8-paragraph essay (paid placements that don't move rankings, surface metrics misleading vetting, irrelevant sites from cheap networks, templated pitches editors delete, anchor-text footprints, editorial standards at good sites, competitors' smarter tactics, the honest time cost) with inline links to e-commerce SEO, enterprise SEO and link building → 7 FAQs (4 from R-045 + 3 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /guest-posting-services/ — flow to be confirmed individually first, then built.
+
+### R-072 — 2026-11-21 — Service pages v2, Page 20: Guest Posting rebuilt as craft-led essay + FAQ
+- Flow confirmed individually first: the reference serves the same essay+FAQ page at both the blogger-outreach and guest-posting URLs. Ours are two distinct pages — Page 19 covered outreach failure modes; this page is angled at guest posting as a craft, so the two RI pages do not duplicate each other.
+- /guest-posting-services/ rebuilt: slim head → 8-paragraph essay written in RI's own words (what a guest post really is, vetting publications beyond metrics, the pitch as an editor's problem solved, writing that survives real editors, bylines building brand, natural link placement, competitor-profile research, the patience the work takes) with inline links to e-commerce SEO, link building and blogger outreach → 8 FAQs (4 from R-045 + 4 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /digital-marketing-services/ — flow to be confirmed individually first, then built. This completes the content & links group; the platform SEO group follows.
