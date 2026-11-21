@@ -612,3 +612,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-plumbing/ rebuilt in RI's own words following the same flow: slim head → 9-paragraph essay (emergency vs planned demand split, high-intent keyword research, map pack operations, specific service pages, workflow reviews, mobile-for-the-call, seasonal planning, authentic local content, booked-job measurement) with inline links to local SEO and hyper-local SEO → 6 FAQs.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-ecommerce/ — flow to be confirmed individually first, then built.
+
+### R-119 — 2026-11-21 — Industries v2, Page 9 of 27: SEO for E-commerce rebuilt as deep technical essay + FAQ
+- Flow confirmed individually first: the reference page is a deep technical essay — keyword categorisation and cannibalisation, category pages, URL structure, content ecosystem/semantic SEO, on-page, technical (crawl budget, faceted navigation, internal linking), mobile/Core Web Vitals, product lifecycle handling, reviews/UGC, visual search, schema, links, product feeds, AI search — closing with an FAQ block.
+- /industries/seo-for-ecommerce/ rebuilt in RI's own words following the same flow: slim head → intro prose → 3 foundation sections → 4 technical sections → 4 growth sections (content ecosystem, reviews, schema & feeds, visual/AI readiness) with inline links to e-commerce SEO, Core Web Vitals and AI SEO → 6 FAQs.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-automotive/ — flow to be confirmed individually first, then built.
