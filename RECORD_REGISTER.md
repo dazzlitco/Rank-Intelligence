@@ -177,3 +177,9 @@ Maintained by: Muse, for the user
 - Same service-page pattern (R-044). The two Amazon pages are deliberately differentiated: amazon-seo-services = listing-level marketplace SEO (keywords, A+ content, backend terms); seo-services-amazon = dual-channel brand growth (marketplace + own store + branded search). AI SEO vs LLM SEO likewise split: AI SEO = citation visibility in AI answers; LLM SEO = model perception, prompt-panel tested. Builder: build/core/batch3_services.py (two bracket typos in the SaaS/ASO entries caught and fixed before build).
 - Verified before push: all 10 fully balanced, zero dead links, 4 FAQs each, all serve 200 locally. Pushed in 2 batches with these records.
 - Remaining: B4 web design & development (10), B5 redesign/speed/migrations/CRO/PPC (10), B6 remaining (7).
+
+### R-047 — 2026-11-21 — Services Batch 4: 10 web design & development pages built
+- Batch 4 (named before building, approved by the user): website-design-services, website-design-packages, website-development-services, wordpress-development-services, woocommerce-development-services, shopify-development-services, magento-development-services, webflow-development-services, wix-development-services, ecommerce-development-services.
+- Same service-page pattern (R-044). Copy angles: design = IA-first + SEO-safe; packages = fixed scope/price transparency; development pages are platform-specific (WordPress restraint/lean stack, WooCommerce checkout, Shopify upgrade-safety, Magento no-core-hacks, Webflow structure discipline, Wix Studio + Velo); ecommerce-development is the platform-honest hub. Builder: build/core/batch4_services.py.
+- Verified before push: all 10 fully balanced, zero dead links, 4 FAQs each, all serve 200 locally. Pushed in 2 batches with these records.
+- Remaining: B5 redesign/speed/migrations/CRO/PPC (10), B6 remaining (7).
