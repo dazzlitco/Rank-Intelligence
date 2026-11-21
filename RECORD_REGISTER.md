@@ -570,3 +570,9 @@ Maintained by: Muse, for the user
 - Hub flow confirmed: the reference hub is a pure card directory — title, then a grid of industry cards (name + one line), each linking to its industry page; no essay, stats or FAQ. RI's hub follows it: slim head → 26 industry cards with original one-line descriptions → one short closing paragraph on sector-shaped search.
 - New builder: build/core/pages_industries.py (imports the core/services v2 components). Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-educational/ — flow to be confirmed individually first, then built.
+
+### R-112 — 2026-11-21 — Industries v2, Page 2 of 27: SEO for Educational Websites rebuilt as guide variant
+- Flow confirmed individually first: the reference page is a long-form guide — intro prose, 5 numbered benefits, a tips checklist, component sections (on-page, technical, off-page, content, local, tools, measurement), then an FAQ block (closing cross-promo sections skipped as artifacts).
+- /industries/seo-for-educational/ rebuilt in RI's own words with RI components: slim head → intro prose (the researched enrolment journey, students and parents as parallel audiences) → 5 numbered benefits → priorities checklist (Foundations / Growth) → 6 numbered component sections (program keyword research, two-audience content, technical foundations, campus local SEO, ecosystem authority, enrolment measurement) → 6 FAQs.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /seo-for-health-care/ — flow to be confirmed individually first, then built. (Angle: providers and practices — patient acquisition; the later /industries/seo-for-healthcare/ will take the brands/systems angle.)
