@@ -287,3 +287,9 @@ Maintained by: Muse, for the user
 - /content-marketing-services/ rebuilt to match: slim head → 10-paragraph essay written entirely in RI's own words (why published content underperforms, traffic that goes nowhere, evidence-led topics, voice as an asset, goal-led publishing, competitor ecosystems, funnel alignment, money pages that sell outcomes, the staffing reality of consistency, ROI as alignment) with inline links to e-commerce SEO, enterprise SEO and the content marketing hub → 8 FAQs (4 from R-045 + 4 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /content-writing-services/ — flow to be confirmed individually first, then built.
+
+### R-066 — 2026-11-21 — Service pages v2, Page 14: Content Writing rebuilt as sub-headed craft sections + FAQ
+- Flow confirmed individually first: the reference page is Archetype B — a short intro line, 8 sub-headed craft sections with inline links, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /content-writing-services/ rebuilt to match: slim head → intro → 8 sub-headed sections written in RI's own words (demonstrating real expertise, intent mapped before drafting, semantic depth, structured data pairing, competitor gap analysis, tracking & refresh cycles, human-led editorial process, citation readiness) with inline links to SEO content writing, AI SEO and LLM SEO → 10 FAQs (4 from R-045 + 6 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /seo-content-writing-services/ — flow to be confirmed individually first, then built.
