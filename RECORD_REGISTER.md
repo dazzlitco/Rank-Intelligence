@@ -171,3 +171,9 @@ Maintained by: Muse, for the user
 - Same service-page pattern as R-044 (hero, stats, overview, What's included ×6, How we work ×4, What you receive, Related services, 4 FAQs, CTA, lead form), each page's copy written specifically for its service — content pages stress research/voice/compliance (BFSI), link pages stress earned-only methods and vetting. Builder: build/core/batch2_services.py.
 - Verified before push: all 10 fully balanced, zero dead links, 4 FAQs each, all serve 200 locally. Pushed in 2 batches with these records.
 - Remaining: B3 platform SEO (10), B4 web design & development (10), B5 redesign/speed/migrations/CRO/PPC (10), B6 remaining (7).
+
+### R-046 — 2026-11-21 — Services Batch 3: 10 platform SEO pages built
+- Batch 3 (named before building, approved by the user): shopify-seo-services, wordpress-seo-services, amazon-seo-services, seo-services-amazon, youtube-seo-services, mobile-seo-services, ai-seo-services, llm-seo-services, saas-seo-services, aso-app-store-optimization.
+- Same service-page pattern (R-044). The two Amazon pages are deliberately differentiated: amazon-seo-services = listing-level marketplace SEO (keywords, A+ content, backend terms); seo-services-amazon = dual-channel brand growth (marketplace + own store + branded search). AI SEO vs LLM SEO likewise split: AI SEO = citation visibility in AI answers; LLM SEO = model perception, prompt-panel tested. Builder: build/core/batch3_services.py (two bracket typos in the SaaS/ASO entries caught and fixed before build).
+- Verified before push: all 10 fully balanced, zero dead links, 4 FAQs each, all serve 200 locally. Pushed in 2 batches with these records.
+- Remaining: B4 web design & development (10), B5 redesign/speed/migrations/CRO/PPC (10), B6 remaining (7).
