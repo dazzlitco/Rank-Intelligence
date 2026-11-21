@@ -353,3 +353,9 @@ Maintained by: Muse, for the user
 - /amazon-seo-services/ rebuilt to match, all in RI's own words: slim head → 6-paragraph essay (Amazon as a search engine with a checkout, ranking-by-sales logic, listing anatomy, shopper-language keyword research, reviews & velocity, the economics of escaping ad dependence) with inline links to e-commerce SEO and the dual-channel sibling page → 8 FAQs (4 from R-046 + 4 new). Keeps the deliberate split: this page is listing SEO; /seo-services-amazon/ is dual-channel brand growth.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /seo-services-amazon/ — flow to be confirmed individually first, then built.
+
+### R-077 — 2026-11-21 — Service pages v2, Page 25: SEO Services for Amazon Brands rebuilt as dual-channel essay + FAQ
+- Flow confirmed individually first: the reference serves the identical Amazon page at both Amazon URLs (essay + FAQ). Our two pages stay deliberately differentiated, as decided in R-046: Page 24 = listing SEO; this page = dual-channel brand growth.
+- /seo-services-amazon/ rebuilt in the same archetype shape with a distinct, original essay: renting demand vs owning it, how the channels feed each other, branded search as the bridge, honest channel economics, deliberate sequencing, combined measurement — with inline links to Amazon SEO and e-commerce SEO → 7 FAQs (4 from R-046 + 3 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /youtube-seo-services/ — flow to be confirmed individually first, then built.
