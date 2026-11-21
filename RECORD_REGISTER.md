@@ -269,3 +269,9 @@ Maintained by: Muse, for the user
 - /small-business-seo-services/ rebuilt to match: slim head → intro → 3 essay sections written in RI's own words (reaching customers without relying only on ads / building local trust before contact / staying visible in AI and zero-click search) with inline links to local SEO and AI SEO → 8 FAQs (4 from R-044 + 4 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /professional-seo-services/ — flow to be confirmed individually first, then built.
+
+### R-063 — 2026-11-21 — Service pages v2, Page 11: Professional SEO rebuilt as sub-headed capability sections + FAQ
+- Flow confirmed individually first: the reference page is Archetype B — a stack of sub-headed topic sections with inline sibling links, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /professional-seo-services/ rebuilt to match: slim head → intro on what "professional" means as a standard of work → 8 sub-headed sections written in RI's own words (voice search, featured snippets, keeping pace with search evolution, international, penalty recovery, local, AI SEO, LLM visibility) with inline links to the sibling services → 8 FAQs (4 from R-044 + 4 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /content-marketing/ — Archetype C, the one rich marketing page (hero + trust bullets + repeated proposal forms + success stories + testimonials + logo wall + awards banner).
