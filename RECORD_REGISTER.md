@@ -237,3 +237,8 @@ Maintained by: Muse, for the user
 - /e-commerce-seo/ rebuilt to its own flow (Archetype A): slim head → 3-tier packages table (Lite/Standard/Pro, per-tier Get Proposal; 23 store-specific deliverable rows in 6 groups: Setup & research, E-commerce SEO, Technical SEO, Content, Authority building, Reporting & support — RI's own package definitions) → 8 FAQs (4 from R-044 + 4 new). Reusable packages_table() helper added to pages_services2.py. No stats band, cards or lead form.
 - Verified: balanced, zero dead links, serve 200, counts as designed. Pushed with these records.
 - Next page (named in advance): /seo-audit/ — Archetype A checklist variant (one exhaustive grouped audit checklist + FAQ).
+
+### R-057 — 2026-11-21 — Service pages v2, Page 5: SEO Audit rebuilt checklist-led
+- /seo-audit/ rebuilt to its own flow (Archetype A, checklist variant): slim head → one exhaustive grouped checklist (10 area cards, 51 items: Crawl & indexation, Robots & sitemaps, Content audit, Titles & metadata, Structured data, Media SEO, Speed & Core Web Vitals, Mobile & rendering, Architecture & links, What your report includes — RI's own audit scope) → 8 FAQs (4 from R-044 + 4 new). No tier table, stats band or lead form.
+- Verified: balanced, zero dead links, serve 200, counts as designed. Pushed with these records.
+- Next page (named in advance): /enterprise-seo-services/ — Archetype B long-essay flow (facet-by-facet essay + short FAQ).
