@@ -606,3 +606,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-contractor/ rebuilt in RI's own words following the same flow: slim head → 10-paragraph process essay with inline links to SEO audit, content writing and CRO → 6 FAQs.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-plumbing/ — flow to be confirmed individually first, then built.
+
+### R-118 — 2026-11-21 — Industries v2, Page 8 of 27: SEO for Plumbing rebuilt as strategy essay + FAQ
+- Flow confirmed individually first: the reference page is a strategy essay (localised keyword research, map pack/GBP for emergency searches, specific service landing pages, review workflow, mobile click-to-call, measurement, seasonal strategy, authentic local content) closing with an FAQ block.
+- /industries/seo-for-plumbing/ rebuilt in RI's own words following the same flow: slim head → 9-paragraph essay (emergency vs planned demand split, high-intent keyword research, map pack operations, specific service pages, workflow reviews, mobile-for-the-call, seasonal planning, authentic local content, booked-job measurement) with inline links to local SEO and hyper-local SEO → 6 FAQs.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-ecommerce/ — flow to be confirmed individually first, then built.
