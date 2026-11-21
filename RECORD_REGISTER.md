@@ -526,3 +526,9 @@ Maintained by: Muse, for the user
 - Build note: the first build crashed because the table component expects tier name/subtitle pairs; verification caught the stale v1 file (no table present) and only the corrected build was pushed.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /seo-contract-staffing/ — flow to be confirmed individually first, then built.
+
+### R-105 — 2026-11-21 — Service pages v2, Page 53: SEO Contract Staffing rebuilt as rich variant with NO FAQ block
+- Flow confirmed individually first: the reference page is a rich layout with NO FAQ block — intro + trust bullets, a stats band of the operator's own figures, services-offered cards, a numbered why-choose list, testimonials, staffing-model prose and contract clauses. Their stats/testimonials/clauses were NOT used; RI's models and terms are stated in RI's own words.
+- /seo-contract-staffing/ rebuilt with RI components: slim head + 3 trust bullets → grounded stats band → framing prose → disciplines checklist (8 roles in 2 groups) → 5 numbered why sections → 3 numbered model sections (Embedded specialist, Dedicated remote pod, Terms plainly) → closing prose. No FAQ block, matching the reference.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /hyper-local-seo-services/ — flow to be confirmed individually first, then built.
