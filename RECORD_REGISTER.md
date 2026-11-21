@@ -242,3 +242,8 @@ Maintained by: Muse, for the user
 - /seo-audit/ rebuilt to its own flow (Archetype A, checklist variant): slim head → one exhaustive grouped checklist (10 area cards, 51 items: Crawl & indexation, Robots & sitemaps, Content audit, Titles & metadata, Structured data, Media SEO, Speed & Core Web Vitals, Mobile & rendering, Architecture & links, What your report includes — RI's own audit scope) → 8 FAQs (4 from R-044 + 4 new). No tier table, stats band or lead form.
 - Verified: balanced, zero dead links, serve 200, counts as designed. Pushed with these records.
 - Next page (named in advance): /enterprise-seo-services/ — Archetype B long-essay flow (facet-by-facet essay + short FAQ).
+
+### R-058 — 2026-11-21 — Service pages v2, Page 6: Enterprise SEO rebuilt as long-essay flow
+- /enterprise-seo-services/ rebuilt to its own flow (Archetype B, long essay): slim head → one continuous 10-paragraph essay with bold lead-ins (scale problem, audit & benchmarking, continuous technical management, portfolio intent mapping, content operations, authority, multi-region coordination, AI readiness, boardroom reporting) with inline links to SEO audit, technical SEO, international SEO and AI SEO → 6 FAQs (4 from R-044 + 2 new). All copy original. No tables, cards, stats or lead form.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /seo-penalty-recovery/ — Archetype B long-essay flow (diagnosis-first essay + short FAQ).
