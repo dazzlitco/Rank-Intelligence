@@ -704,3 +704,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-insurance/ rebuilt in RI's own words following the same flow: slim head → 5-paragraph essay → 6 FAQs, with inline links to BFSI SEO and international SEO.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-gaming/ — flow to be confirmed individually first, then built.
+
+### R-134 — 2026-11-21 — Industries v2, Page 24 of 27: SEO for Gaming rebuilt as problem-led essay + FAQ
+- Flow confirmed individually first: the reference page is a problem-led essay (content/search-language mismatch, competitor depth and freshness, views without conversions, guides written as marketing, web/app-store disconnect, community content outranking official pages, esports windows, merchandise intent gaps) closing with an FAQ block.
+- /industries/seo-for-gaming/ rebuilt in RI's own words following the same flow: slim head → 8 problem-led paragraphs with inline links to CRO, ASO and e-commerce SEO → 5 FAQs (local SEO answer written for RI's markets rather than the reference's single-country framing).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-bfsi/ — flow to be confirmed individually first, then built.
