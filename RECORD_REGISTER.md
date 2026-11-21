@@ -365,3 +365,9 @@ Maintained by: Muse, for the user
 - /youtube-seo-services/ rebuilt to match, all in RI's own words: slim head → 7-paragraph essay (YouTube as the second search engine, the two doors of search & suggested, watch time as currency, packaging as the click decision, compounding catalogue vs ads, engagement as signal and asset, legibility to the distribution system) with an inline link to digital marketing services → 7 FAQs (4 from R-046 + 3 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /mobile-seo-services/ — flow to be confirmed individually first, then built.
+
+### R-079 — 2026-11-21 — Service pages v2, Page 27: Mobile SEO rebuilt as process essay + FAQ
+- Flow confirmed individually first: the reference page is Archetype B — a process essay walking the engagement stages in order with inline links, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /mobile-seo-services/ rebuilt to match, all in RI's own words: slim head → 8-paragraph process essay (mobile-first audit → mobile search intent → mobile-SERP competitor analysis → UX as a ranking discipline → speed & Core Web Vitals → small-screen content → technical parity & local signals → device-split tracking) with inline links to SEO audit, Core Web Vitals, local SEO and technical SEO → 8 FAQs (4 from R-046 + 4 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /ai-seo-services/ — flow to be confirmed individually first, then built.
