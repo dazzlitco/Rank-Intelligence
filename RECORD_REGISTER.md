@@ -257,3 +257,9 @@ Maintained by: Muse, for the user
 - /international-seo-services/ rebuilt to its own flow (Archetype B, long essay): slim head → 9-paragraph essay (market sizing & sequencing, per-market keyword research, ccTLD/subdomain/subfolder architecture, hreflang & technical targeting, localisation vs translation, per-market authority, governance, per-market measurement) with inline links to technical SEO, content writing and enterprise SEO → 6 FAQs (4 from R-049 + 2 new). All copy original.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /on-page-seo-services/ — its individual flow will be confirmed first, then built the same way.
+
+### R-061 — 2026-11-21 — Service pages v2, Page 9: On-Page SEO rebuilt as prose-facet essay + FAQ
+- Flow confirmed individually first (this page was outside the 16-page sample): the reference page is Archetype B — a sequence of prose paragraphs, one per on-page facet, then an FAQ block (business-listing block at the end is a plugin artifact, skipped as before).
+- /on-page-seo-services/ rebuilt to match: slim head → 10-paragraph essay written entirely in RI's own words (page-by-page assessment, keyword-to-page mapping & cannibalisation, titles & meta, heading structure, improving existing content, URLs & internal linking, images, schema, mobile-first, ongoing measurement) with inline links to SEO audit, content writing, AI SEO and technical SEO → 6 FAQs (4 from R-044 + 2 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /small-business-seo-services/ — flow to be confirmed individually first, then built.
