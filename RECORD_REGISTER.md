@@ -691,3 +691,10 @@ Maintained by: Muse, for the user
 - /industries/seo-for-roofing/ rebuilt in RI's own words following the same flow, with the seasonal calendar written for RI's markets (storm/hail, hurricane, ice-dam and pre-rain maintenance windows): slim head → 8 problem-led paragraphs with inline links to SEO audit, CRO and local SEO. No FAQ, matching the reference.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-fashion-ecommerce/ — flow to be confirmed individually first, then built.
+
+### R-132 — 2026-11-21 — Industries v2, Page 22 of 27: SEO for Fashion E-commerce rebuilt as rich page (RI components)
+- Flow confirmed individually first: the reference page is the rich marketing variant — hero with stats strip, clientele, definition essay, Q&A challenge blocks, case studies, strategy essay, pricing plans, closing Q&A block, lead form.
+- /industries/seo-for-fashion-ecommerce/ rebuilt following the same flow entirely from RI's own material: slim head + trust bullets → grounded stats band → definition prose → 8 challenge sections → 3 RI case cards (Fabletics, Casper, The Vitamin Shoppe) → 7 approach sections → 3-tier scope table (Boutique/Growth/Enterprise — scope levels, no invented prices) → 6 Q&A blocks → 3 RI testimonial quotes → lead form.
+- Build note: first attempt crashed on a packages_table group-shape mismatch; verification caught the stale file by size, the shape was fixed to (row, [cells]) and the page rebuilt and re-verified before pushing — nothing stale was pushed.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-insurance/ — flow to be confirmed individually first, then built.
