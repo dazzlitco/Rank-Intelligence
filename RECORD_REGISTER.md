@@ -305,3 +305,9 @@ Maintained by: Muse, for the user
 - /ecommerce-content-writing-services/ rebuilt to match: slim head → intro → grounded stats band → 5-point benefits checklist → 5 numbered sections (converts / builds trust / brand recall / educates researchers / earns authority) → format prose (product descriptions, category pages, guides & blog) with inline links to e-commerce SEO, content writing and link building → 8 FAQs (4 from R-045 + 4 new) → lead form.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /bfsi-content-writing-services/ — flow to be confirmed individually first, then built.
+
+### R-069 — 2026-11-21 — Service pages v2, Page 17: BFSI Content Writing rebuilt as landing variant
+- Flow confirmed individually first: same landing-style variant as Page 16 — hero intro → stats strip → benefits row → why-us sections → related-service sections → FAQ → lead form at the end (its stats, logos and copy were NOT used).
+- /bfsi-content-writing-services/ rebuilt to match with finance-specific original copy: slim head → intro on YMYL responsibility → grounded stats band → 5-point benefits checklist → 4 numbered sections (SEO for financial search / leads not just visits / genuine sector knowledge / staying current) → quality prose (writer matching & continuity, verified originality, two-reader editing) with inline links to content writing, SEO content writing and e-commerce content writing → 9 FAQs (4 from R-045 + 5 new) → lead form.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /link-building/ — the Q&A-led archetype from the original inspection (11 Q&A blocks + short FAQ).
