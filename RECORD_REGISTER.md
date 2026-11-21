@@ -722,3 +722,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-delivery-services/ rebuilt in RI's own words following the same flow: slim head + trust bullets → intro prose → 6 key-step sections (areas-and-urgency keyword research, map-level competitor analysis, speed-first content, local listings as backbone, relevant authority, app+web as one program) → 3 RI case cards (Instacart, Adzuna, Casper) → closing prose. No FAQ, matching the reference.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance, final Industries page): /industries/seo-for-ott/ — flow to be confirmed individually first, then built.
+
+### R-137 — 2026-11-21 — Industries v2, Page 27 of 27 (FINAL): SEO for OTT rebuilt as components essay + RI case cards — INDUSTRIES GROUP COMPLETE
+- Flow confirmed individually first: the reference page runs head + trust bullets → intro essay on video discovery → key-components essay (URL structure, site health and audits, audience keyword research, video metadata and thumbnails, video sitemaps, speed, schema, off-platform reach) → results/case material → conclusion; NO FAQ block.
+- /industries/seo-for-ott/ rebuilt in RI's own words following the same flow: slim head + trust bullets → intro prose → 7 component sections → 3 RI case cards (SetApp, Adobe, BYJU'S) → closing prose. No FAQ, matching the reference.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- INDUSTRIES GROUP COMPLETE: all 27 pages (hub + 26 industries, R-111–R-137) rebuilt one at a time with per-page flows and original RI copy, none skipped. Remaining generated-template groups: Locations (35), Pricing (15), Tools (23), case-study indexes (59) — to proceed under the same pacing rule on the user's direction.
