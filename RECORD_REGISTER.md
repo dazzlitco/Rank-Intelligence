@@ -281,3 +281,9 @@ Maintained by: Muse, for the user
 - Build note: pages_services2.py needed json/os/HERE and build_core.section imports added (two failed runs caught before any push; the file on disk stayed the v1 version until the successful build).
 - Verified: balanced, zero dead links, serve 200, 865,988 bytes. Pushed with these records.
 - Next page (named in advance): /content-marketing-services/ — flow to be confirmed individually first, then built.
+
+### R-065 — 2026-11-21 — Service pages v2, Page 13: Content Marketing Services rebuilt as long-essay flow
+- Flow confirmed individually first: the reference page is Archetype B — a long prose essay of distinct facets with inline links, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /content-marketing-services/ rebuilt to match: slim head → 10-paragraph essay written entirely in RI's own words (why published content underperforms, traffic that goes nowhere, evidence-led topics, voice as an asset, goal-led publishing, competitor ecosystems, funnel alignment, money pages that sell outcomes, the staffing reality of consistency, ROI as alignment) with inline links to e-commerce SEO, enterprise SEO and the content marketing hub → 8 FAQs (4 from R-045 + 4 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /content-writing-services/ — flow to be confirmed individually first, then built.
