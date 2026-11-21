@@ -470,3 +470,9 @@ Maintained by: Muse, for the user
 - Build note: the first build crashed because the why list was passed to the stack component as plain strings instead of heading/body pairs; verification caught the stale v1 file (wrong FAQ count/size), the pairs were fixed, and only the corrected build was pushed.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /core-web-vitals-services/ — flow to be confirmed individually first, then built.
+
+### R-096 — 2026-11-21 — Service pages v2, Page 44: Core Web Vitals rebuilt as rich variant (stats + numbered metric stacks + FAQ)
+- Flow confirmed individually first: the reference page is a rich layout — intro + trust bullets, a stats band of the operator's own figures, numbered educational sections, numbered per-metric technique sections, a testimonial with metrics, success stories and numbered why-choose sections (an FAQ block closes the fetched remainder). Their stats/testimonial were NOT used.
+- /core-web-vitals-services/ rebuilt in RI's own words with RI components: slim head + 3 trust bullets → grounded stats band → 2 numbered explainer sections (what the vitals measure; why they move rankings and revenue) → 4 numbered metric sections (LCP, INP — current metric, replacing the retired FID — CLS, FCP) → 3 numbered why-us sections → 7 FAQs (4 from R-048 + 3 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /website-migration-services/ — flow to be confirmed individually first, then built.
