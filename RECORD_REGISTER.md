@@ -311,3 +311,9 @@ Maintained by: Muse, for the user
 - /bfsi-content-writing-services/ rebuilt to match with finance-specific original copy: slim head → intro on YMYL responsibility → grounded stats band → 5-point benefits checklist → 4 numbered sections (SEO for financial search / leads not just visits / genuine sector knowledge / staying current) → quality prose (writer matching & continuity, verified originality, two-reader editing) with inline links to content writing, SEO content writing and e-commerce content writing → 9 FAQs (4 from R-045 + 5 new) → lead form.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /link-building/ — the Q&A-led archetype from the original inspection (11 Q&A blocks + short FAQ).
+
+### R-070 — 2026-11-21 — Service pages v2, Page 18: Link Building rebuilt as Q&A-led flow
+- Flow from the original archetype inspection: 11 headed Q&A blocks as the body + a short FAQ. Built entirely in RI's own words.
+- /link-building/ rebuilt: slim head → 11 Q&A blocks (what link building is, why links matter, what makes a link valuable, how links are earned — digital PR / content-led / outreach, what we refuse to do, timelines, anchor text, live reporting, content-before-links sequencing, local links, competitor gap sizing) with inline links to content marketing, blogger outreach, guest posting, penalty recovery, flagship SEO and local SEO → 4 FAQs (all from R-045).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /blogger-outreach-services/ — flow to be confirmed individually first, then built.
