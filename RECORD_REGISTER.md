@@ -252,3 +252,8 @@ Maintained by: Muse, for the user
 - /seo-penalty-recovery/ rebuilt to its own flow (Archetype B, long essay): slim head → 8-paragraph diagnosis-first essay (forensic diagnosis, manual actions, algorithmic drops, link-profile audit and disavow judgment, content causes, inherited tactics, post-fix fluctuation, rebuilding safely) with inline links to SEO audit, link building and technical SEO → 6 FAQs (4 from R-044 + 2 new). All copy original.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /international-seo-services/ — Archetype B long-essay flow (market-by-market essay + short FAQ).
+
+### R-060 — 2026-11-21 — Service pages v2, Page 8: International SEO rebuilt as long-essay flow
+- /international-seo-services/ rebuilt to its own flow (Archetype B, long essay): slim head → 9-paragraph essay (market sizing & sequencing, per-market keyword research, ccTLD/subdomain/subfolder architecture, hreflang & technical targeting, localisation vs translation, per-market authority, governance, per-market measurement) with inline links to technical SEO, content writing and enterprise SEO → 6 FAQs (4 from R-049 + 2 new). All copy original.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /on-page-seo-services/ — its individual flow will be confirmed first, then built the same way.
