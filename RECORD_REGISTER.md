@@ -710,3 +710,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-gaming/ rebuilt in RI's own words following the same flow: slim head → 8 problem-led paragraphs with inline links to CRO, ASO and e-commerce SEO → 5 FAQs (local SEO answer written for RI's markets rather than the reference's single-country framing).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-bfsi/ — flow to be confirmed individually first, then built.
+
+### R-135 — 2026-11-21 — Industries v2, Page 25 of 27: SEO for BFSI rebuilt as rich page (RI components)
+- Flow confirmed individually first (full page read in two passes): the reference page is the rich variant — hero with stats strip, clientele, definition essay, challenge Q&A blocks, case studies, strategy essay, plans, testimonials, lead form, closing FAQ block.
+- /industries/seo-for-bfsi/ rebuilt following the same flow entirely from RI's own material: slim head + trust bullets → grounded stats band → definition prose → 8 challenge sections → 3 RI case cards (BlockFi, Monzo Bank, Current Bank) → 7 approach sections → 3-tier scope table (Institution/Growth/Enterprise — scope levels, no invented prices) → 3 RI testimonial quotes → 6 FAQs → lead form.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-delivery-services/ — flow to be confirmed individually first, then built.
