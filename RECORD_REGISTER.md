@@ -544,3 +544,9 @@ Maintained by: Muse, for the user
 - /seo-agency-for-manufacturing/ rebuilt to match, all in RI's own words: slim head → 10-paragraph process essay (buyer discovery → intent mapping → specification keyword research → roadmap → product/capability page engineering → technical content → technical SEO → export markets → industry authority → AI readiness) with inline links to flagship SEO, content writing, technical SEO, international SEO and AI SEO → 8 FAQs (4 from batch 6 + 4 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /local-seo-india/ — flow to be confirmed individually first, then built.
+
+### R-108 — 2026-11-21 — Service pages v2, Page 56: Local SEO India rebuilt as rich variant (stats + numbered stacks + FAQ)
+- Flow confirmed individually first: the reference page is a rich layout — intro + trust bullets, a stats band of the operator's own figures, definition prose, a client result example, how-it-helps prose, 6 numbered why-choose sections, a process walkthrough, a ranking-factors list and an FAQ block. Their stats and client example were NOT used.
+- /local-seo-india/ rebuilt in RI's own words with RI components: slim head + 3 trust bullets → grounded stats band → definition and how-it-helps prose → 6 numbered why sections (sector experience, visibility beyond one platform, lead generation over rankings, dedicated team, honest reporting, built for how India searches) → 6 numbered process sections (discovery, keyword research, profile/content optimisation, citations/NAP, local links/reviews, per-location measurement) → 7 FAQs (4 from batch 6 + 3 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /seo-consulting-india/ — the final service page of v2; flow to be confirmed individually first, then built.
