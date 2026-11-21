@@ -247,3 +247,8 @@ Maintained by: Muse, for the user
 - /enterprise-seo-services/ rebuilt to its own flow (Archetype B, long essay): slim head → one continuous 10-paragraph essay with bold lead-ins (scale problem, audit & benchmarking, continuous technical management, portfolio intent mapping, content operations, authority, multi-region coordination, AI readiness, boardroom reporting) with inline links to SEO audit, technical SEO, international SEO and AI SEO → 6 FAQs (4 from R-044 + 2 new). All copy original. No tables, cards, stats or lead form.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /seo-penalty-recovery/ — Archetype B long-essay flow (diagnosis-first essay + short FAQ).
+
+### R-059 — 2026-11-21 — Service pages v2, Page 7: Penalty Recovery rebuilt as long-essay flow
+- /seo-penalty-recovery/ rebuilt to its own flow (Archetype B, long essay): slim head → 8-paragraph diagnosis-first essay (forensic diagnosis, manual actions, algorithmic drops, link-profile audit and disavow judgment, content causes, inherited tactics, post-fix fluctuation, rebuilding safely) with inline links to SEO audit, link building and technical SEO → 6 FAQs (4 from R-044 + 2 new). All copy original.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /international-seo-services/ — Archetype B long-essay flow (market-by-market essay + short FAQ).
