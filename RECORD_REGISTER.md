@@ -449,3 +449,10 @@ Maintained by: Muse, for the user
 - /wix-development-services/ rebuilt in the matching landing variant, all in RI's own words: slim head + 3 trust bullets → grounded stats band → 6 numbered why-agency sections → 5 numbered services sections (consulting, support, optimisation, migration with a link to website migration, e-commerce) → 8 numbered process steps → 8 FAQs (4 from R-047 + 4 new) → lead form.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /ecommerce-development-services/ — closes the web design & development group; flow to be confirmed individually first, then built.
+
+### R-093 — 2026-11-21 — Service pages v2, Page 41: E-commerce Development rebuilt as short essay + FAQ (web group complete)
+- Flow confirmed individually first: the reference page is Archetype B — a short prose essay (4 paragraphs) then an FAQ block (business-listing block skipped as a plugin artifact).
+- /ecommerce-development-services/ rebuilt to match, all in RI's own words: slim head → 5-paragraph essay (the store as a compounding asset, platform fit over fashion with links to the three platform builds, mobile-first as the minimum, the cost of waiting, AI-era readiness) → 8 FAQs (4 from R-047 + 4 new).
+- Build note: the first build attempt crashed on a syntax typo (stray parens in the paragraph list) and verification correctly caught the stale v1 file (wrong FAQ count/size); fixed and rebuilt before pushing — nothing stale was shipped.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records. The web design & development group (B4) is now fully rebuilt in v2.
+- Next page (named in advance): /website-redesign-services/ — opens the redesign/speed/migration/CRO/PPC group; flow to be confirmed individually first, then built.
