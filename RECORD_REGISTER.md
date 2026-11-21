@@ -600,3 +600,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-fitness/ rebuilt in RI's own words: slim head → intro prose (local, seasonal, researched membership decisions) → 3 numbered on-page sections (intent-layered keywords, class/program/location pages, visual & video content) → 3 numbered local & technical sections (profiles/map per location, mobile speed, schema) → 3 numbered off-page & content sections (community authority, content engine, member stories) → 6 FAQs.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-contractor/ — flow to be confirmed individually first, then built.
+
+### R-117 — 2026-11-21 — Industries v2, Page 7 of 27: SEO for Contractors rebuilt as process essay + FAQ
+- Flow confirmed individually first: the reference page is a process essay — audit, competitor research, keyword mapping, Business Profile, service pages, technical structure, supporting content, authority, reviews, measurement — with inline service links, closing with an FAQ block.
+- /industries/seo-for-contractor/ rebuilt in RI's own words following the same flow: slim head → 10-paragraph process essay with inline links to SEO audit, content writing and CRO → 6 FAQs.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-plumbing/ — flow to be confirmed individually first, then built.
