@@ -618,3 +618,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-ecommerce/ rebuilt in RI's own words following the same flow: slim head → intro prose → 3 foundation sections → 4 technical sections → 4 growth sections (content ecosystem, reviews, schema & feeds, visual/AI readiness) with inline links to e-commerce SEO, Core Web Vitals and AI SEO → 6 FAQs.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-automotive/ — flow to be confirmed individually first, then built.
+
+### R-120 — 2026-11-21 — Industries v2, Page 10 of 27: SEO for Automotive rebuilt as strategy essay + FAQ
+- Flow confirmed individually first: the reference page is a strategy essay (intent-over-volume keyword strategy, technical/URL/crawl control for large inventory sites, keyword clustering and measurement, relevant backlinks, content quality, inventory update discipline, local/AI search) with inline links, closing with an FAQ block.
+- /industries/seo-for-automotive/ rebuilt in RI's own words following the same flow: slim head → 7-paragraph essay with inline links to enterprise SEO, e-commerce SEO and local SEO → 5 FAQs.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-real-estate/ — flow to be confirmed individually first, then built.
