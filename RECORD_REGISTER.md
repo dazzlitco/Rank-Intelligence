@@ -588,3 +588,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-pest-control/ rebuilt in RI's own words: slim head + trust bullets → intro prose (urgent, local, seasonal demand; granularity challenge) → 6 numbered strategy sections (service/area keyword architecture, substantive area pages, map pack, panic-search content, reviews engine, speed/mobile/conversion) → closing prose → 6 FAQs → lead form.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-fmcg/ — flow to be confirmed individually first, then built.
+
+### R-115 — 2026-11-21 — Industries v2, Page 5 of 27: SEO for FMCG rebuilt as tactics essay + advantages + FAQ
+- Flow confirmed individually first: the reference page runs intro + trust bullets → intro prose → tactics prose sections → 3 advantage sections → conclusion → FAQ block (closing cross-promo sections skipped as artifacts). Their testimonials and figures were NOT used.
+- /industries/seo-for-fmcg/ rebuilt in RI's own words: slim head + trust bullets → intro prose (discovery has moved from shelf to search) → 6 numbered tactics (intent-layered keyword research, audit & category architecture, product/category pages, occasion content, authority/digital PR, retail-marketplace interplay) → 3 numbered payoff sections (digital-shelf awareness, sales across channels, compounding trust) → closing prose → 6 FAQs.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-fitness/ — flow to be confirmed individually first, then built.
