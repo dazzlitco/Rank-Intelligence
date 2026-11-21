@@ -293,3 +293,9 @@ Maintained by: Muse, for the user
 - /content-writing-services/ rebuilt to match: slim head → intro → 8 sub-headed sections written in RI's own words (demonstrating real expertise, intent mapped before drafting, semantic depth, structured data pairing, competitor gap analysis, tracking & refresh cycles, human-led editorial process, citation readiness) with inline links to SEO content writing, AI SEO and LLM SEO → 10 FAQs (4 from R-045 + 6 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /seo-content-writing-services/ — flow to be confirmed individually first, then built.
+
+### R-067 — 2026-11-21 — Service pages v2, Page 15: SEO Content Writing rebuilt as the rich numbered flow
+- Flow confirmed individually first: this reference page is a richer variant — hero intro + trust bullets → about essay → stats band → definition essay → 6 numbered reasons → testimonial-with-metrics → 6 numbered "what's included" steps → featured success stories → 5 numbered why-choose points → FAQ (its testimonial, stats and client material are theirs and were NOT used; ours uses RI's own grounded figures and case cards).
+- /seo-content-writing-services/ rebuilt to match with RI material only: slim head with 3 trust bullets → 2-paragraph definition essay → grounded stats band (100+ brands scaled / 50+ awards / 100+ professionals / 23 global brands) → 6 numbered reasons → 3 Content-Marketing case cards as featured stories → 6 numbered includes → 5 numbered why-choose points → 7 FAQs (4 from R-045 + 3 new). All copy original.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /ecommerce-content-writing-services/ — flow to be confirmed individually first, then built.
