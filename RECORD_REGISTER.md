@@ -389,3 +389,9 @@ Maintained by: Muse, for the user
 - /saas-seo-services/ rebuilt to match, all in RI's own words: slim head → 6-paragraph essay (demand–product alignment, the staged buying journey, compounding economics vs paid CAC, product-led page types, internal linking & pipeline reporting, AI discovery) with inline links to content writing and AI SEO. No FAQ block, matching the reference structure.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /aso-app-store-optimization/ — flow to be confirmed individually first, then built.
+
+### R-083 — 2026-11-21 — Service pages v2, Page 31: ASO rebuilt as essay + long FAQ (platform group complete)
+- Flow confirmed individually first: the reference page is Archetype B — a prose essay (10 paragraphs) then a long FAQ block (business-listing block skipped as a plugin artifact).
+- /aso-app-store-optimization/ rebuilt to match, all in RI's own words: slim head → 8-paragraph essay (definition, quality organic installs, ASO vs SEO, precious metadata, creative as conversion, ratings & reviews as infrastructure, the two stores' differences, store-native measurement) → 10 FAQs (4 from R-046 + 6 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records. The platform group (B3) is now fully rebuilt in v2.
+- Next page (named in advance): /website-design-services/ — opens the web design & development group; flow to be confirmed individually first, then built.
