@@ -413,3 +413,9 @@ Maintained by: Muse, for the user
 - /website-development-services/ rebuilt to match, all in RI's own words: slim head → 8-paragraph problem-led essay (broken measurement, page weight & speed, conversion leaks, mobile exposure, crawl structure, AI-extraction readiness, security & scalability, measurement built in) with inline links to Core Web Vitals, AI SEO and maintenance → 8 FAQs (4 from R-047 + 4 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /wordpress-development-services/ — flow to be confirmed individually first, then built.
+
+### R-087 — 2026-11-21 — Service pages v2, Page 35: WordPress Development rebuilt as Q&A-led page
+- Flow confirmed individually first: the reference page is the Q&A-led archetype — headed question blocks are the entire body, with no separate FAQ block (business-listing block skipped as a plugin artifact).
+- /wordpress-development-services/ rebuilt to match, all in RI's own words: slim head → 11 question blocks (platform fit, custom themes vs builders, plugin discipline, timelines, content during the build, security as architecture, performance budgets, multisite support, WooCommerce at scale, site takeovers, choosing a long-term partner) with inline links to content writing, WordPress SEO and maintenance. No separate FAQ block, matching the reference structure.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /woocommerce-development-services/ — flow to be confirmed individually first, then built.
