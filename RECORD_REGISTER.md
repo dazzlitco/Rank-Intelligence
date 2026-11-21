@@ -299,3 +299,9 @@ Maintained by: Muse, for the user
 - /seo-content-writing-services/ rebuilt to match with RI material only: slim head with 3 trust bullets → 2-paragraph definition essay → grounded stats band (100+ brands scaled / 50+ awards / 100+ professionals / 23 global brands) → 6 numbered reasons → 3 Content-Marketing case cards as featured stories → 6 numbered includes → 5 numbered why-choose points → 7 FAQs (4 from R-045 + 3 new). All copy original.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /ecommerce-content-writing-services/ — flow to be confirmed individually first, then built.
+
+### R-068 — 2026-11-21 — Service pages v2, Page 16: E-commerce Content Writing rebuilt as landing variant
+- Flow confirmed individually first: this reference page is a landing-style variant — hero intro → stats strip → benefits row → 5 numbered why-us sections → related-service sections and format prose → FAQ → lead form at the end (its stats, client logos and copy were NOT used; ours uses RI's grounded figures and original copy).
+- /ecommerce-content-writing-services/ rebuilt to match: slim head → intro → grounded stats band → 5-point benefits checklist → 5 numbered sections (converts / builds trust / brand recall / educates researchers / earns authority) → format prose (product descriptions, category pages, guides & blog) with inline links to e-commerce SEO, content writing and link building → 8 FAQs (4 from R-045 + 4 new) → lead form.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /bfsi-content-writing-services/ — flow to be confirmed individually first, then built.
