@@ -371,3 +371,9 @@ Maintained by: Muse, for the user
 - /mobile-seo-services/ rebuilt to match, all in RI's own words: slim head → 8-paragraph process essay (mobile-first audit → mobile search intent → mobile-SERP competitor analysis → UX as a ranking discipline → speed & Core Web Vitals → small-screen content → technical parity & local signals → device-split tracking) with inline links to SEO audit, Core Web Vitals, local SEO and technical SEO → 8 FAQs (4 from R-046 + 4 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /ai-seo-services/ — flow to be confirmed individually first, then built.
+
+### R-080 — 2026-11-21 — Service pages v2, Page 28: AI SEO rebuilt as long essay + FAQ
+- Flow confirmed individually first: the reference page is Archetype B — a long unbroken essay (13 paragraphs) with inline links, then an FAQ block.
+- /ai-seo-services/ rebuilt to match, all in RI's own words: slim head → 8-paragraph essay (visibility baseline audit → entity clarity → citable content → AI-crawler accessibility → question-space coverage → authority in model-trusted sources → continuous answer-surface monitoring → honest value reporting) with inline links to SEO audit, content writing, link building and the model-perception sibling page → 8 FAQs (4 from R-046 + 4 new). Keeps the deliberate split: this page is citation visibility; /llm-seo-services/ is model perception.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /llm-seo-services/ — flow to be confirmed individually first, then built.
