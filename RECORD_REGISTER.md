@@ -667,3 +667,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-doctor/ rebuilt in RI's own words following the same flow: slim head → 8-paragraph essay with inline links to health care SEO, CRO and AI SEO → 7 FAQs.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-restaurant/ — flow to be confirmed individually first, then built.
+
+### R-128 — 2026-11-21 — Industries v2, Page 18 of 27: SEO for Restaurants rebuilt as problem-led essay + FAQ
+- Flow confirmed individually first: the reference page is a problem-and-fix essay (unclaimed/inaccurate profile, weak local authority, booking friction and speed, missing profile conversion features, PDF menus and missing menu schema, unmanaged reviews, generic vs cuisine targeting, aggregator cannibalisation of brand searches) closing with an FAQ block.
+- /industries/seo-for-restaurant/ rebuilt in RI's own words following the same flow: slim head → 8 problem-led paragraphs with inline links to local SEO and delivery services SEO → 6 FAQs.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-b2c/ — flow to be confirmed individually first, then built.
