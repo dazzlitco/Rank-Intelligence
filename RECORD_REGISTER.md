@@ -519,3 +519,10 @@ Maintained by: Muse, for the user
 - /pay-per-click-ppc-services/ rebuilt to match, all in RI's own words: slim head → 10-paragraph essay (audit first, audience targeting, search advertising, remarketing, social advertising, Amazon advertising, landing pages & tracking, smart bidding & Quality Score, ad copy testing, revenue reporting & budget reallocation) with inline links to SEO audit, flagship SEO, content writing, Amazon SEO and CRO → 8 FAQs (4 from R-048 + 4 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records. The redesign/speed/migration/CRO/PPC group (B5) is now fully rebuilt in v2.
 - Next page (named in advance): /seo-consultants/ — opens the final group of six; flow to be confirmed individually first, then built.
+
+### R-104 — 2026-11-21 — Service pages v2, Page 52: SEO Consultants rebuilt as Archetype A (4-tier consulting table + FAQ; final group opens)
+- Flow confirmed individually first: the reference page is Archetype A — a large four-tier packages table with grouped feature rows, then an FAQ block.
+- /seo-consultants/ rebuilt to match with RI's own consulting offer and wording: slim head → 4-tier table (Advisory / Growth / Scale / Enterprise) across four groups (Getting started, Technical direction, Content & authority guidance, Reporting & access) with a scoped-pricing note → 8 FAQs (4 from R-049 batch 6 + 4 new).
+- Build note: the first build crashed because the table component expects tier name/subtitle pairs; verification caught the stale v1 file (no table present) and only the corrected build was pushed.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /seo-contract-staffing/ — flow to be confirmed individually first, then built.
