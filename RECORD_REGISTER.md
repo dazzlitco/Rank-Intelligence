@@ -495,3 +495,9 @@ Maintained by: Muse, for the user
 - Build note: one stray-paren typo in the paragraph list crashed the first build; verification caught the stale v1 file (wrong FAQ count/size) and only the corrected build was pushed.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /website-maintenance-services/ — flow to be confirmed individually first, then built.
+
+### R-100 — 2026-11-21 — Service pages v2, Page 48: Website Maintenance rebuilt as Q&A-led (9 blocks + short FAQ)
+- Flow confirmed individually first: the reference page is Q&A-led — nine headed question blocks form the body, then a short FAQ block (business-listing block skipped as a plugin artifact).
+- /website-maintenance-services/ rebuilt to match, all in RI's own words: slim head → 9 Q&A blocks (what maintenance is, what plans include, cost, annual contracts, urgent response, maintaining sites built by others, platforms, exclusions, choosing a provider) → 6 FAQs (4 from R-048 + 2 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /logo-design-services/ — flow to be confirmed individually first, then built.
