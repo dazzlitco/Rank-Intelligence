@@ -716,3 +716,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-bfsi/ rebuilt following the same flow entirely from RI's own material: slim head + trust bullets → grounded stats band → definition prose → 8 challenge sections → 3 RI case cards (BlockFi, Monzo Bank, Current Bank) → 7 approach sections → 3-tier scope table (Institution/Growth/Enterprise — scope levels, no invented prices) → 3 RI testimonial quotes → 6 FAQs → lead form.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-delivery-services/ — flow to be confirmed individually first, then built.
+
+### R-136 — 2026-11-21 — Industries v2, Page 26 of 27: SEO for Delivery Services rebuilt as key-steps essay + RI case cards
+- Flow confirmed individually first: the reference page runs head + trust bullets → key-steps essay (keyword research, competitor analysis, content, local listings, backlinks) → results/case material → conclusion → solutions strip; notably it carries NO FAQ block.
+- /industries/seo-for-delivery-services/ rebuilt in RI's own words following the same flow: slim head + trust bullets → intro prose → 6 key-step sections (areas-and-urgency keyword research, map-level competitor analysis, speed-first content, local listings as backbone, relevant authority, app+web as one program) → 3 RI case cards (Instacart, Adzuna, Casper) → closing prose. No FAQ, matching the reference.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance, final Industries page): /industries/seo-for-ott/ — flow to be confirmed individually first, then built.
