@@ -317,3 +317,9 @@ Maintained by: Muse, for the user
 - /link-building/ rebuilt: slim head → 11 Q&A blocks (what link building is, why links matter, what makes a link valuable, how links are earned — digital PR / content-led / outreach, what we refuse to do, timelines, anchor text, live reporting, content-before-links sequencing, local links, competitor gap sizing) with inline links to content marketing, blogger outreach, guest posting, penalty recovery, flagship SEO and local SEO → 4 FAQs (all from R-045).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /blogger-outreach-services/ — flow to be confirmed individually first, then built.
+
+### R-071 — 2026-11-21 — Service pages v2, Page 19: Blogger Outreach rebuilt as problem-led essay + FAQ
+- Flow confirmed individually first (note: the reference URL itself serves their guest-posting content — the flow is what matters): Archetype B — a prose essay where each paragraph names a failure mode of bought placements, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /blogger-outreach-services/ rebuilt to match, all in RI's own words: slim head → 8-paragraph essay (paid placements that don't move rankings, surface metrics misleading vetting, irrelevant sites from cheap networks, templated pitches editors delete, anchor-text footprints, editorial standards at good sites, competitors' smarter tactics, the honest time cost) with inline links to e-commerce SEO, enterprise SEO and link building → 7 FAQs (4 from R-045 + 3 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /guest-posting-services/ — flow to be confirmed individually first, then built.
