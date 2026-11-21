@@ -463,3 +463,10 @@ Maintained by: Muse, for the user
 - Build note: the same stray-paren typo as Page 41 recurred in the paragraph list (four occurrences); verification caught the stale v1 file twice (wrong FAQ count/size) and nothing stale was shipped — fixed and rebuilt before pushing.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /website-speed-optimization-services/ — flow to be confirmed individually first, then built.
+
+### R-095 — 2026-11-21 — Service pages v2, Page 43: Website Speed Optimization rebuilt as rich prose flow (bullets + process prose + why sections + FAQ)
+- Flow confirmed individually first: the reference page is a rich layout — benefit blurbs, process paragraphs, a testimonials block, a headed why-it-matters section, cross-links and an FAQ block, with a stats band of the operator's own figures (business-listing block skipped as a plugin artifact). Their stats/testimonials were NOT used.
+- /website-speed-optimization-services/ rebuilt in RI's own words with RI components: slim head + 3 trust bullets → 4-paragraph process prose (measurement first, engineering over plugins, a named contact, the server-layer audit) → 4 headed why sections (Rankings, Experience, Bounce, Conversions — with a link to Core Web Vitals services) → 7 FAQs (4 from R-048 + 3 new).
+- Build note: the first build crashed because the why list was passed to the stack component as plain strings instead of heading/body pairs; verification caught the stale v1 file (wrong FAQ count/size), the pairs were fixed, and only the corrected build was pushed.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /core-web-vitals-services/ — flow to be confirmed individually first, then built.
