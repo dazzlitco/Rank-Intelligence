@@ -359,3 +359,9 @@ Maintained by: Muse, for the user
 - /seo-services-amazon/ rebuilt in the same archetype shape with a distinct, original essay: renting demand vs owning it, how the channels feed each other, branded search as the bridge, honest channel economics, deliberate sequencing, combined measurement — with inline links to Amazon SEO and e-commerce SEO → 7 FAQs (4 from R-046 + 3 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /youtube-seo-services/ — flow to be confirmed individually first, then built.
+
+### R-078 — 2026-11-21 — Service pages v2, Page 26: YouTube SEO rebuilt as essay + FAQ
+- Flow confirmed individually first: the reference page is Archetype B — a short prose essay (6 paragraphs) then an FAQ block (business-listing block skipped as a plugin artifact).
+- /youtube-seo-services/ rebuilt to match, all in RI's own words: slim head → 7-paragraph essay (YouTube as the second search engine, the two doors of search & suggested, watch time as currency, packaging as the click decision, compounding catalogue vs ads, engagement as signal and asset, legibility to the distribution system) with an inline link to digital marketing services → 7 FAQs (4 from R-046 + 3 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /mobile-seo-services/ — flow to be confirmed individually first, then built.
