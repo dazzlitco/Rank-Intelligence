@@ -661,3 +661,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-law-firm/ rebuilt in RI's own words following the same flow: slim head → 8-paragraph essay with inline links to SEO audit, local SEO and PPC → 7 FAQs.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-doctor/ — flow to be confirmed individually first, then built.
+
+### R-127 — 2026-11-21 — Industries v2, Page 17 of 27: SEO for Doctors rebuilt as strategy essay + FAQ
+- Flow confirmed individually first: the reference page is a strategy essay (why competitors outrank, compliant content, keyword cannibalisation, patient-centric UX, traffic-vs-bookings conversion, conversion tracking, review-response discipline, AI citation readiness) closing with an FAQ block.
+- /industries/seo-for-doctor/ rebuilt in RI's own words following the same flow: slim head → 8-paragraph essay with inline links to health care SEO, CRO and AI SEO → 7 FAQs.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-restaurant/ — flow to be confirmed individually first, then built.
