@@ -183,3 +183,9 @@ Maintained by: Muse, for the user
 - Same service-page pattern (R-044). Copy angles: design = IA-first + SEO-safe; packages = fixed scope/price transparency; development pages are platform-specific (WordPress restraint/lean stack, WooCommerce checkout, Shopify upgrade-safety, Magento no-core-hacks, Webflow structure discipline, Wix Studio + Velo); ecommerce-development is the platform-honest hub. Builder: build/core/batch4_services.py.
 - Verified before push: all 10 fully balanced, zero dead links, 4 FAQs each, all serve 200 locally. Pushed in 2 batches with these records.
 - Remaining: B5 redesign/speed/migrations/CRO/PPC (10), B6 remaining (7).
+
+### R-048 — 2026-11-21 — Services Batch 5: 10 redesign/speed/migration/CRO/PPC pages built
+- Batch 5 (named before building, approved by the user): website-redesign-services, website-speed-optimization-services, core-web-vitals-services, website-migration-services, shopify-migration-services, ecommerce-migration-services, website-maintenance-services, logo-design-services, conversion-rate-optimization, pay-per-click-ppc-services.
+- Same service-page pattern (R-044). Copy angles: redesign/migration pages stress SEO inventory + redirect mapping + post-launch monitoring; speed vs CWV split (speed = whole-stack, field-verified; CWV = per-metric LCP/INP/CLS diagnosis at the 75th percentile); maintenance = tested backups + staged updates; CRO = research-led, statistically disciplined testing; PPC = margin-led, tracking verified first. Builder: build/core/batch5_services.py.
+- Verified before push: all 10 fully balanced, zero dead links, 4 FAQs each, all serve 200 locally. Pushed in 2 batches with these records.
+- Remaining: B6 final 7 (seo-consultants, seo-contract-staffing, hyper-local-seo-services, international-seo-services, seo-agency-for-manufacturing, local-seo-india, seo-consulting-india).
