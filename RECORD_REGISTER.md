@@ -383,3 +383,9 @@ Maintained by: Muse, for the user
 - /llm-seo-services/ rebuilt to match, all in RI's own words: slim head → intro on model perception → 8 sector sections (e-commerce & retail, healthcare & wellness, finance & banking, SaaS & technology, education, real estate, legal services, travel & hospitality — what buyers ask models in each and what makes a brand recommendable) → closing paragraph with an inline link to AI SEO → 7 FAQs (4 from R-046 + 3 new). Keeps the deliberate split: AI SEO = citation visibility; this page = model perception.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /saas-seo-services/ — flow to be confirmed individually first, then built.
+
+### R-082 — 2026-11-21 — Service pages v2, Page 30: SaaS SEO rebuilt as essay-only (no FAQ)
+- Flow confirmed individually first: the reference page is an Archetype B variant — a short prose essay (5 paragraphs) with inline links and NO FAQ block; matched as found.
+- /saas-seo-services/ rebuilt to match, all in RI's own words: slim head → 6-paragraph essay (demand–product alignment, the staged buying journey, compounding economics vs paid CAC, product-led page types, internal linking & pipeline reporting, AI discovery) with inline links to content writing and AI SEO. No FAQ block, matching the reference structure.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /aso-app-store-optimization/ — flow to be confirmed individually first, then built.
