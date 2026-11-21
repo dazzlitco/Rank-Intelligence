@@ -582,3 +582,9 @@ Maintained by: Muse, for the user
 - /seo-for-health-care/ rebuilt in RI's own words, providers-and-practices angle: slim head → intro prose (patient search journey; regulated, trust-critical category, clinician-reviewed content) → 6 numbered includes (technical foundations, local visibility/profiles, treatment & location pages, compliant credible content, reviews/reputation, AI readiness) → 7 FAQs. The later /industries/seo-for-healthcare/ will take the brands/systems angle.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-pest-control/ — flow to be confirmed individually first, then built.
+
+### R-114 — 2026-11-21 — Industries v2, Page 4 of 27: SEO for Pest Control rebuilt as strategy essay + FAQ + lead form
+- Flow confirmed individually first: the reference page runs definition prose → keyword/challenge sections → strategy sections (keyword structure, URLs, content, local, reviews, links, mobile, speed, CRO) → summary prose → FAQ block → lead form at the end. Their statistics were NOT used.
+- /industries/seo-for-pest-control/ rebuilt in RI's own words: slim head + trust bullets → intro prose (urgent, local, seasonal demand; granularity challenge) → 6 numbered strategy sections (service/area keyword architecture, substantive area pages, map pack, panic-search content, reviews engine, speed/mobile/conversion) → closing prose → 6 FAQs → lead form.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-fmcg/ — flow to be confirmed individually first, then built.
