@@ -443,3 +443,9 @@ Maintained by: Muse, for the user
 - /webflow-development-services/ rebuilt to match, all in RI's own words: slim head → 10 question blocks (integrated design/dev/SEO discipline, honest platform fit, DIY vs professional, Webflow SEO setup, CMS at content scale, migration without downtime, enterprise suitability with a link to enterprise SEO, e-commerce limits, cost, team handover). No separate FAQ block, matching the reference structure.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /wix-development-services/ — flow to be confirmed individually first, then built.
+
+### R-092 — 2026-11-21 — Service pages v2, Page 40: Wix Development rebuilt as landing variant (numbered stacks + FAQ + lead form)
+- Flow confirmed individually first: the reference page is an older landing-style layout — intro + trust bullets, about, stats band, a numbered why-agency list, a numbered services list, a testimonial, a numbered process list, then an FAQ block (business-listing block skipped as a plugin artifact). Their stats/testimonial were NOT used; the RI version uses grounded RI figures only.
+- /wix-development-services/ rebuilt in the matching landing variant, all in RI's own words: slim head + 3 trust bullets → grounded stats band → 6 numbered why-agency sections → 5 numbered services sections (consulting, support, optimisation, migration with a link to website migration, e-commerce) → 8 numbered process steps → 8 FAQs (4 from R-047 + 4 new) → lead form.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /ecommerce-development-services/ — closes the web design & development group; flow to be confirmed individually first, then built.
