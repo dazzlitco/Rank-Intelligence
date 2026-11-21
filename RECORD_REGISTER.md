@@ -395,3 +395,9 @@ Maintained by: Muse, for the user
 - /aso-app-store-optimization/ rebuilt to match, all in RI's own words: slim head → 8-paragraph essay (definition, quality organic installs, ASO vs SEO, precious metadata, creative as conversion, ratings & reviews as infrastructure, the two stores' differences, store-native measurement) → 10 FAQs (4 from R-046 + 6 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records. The platform group (B3) is now fully rebuilt in v2.
 - Next page (named in advance): /website-design-services/ — opens the web design & development group; flow to be confirmed individually first, then built.
+
+### R-084 — 2026-11-21 — Service pages v2, Page 32: Website Design rebuilt as process essay + FAQ (web group opens)
+- Flow confirmed individually first: the reference page is Archetype B — a process essay walking the engagement stages in order with inline links, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /website-design-services/ rebuilt to match, all in RI's own words: slim head → 9-paragraph process essay (discovery → market & competitor research → wireframes & prototypes → visual identity → content designed-in → development to performance budgets → device testing → managed launch → care & continuous improvement) with inline links to content writing, SEO, development and maintenance → 8 FAQs (4 from R-047 + 4 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /website-design-packages/ — flow to be confirmed individually first (likely table-led), then built.
