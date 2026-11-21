@@ -532,3 +532,9 @@ Maintained by: Muse, for the user
 - /seo-contract-staffing/ rebuilt with RI components: slim head + 3 trust bullets → grounded stats band → framing prose → disciplines checklist (8 roles in 2 groups) → 5 numbered why sections → 3 numbered model sections (Embedded specialist, Dedicated remote pod, Terms plainly) → closing prose. No FAQ block, matching the reference.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /hyper-local-seo-services/ — flow to be confirmed individually first, then built.
+
+### R-106 — 2026-11-21 — Service pages v2, Page 54: Hyper-Local SEO rebuilt as rich educational variant (stats + numbered stacks + FAQ)
+- Flow confirmed individually first: the reference page is a rich educational layout — intro + trust bullets, a stats band of the operator's own figures, numbered introduction sections, numbered mechanics sections, a testimonial, numbered strategy sections, numbered closing sections and an FAQ block. Their stats/testimonial were NOT used.
+- /hyper-local-seo-services/ rebuilt in RI's own words with RI components: slim head + 3 trust bullets → grounded stats band → 3 numbered intro sections (what it is, why it matters, who benefits) → 3 numbered mechanics sections (ranking factors, Business Profile, Local Pack/geo-grids) → 3 numbered strategy sections (neighbourhood keywords, location pages with real proof, community signals) → 2 numbered closing sections → 7 FAQs (4 from batch 6 + 3 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /seo-agency-for-manufacturing/ — flow to be confirmed individually first, then built.
