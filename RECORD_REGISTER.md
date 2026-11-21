@@ -507,3 +507,9 @@ Maintained by: Muse, for the user
 - /logo-design-services/ rebuilt in RI's own words with RI components: slim head + 3 trust bullets → strategy-first prose → grounded stats band → 5 numbered why sections (craft, strategy, collaboration, efficiency, long-term value) → 7 numbered process steps (kickoff → research → sketching → iteration → presentation → revision → delivery) → 8 FAQs (4 from R-048 + 4 new) → lead form.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /conversion-rate-optimization/ — flow to be confirmed individually first, then built (the earlier inspection suggested a Q&A pattern; to be verified on the page itself).
+
+### R-102 — 2026-11-21 — Service pages v2, Page 50: Conversion Rate Optimization rebuilt as Q&A-led (9 blocks + short FAQ)
+- Flow confirmed individually first: the reference page is Q&A-led — nine headed question blocks form the body, then a short FAQ block (business-listing block skipped as a plugin artifact). Matches the archetype noted in the earlier 16-page inspection.
+- /conversion-rate-optimization/ rebuilt to match, all in RI's own words: slim head → 9 Q&A blocks (what CRO is, our approach, defining conversions, the ideal-rate question, data analysed, budget, geographies, practices that work, recurring costs & revenue effect) → 5 FAQs (4 from R-048 + 1 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /pay-per-click-ppc-services/ — closes the redesign/speed/migration/CRO/PPC group; flow to be confirmed individually first, then built.
