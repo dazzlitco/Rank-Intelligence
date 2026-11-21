@@ -482,3 +482,9 @@ Maintained by: Muse, for the user
 - /website-migration-services/ rebuilt to match, all in RI's own words: slim head → 5-paragraph essay (migrations fail between teams, the preservation machinery of inventories/redirects/benchmarks, risk differs by migration type with links to local SEO and the two store-migration services, launch as midpoint with monitoring and rollback, landing AI-ready) → 7 FAQs (4 from R-048 + 3 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /shopify-migration-services/ — flow to be confirmed individually first, then built.
+
+### R-098 — 2026-11-21 — Service pages v2, Page 46: Shopify Migration rebuilt as rich variant (why prose + stats + numbered stacks + FAQ)
+- Flow confirmed individually first: the reference page is a rich layout — intro + trust bullets, why-migrate prose, a stats band of the operator's own figures, numbered platform-reason sections, why-choose prose with a testimonial, numbered services sections and a numbered process (business-listing block skipped as a plugin artifact). Their stats/testimonial were NOT used.
+- /shopify-migration-services/ rebuilt in RI's own words with RI components: slim head + 3 trust bullets → why-migrate prose → grounded stats band → 4 numbered destination reasons (scalability, owner-run admin, security/compliance, integrations) → 5 numbered service sections (any platform, complete data, SEO preservation, design rebuild, apps/functionality) → 6 numbered process steps → 8 FAQs (4 from R-048 + 4 new, including the honest customer-password answer).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /ecommerce-migration-services/ — flow to be confirmed individually first, then built.
