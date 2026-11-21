@@ -685,3 +685,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-cannabis/ rebuilt in RI's own words following the same flow: slim head → 10-paragraph essay opening with the sector's defining fact (advertising restrictions make organic the ownable channel), covering intent-layered keywords, architecture, compliant content, local dispensary presence, reviews, visual discovery, in-industry authority and conversion — with inline links to local SEO, CRO and e-commerce SEO. No FAQ, matching the reference.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-roofing/ — flow to be confirmed individually first, then built.
+
+### R-131 — 2026-11-21 — Industries v2, Page 21 of 27: SEO for Roofing rebuilt as problem-led essay only, no FAQ
+- Flow confirmed individually first: the reference page is a problem-led essay (site not structured around local intent, losing near-me searches on controllable signals, thin service pages, traffic without calls, neglected profile, review discipline, surrounding-area pages with honest map expectations, seasonal demand calendar) with NO FAQ block.
+- /industries/seo-for-roofing/ rebuilt in RI's own words following the same flow, with the seasonal calendar written for RI's markets (storm/hail, hurricane, ice-dam and pre-rain maintenance windows): slim head → 8 problem-led paragraphs with inline links to SEO audit, CRO and local SEO. No FAQ, matching the reference.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-fashion-ecommerce/ — flow to be confirmed individually first, then built.
