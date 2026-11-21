@@ -263,3 +263,9 @@ Maintained by: Muse, for the user
 - /on-page-seo-services/ rebuilt to match: slim head → 10-paragraph essay written entirely in RI's own words (page-by-page assessment, keyword-to-page mapping & cannibalisation, titles & meta, heading structure, improving existing content, URLs & internal linking, images, schema, mobile-first, ongoing measurement) with inline links to SEO audit, content writing, AI SEO and technical SEO → 6 FAQs (4 from R-044 + 2 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /small-business-seo-services/ — flow to be confirmed individually first, then built.
+
+### R-062 — 2026-11-21 — Service pages v2, Page 10: Small Business SEO rebuilt as intro + sub-headed essays + FAQ
+- Flow confirmed individually first: the reference page is Archetype B — short intro, 3 sub-headed essay sections, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /small-business-seo-services/ rebuilt to match: slim head → intro → 3 essay sections written in RI's own words (reaching customers without relying only on ads / building local trust before contact / staying visible in AI and zero-click search) with inline links to local SEO and AI SEO → 8 FAQs (4 from R-044 + 4 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /professional-seo-services/ — flow to be confirmed individually first, then built.
