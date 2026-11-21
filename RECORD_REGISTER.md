@@ -222,3 +222,8 @@ Maintained by: Muse, for the user
 - Page 1 — /seo-search-engine-optimization/ (Archetype A): slim head → "Compare our SEO plans" packages table (4 tiers Lite/Standard/Pro/Enterprise, per-tier Get Proposal buttons, 26 deliverable rows in 6 groups: Getting started, Technical SEO, On-page SEO, Content, Authority building, Reporting & support — RI's own package definitions, proposal-based pricing) → 8 FAQs (4 carried from R-044 + 4 new). No stats band, no cards grid, no CTA band, no lead form. Builder: build/core/pages_services2.py.
 - Verified: balanced, zero dead links, serve 200, component counts as designed. Pushed with these records.
 - Next page (named in advance): /technical-seo-services/ — Archetype B, Q&A-led (question blocks as the page body).
+
+### R-054 — 2026-11-21 — Service pages v2, Page 2: Technical SEO rebuilt Q&A-led
+- /technical-seo-services/ rebuilt to its own flow (Archetype B, Q&A-led): slim head → 10 headed question blocks as the entire body (what technical SEO is / audit coverage / cost / timelines / audit frequency / one-time vs ongoing / technical vs on-page / platforms / working with in-house developers / site size), answers written from RI's own R-044 material plus new copy, with inline links to sibling services. No stats band, no cards, no separate FAQ section, no lead form — the Q&A is the content, as on the reference page.
+- Verified: balanced, zero dead links, serve 200, 10 Q&A blocks. Pushed with these records.
+- Next page (named in advance): /local-seo/ — Archetype B essay variant (intro + sub-headed essay sections + short FAQ).
