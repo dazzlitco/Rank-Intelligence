@@ -594,3 +594,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-fmcg/ rebuilt in RI's own words: slim head + trust bullets → intro prose (discovery has moved from shelf to search) → 6 numbered tactics (intent-layered keyword research, audit & category architecture, product/category pages, occasion content, authority/digital PR, retail-marketplace interplay) → 3 numbered payoff sections (digital-shelf awareness, sales across channels, compounding trust) → closing prose → 6 FAQs.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-fitness/ — flow to be confirmed individually first, then built.
+
+### R-116 — 2026-11-21 — Industries v2, Page 6 of 27: SEO for Fitness rebuilt as guide variant
+- Flow confirmed individually first: the reference page is a long-form guide — intro prose, why/importance sections, on-page sections, off-page sections, technical sections, content marketing sections, local SEO sections, then an FAQ block (closing cross-promo sections skipped as artifacts).
+- /industries/seo-for-fitness/ rebuilt in RI's own words: slim head → intro prose (local, seasonal, researched membership decisions) → 3 numbered on-page sections (intent-layered keywords, class/program/location pages, visual & video content) → 3 numbered local & technical sections (profiles/map per location, mobile speed, schema) → 3 numbered off-page & content sections (community authority, content engine, member stories) → 6 FAQs.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-contractor/ — flow to be confirmed individually first, then built.
