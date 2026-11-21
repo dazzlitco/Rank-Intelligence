@@ -401,3 +401,9 @@ Maintained by: Muse, for the user
 - /website-design-services/ rebuilt to match, all in RI's own words: slim head → 9-paragraph process essay (discovery → market & competitor research → wireframes & prototypes → visual identity → content designed-in → development to performance budgets → device testing → managed launch → care & continuous improvement) with inline links to content writing, SEO, development and maintenance → 8 FAQs (4 from R-047 + 4 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /website-design-packages/ — flow to be confirmed individually first (likely table-led), then built.
+
+### R-085 — 2026-11-21 — Service pages v2, Page 33: Website Design Packages rebuilt as essay-only (no FAQ, no table)
+- Flow confirmed individually first: NOT table-led as guessed — the reference page is an Archetype B variant: a prose essay (7 paragraphs) with inline links and NO FAQ block; matched as found.
+- /website-design-packages/ rebuilt to match, all in RI's own words and framed on RI's own packages concept (fixed scopes, named deliverables, SEO in every tier): slim head → 7-paragraph essay (honest package-fit consultation → structure first → custom design within scope → clean scalable development → SEO & measurement built in → testing & client review gate → deployment, monitoring, packages that extend) with inline links to content writing, SEO and the bespoke design service. No FAQ block, matching the reference structure.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /website-development-services/ — flow to be confirmed individually first, then built.
