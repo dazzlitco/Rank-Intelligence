@@ -476,3 +476,9 @@ Maintained by: Muse, for the user
 - /core-web-vitals-services/ rebuilt in RI's own words with RI components: slim head + 3 trust bullets → grounded stats band → 2 numbered explainer sections (what the vitals measure; why they move rankings and revenue) → 4 numbered metric sections (LCP, INP — current metric, replacing the retired FID — CLS, FCP) → 3 numbered why-us sections → 7 FAQs (4 from R-048 + 3 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /website-migration-services/ — flow to be confirmed individually first, then built.
+
+### R-097 — 2026-11-21 — Service pages v2, Page 45: Website Migration rebuilt as short essay + FAQ
+- Flow confirmed individually first: the reference page is Archetype B — a short prose essay (5 paragraphs) then an FAQ block (business-listing block skipped as a plugin artifact).
+- /website-migration-services/ rebuilt to match, all in RI's own words: slim head → 5-paragraph essay (migrations fail between teams, the preservation machinery of inventories/redirects/benchmarks, risk differs by migration type with links to local SEO and the two store-migration services, launch as midpoint with monitoring and rollback, landing AI-ready) → 7 FAQs (4 from R-048 + 3 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /shopify-migration-services/ — flow to be confirmed individually first, then built.
