@@ -1,6 +1,6 @@
 # STATUS — Rank Intelligence Homepage Clone & Design System
 
-Last updated: 2026-11-20 (after Register entry R-043)
+Last updated: 2026-11-21 (after Register entry R-044)
 Full history: see `RECORD_REGISTER.md` in this folder. This file is the current state only — it is rewritten after each build step, and the Register is appended at the same time.
 
 ## What this project is
@@ -18,7 +18,7 @@ A clone of https://rankintelligence.net/ — homepage rebuilt as a faithful visu
 |---|---|---|
 | Homepage | ✅ Complete & live | All 15 sections in live order; fully balanced valid HTML (R-040 audit); no horizontal overflow |
 | Header mega menu | ✅ Done (homepage) | Infidigit-style: 6 items, full-width hover panels, 99 links all verified live pages, Get Free Proposal CTA (R-039) |
-| Inner pages (242) | ✅ Live | 12 core pages rebuilt in the full homepage design incl. mega menu (R-043); the other 230 remain generated placeholder pages with the OLD simple header (see Open items) |
+| Inner pages (242) | ✅ Live | 12 core pages (R-043) + Services Batch 1 — 10 flagship SEO pages (R-044) rebuilt in the full homepage design incl. mega menu; the other 220 remain generated placeholder pages with the OLD simple header (see Open items) |
 | Design System | ✅ v3 current | v1/v2 preserved as DESIGN_SYSTEM_V1/V2.md |
 | Favicon + logo | ✅ Done | User's icon traced to SVG, linked on all pages (R-031); user's logo as WebP in header/footer (R-030) |
 | Auto-behaviors | ✅ Verified live | Performance tabs 5.6s + progress bar; Case Studies 10s; Testimonials 15s tabs / 5s reviewers; clientele marquee; CTA word rotator. None pause on hover (R-037/R-040) |
