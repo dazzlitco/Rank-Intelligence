@@ -679,3 +679,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-b2c/ rebuilt in RI's own words following the same flow: slim head → 8-paragraph essay with inline links to SEO services, SEO audit and e-commerce SEO → 6 FAQs (including the B2B contrast, cross-linked both ways with Page 15).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-cannabis/ — flow to be confirmed individually first, then built.
+
+### R-130 — 2026-11-21 — Industries v2, Page 20 of 27: SEO for Cannabis rebuilt as essay only, no FAQ
+- Flow confirmed individually first: the reference page is a strategy essay (keyword identification and categorisation, URL structure, content, reviews, visual search, backlinks, conversion optimisation) with NO FAQ block.
+- /industries/seo-for-cannabis/ rebuilt in RI's own words following the same flow: slim head → 10-paragraph essay opening with the sector's defining fact (advertising restrictions make organic the ownable channel), covering intent-layered keywords, architecture, compliant content, local dispensary presence, reviews, visual discovery, in-industry authority and conversion — with inline links to local SEO, CRO and e-commerce SEO. No FAQ, matching the reference.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-roofing/ — flow to be confirmed individually first, then built.
