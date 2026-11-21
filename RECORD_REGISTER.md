@@ -232,3 +232,8 @@ Maintained by: Muse, for the user
 - /local-seo/ rebuilt to its own flow (Archetype B, essay variant): slim head → short intro essay → 5 sub-headed essay sections (Getting found / Getting chosen / Getting contacted / Where AI fits in local search / Tracking what matters) → 6 FAQs (4 from R-044 + 2 new). All copy original, drawn from RI's local service facts; inline links to AI SEO and hyper-local SEO. No stats band, cards, process steps or lead form.
 - Verified: balanced, zero dead links, serve 200, 5 essay sections + 6 FAQs. Pushed with these records.
 - Next page (named in advance): /e-commerce-seo/ — Archetype A, packages-table-led (3-tier comparison table + FAQ).
+
+### R-056 — 2026-11-21 — Service pages v2, Page 4: E-commerce SEO rebuilt packages-table-led (3 tiers)
+- /e-commerce-seo/ rebuilt to its own flow (Archetype A): slim head → 3-tier packages table (Lite/Standard/Pro, per-tier Get Proposal; 23 store-specific deliverable rows in 6 groups: Setup & research, E-commerce SEO, Technical SEO, Content, Authority building, Reporting & support — RI's own package definitions) → 8 FAQs (4 from R-044 + 4 new). Reusable packages_table() helper added to pages_services2.py. No stats band, cards or lead form.
+- Verified: balanced, zero dead links, serve 200, counts as designed. Pushed with these records.
+- Next page (named in advance): /seo-audit/ — Archetype A checklist variant (one exhaustive grouped audit checklist + FAQ).
