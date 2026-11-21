@@ -456,3 +456,10 @@ Maintained by: Muse, for the user
 - Build note: the first build attempt crashed on a syntax typo (stray parens in the paragraph list) and verification correctly caught the stale v1 file (wrong FAQ count/size); fixed and rebuilt before pushing — nothing stale was shipped.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records. The web design & development group (B4) is now fully rebuilt in v2.
 - Next page (named in advance): /website-redesign-services/ — opens the redesign/speed/migration/CRO/PPC group; flow to be confirmed individually first, then built.
+
+### R-094 — 2026-11-21 — Service pages v2, Page 42: Website Redesign rebuilt as process essay + FAQ (redesign/speed/migration group opens)
+- Flow confirmed individually first: the reference page is Archetype B — a process essay walking the engagement stages in order with inline links, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /website-redesign-services/ rebuilt to match, all in RI's own words: slim head → 8-paragraph process essay (audit & inventory → competitor & user research → SEO preservation plan → wireframes & journeys → visual design → content refresh → development & integration → tested, protected launch & handover) with inline links to SEO audit, website design, content writing and website migration → 8 FAQs (4 from R-048 + 4 new).
+- Build note: the same stray-paren typo as Page 41 recurred in the paragraph list (four occurrences); verification caught the stale v1 file twice (wrong FAQ count/size) and nothing stale was shipped — fixed and rebuilt before pushing.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /website-speed-optimization-services/ — flow to be confirmed individually first, then built.
