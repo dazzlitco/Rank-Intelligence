@@ -431,3 +431,9 @@ Maintained by: Muse, for the user
 - /shopify-development-services/ rebuilt to match, all in RI's own words: slim head → intro → 4 headed sections (custom theme development, functionality & app discipline, migrations treated as an SEO project with a link to the dedicated migration page, performance & search foundations with a link to Shopify SEO) → 9 FAQs (4 from R-047 + 5 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /magento-development-services/ — flow to be confirmed individually first, then built.
+
+### R-090 — 2026-11-21 — Service pages v2, Page 38: Magento Development rebuilt as Q&A-led + short FAQ
+- Flow confirmed individually first: the reference page is the hybrid form — a Q&A-led body (7 headed question blocks) followed by a short FAQ block (business-listing block skipped as a plugin artifact).
+- /magento-development-services/ rebuilt to match, all in RI's own words: slim head → 9 question blocks (service scope, why specialists, migration to Magento with a link to e-commerce migration, M1→M2 upgrades, security & performance as a discipline, modular feature development, multi-store & B2B, post-launch support, cost) → 4 FAQs (all from R-047).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /webflow-development-services/ — flow to be confirmed individually first, then built.
