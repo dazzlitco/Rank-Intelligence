@@ -335,3 +335,9 @@ Maintained by: Muse, for the user
 - /digital-marketing-services/ rebuilt to match, all in RI's own words: slim head → 16-paragraph essay (one-system framing, then SEO, audit, e-commerce SEO, local SEO, enterprise SEO, penalty recovery, link building, content writing, YouTube/Amazon/ASO, AI & LLM SEO, CRO — each with its inline service link — closing with goals, per-business strategy, implementation discipline and measurement) → 10 FAQs (4 from R-045 + 6 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /shopify-seo-services/ — the platform SEO group begins; flow to be confirmed individually first, then built.
+
+### R-074 — 2026-11-21 — Service pages v2, Page 22: Shopify SEO rebuilt as Q&A-led flow
+- Flow confirmed individually first: the reference page is Q&A-led like technical SEO — 10 headed question blocks as the body, no separate FAQ (business-listing block skipped as a plugin artifact).
+- /shopify-seo-services/ rebuilt to match: slim head → 11 Q&A blocks written in RI's own words (what makes it different, reporting on revenue, how Shopify SEO is done, platform challenges, best approach, store benefits, conversion impact, speed & technical handling, update cadence, sales impact, and the duplicate-content problem specifically) with inline links to e-commerce SEO, CRO, speed optimisation and technical SEO. No FAQ section, per the archetype.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /wordpress-seo-services/ — flow to be confirmed individually first, then built.
