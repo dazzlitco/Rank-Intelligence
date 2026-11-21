@@ -637,3 +637,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-travel-website/ rebuilt in RI's own words following the same flow: slim head → 8 headed Q&A blocks (scope of the work, seasonality, structured data, competing with OTAs, social's contribution, travel vs tourism SEO, KPIs, payback timing). No separate FAQ.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-healthcare/ (the brands/systems angle, distinct from /seo-for-health-care/'s providers angle) — flow to be confirmed individually first, then built.
+
+### R-123 — 2026-11-21 — Industries v2, Page 13 of 27: SEO for Healthcare (brands/systems) rebuilt as pure Q&A
+- Flow confirmed individually first: the reference page is a pure Q&A page — headed question blocks carry the whole body, with no separate FAQ section.
+- /industries/seo-for-healthcare/ rebuilt in RI's own words following the same flow, deliberately angled at brands and hospital systems (distinct from /seo-for-health-care/'s providers/practices angle): slim head → 8 headed Q&A blocks (scope at system scale, system-level use, measurement, mobile's role, outsourcing, cost, timelines, and an explicit practice-vs-system distinction linking the two pages). No separate FAQ.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-dentist/ — flow to be confirmed individually first, then built.
