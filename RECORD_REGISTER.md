@@ -631,3 +631,9 @@ Maintained by: Muse, for the user
 - Build note: first attempt crashed on a missing qa_stack import in pages_industries.py; the stale v1 file was caught by verification (byte count), the import was added, and the page rebuilt and re-verified before pushing — nothing stale was pushed.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-travel-website/ — flow to be confirmed individually first, then built.
+
+### R-122 — 2026-11-21 — Industries v2, Page 12 of 27: SEO for Travel Websites rebuilt as pure Q&A
+- Flow confirmed individually first: the reference page is a pure Q&A page — headed question blocks carry the whole body, with no separate FAQ section.
+- /industries/seo-for-travel-website/ rebuilt in RI's own words following the same flow: slim head → 8 headed Q&A blocks (scope of the work, seasonality, structured data, competing with OTAs, social's contribution, travel vs tourism SEO, KPIs, payback timing). No separate FAQ.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-healthcare/ (the brands/systems angle, distinct from /seo-for-health-care/'s providers angle) — flow to be confirmed individually first, then built.
