@@ -501,3 +501,9 @@ Maintained by: Muse, for the user
 - /website-maintenance-services/ rebuilt to match, all in RI's own words: slim head → 9 Q&A blocks (what maintenance is, what plans include, cost, annual contracts, urgent response, maintaining sites built by others, platforms, exclusions, choosing a provider) → 6 FAQs (4 from R-048 + 2 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /logo-design-services/ — flow to be confirmed individually first, then built.
+
+### R-101 — 2026-11-21 — Service pages v2, Page 49: Logo Design rebuilt as landing variant (prose + stats + numbered stacks + FAQ + lead form)
+- Flow confirmed individually first: the reference page is a rich landing layout — intro prose + trust bullets, about prose, a stats band of the operator's own figures, why-a-design-company prose with numbered points, a testimonial, numbered process sections, Q&A prose and a lead form before the FAQ block. Their stats/testimonial were NOT used.
+- /logo-design-services/ rebuilt in RI's own words with RI components: slim head + 3 trust bullets → strategy-first prose → grounded stats band → 5 numbered why sections (craft, strategy, collaboration, efficiency, long-term value) → 7 numbered process steps (kickoff → research → sketching → iteration → presentation → revision → delivery) → 8 FAQs (4 from R-048 + 4 new) → lead form.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /conversion-rate-optimization/ — flow to be confirmed individually first, then built (the earlier inspection suggested a Q&A pattern; to be verified on the page itself).
