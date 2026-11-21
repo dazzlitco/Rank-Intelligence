@@ -643,3 +643,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-healthcare/ rebuilt in RI's own words following the same flow, deliberately angled at brands and hospital systems (distinct from /seo-for-health-care/'s providers/practices angle): slim head → 8 headed Q&A blocks (scope at system scale, system-level use, measurement, mobile's role, outsourcing, cost, timelines, and an explicit practice-vs-system distinction linking the two pages). No separate FAQ.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-dentist/ — flow to be confirmed individually first, then built.
+
+### R-124 — 2026-11-21 — Industries v2, Page 14 of 27: SEO for Dentists rebuilt as essay stacks + FAQ
+- Flow confirmed individually first: the reference page is a long strategy essay — patient intent mapping, map pack and review signals, per-treatment pages, neighbourhood targeting and citations, technical/compliance, educational content, reputation, mobile and emergency search, voice/AI, authority, measurement — closing with an FAQ block.
+- /industries/seo-for-dentist/ rebuilt in RI's own words following the same flow: slim head → intro prose → 4 foundation sections → 4 trust/experience sections → 3 frontier sections (voice/AI, community authority, patient-based measurement) with inline links to local SEO, SEO audit, AI SEO and website design → 6 FAQs.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-b2b/ — flow to be confirmed individually first, then built.
