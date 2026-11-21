@@ -341,3 +341,9 @@ Maintained by: Muse, for the user
 - /shopify-seo-services/ rebuilt to match: slim head → 11 Q&A blocks written in RI's own words (what makes it different, reporting on revenue, how Shopify SEO is done, platform challenges, best approach, store benefits, conversion impact, speed & technical handling, update cadence, sales impact, and the duplicate-content problem specifically) with inline links to e-commerce SEO, CRO, speed optimisation and technical SEO. No FAQ section, per the archetype.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /wordpress-seo-services/ — flow to be confirmed individually first, then built.
+
+### R-075 — 2026-11-21 — Service pages v2, Page 23: WordPress SEO rebuilt as process essay + FAQ
+- Flow confirmed individually first: the reference page is Archetype B — a process essay walking the engagement stages in order, with inline links, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /wordpress-seo-services/ rebuilt to match, all in RI's own words: slim head → 10-paragraph process essay (understand the business → full audit → competitor & keyword research → roadmap → technical foundation → architecture & internal linking → on-page implementation → content → authority growth → conversion & tracking) with inline links to SEO audit, local SEO, enterprise SEO, on-page SEO, content writing and link building → 8 FAQs (4 from R-046 + 4 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /amazon-seo-services/ — flow to be confirmed individually first, then built.
