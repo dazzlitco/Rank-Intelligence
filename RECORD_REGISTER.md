@@ -203,3 +203,7 @@ Maintained by: Muse, for the user
 - Template lead form / CTA band removed from all except contact-us and get-started (conversion pages, form by design). Remaining honest gaps: no RI leadership names/photos (pods used in their slot), history uses era labels not invented dates, awards wall has 17 cards vs their ~140 (we only claim the badges we display).
 - Verified before push: all 12 balanced, zero dead links, component counts as designed, serve 200. Pushed in 3 batches with these records.
 - NOTE for next waves: the 57 service pages (R-044–R-049) share ONE template — the same criticism may apply; flagged to the user, awaiting their direction after this core fix.
+
+### R-051 — 2026-11-21 — Contact page flow correction after second Infidigit brief
+- The detailed structural brief for the last five Infidigit pages landed after the R-050 build and confirmed the rebuild flows (Services = essay + 9-item checklist + stat paragraph + pitch, no form; Get Started = testimonial-wall-led; Media = one long outbound press list; Careers = JS portal embed, matched with an authored listings-first page since no RI portal exists).
+- One correction applied: on /contact-us/ the Google Map now sits at the END of the content (after offices and "What happens next"), matching Infidigit's order — form → credibility copy → office cards → map → FAQs. Rebuilt, balance + order verified, pushed.
