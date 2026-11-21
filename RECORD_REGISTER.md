@@ -275,3 +275,9 @@ Maintained by: Muse, for the user
 - /professional-seo-services/ rebuilt to match: slim head → intro on what "professional" means as a standard of work → 8 sub-headed sections written in RI's own words (voice search, featured snippets, keeping pace with search evolution, international, penalty recovery, local, AI SEO, LLM visibility) with inline links to the sibling services → 8 FAQs (4 from R-044 + 4 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /content-marketing/ — Archetype C, the one rich marketing page (hero + trust bullets + repeated proposal forms + success stories + testimonials + logo wall + awards banner).
+
+### R-064 — 2026-11-21 — Service pages v2, Page 12: Content Marketing rebuilt as the rich marketing page (Archetype C)
+- The one Archetype C page in the set. Built entirely from Rank Intelligence's own components and original copy, following the archetype's rhythm: slim head with 3 trust bullets → lead form → 3 essay sections (strategy before production / written to be the best answer / built to earn authority) → 3 Content-Marketing case cards (Qatar Airways, The Vitamin Shoppe, Floyd) → CTA band → 3 client quote blocks → 23-logo clientele wall → awards badge row. No FAQ section, per the archetype. Adaptation noted: the archetype repeats a proposal form between sections; ours uses the lead form once plus the CTA band mid-page to keep a single valid form ID.
+- Build note: pages_services2.py needed json/os/HERE and build_core.section imports added (two failed runs caught before any push; the file on disk stayed the v1 version until the successful build).
+- Verified: balanced, zero dead links, serve 200, 865,988 bytes. Pushed with these records.
+- Next page (named in advance): /content-marketing-services/ — flow to be confirmed individually first, then built.
