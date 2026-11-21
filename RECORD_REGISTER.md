@@ -624,3 +624,10 @@ Maintained by: Muse, for the user
 - /industries/seo-for-automotive/ rebuilt in RI's own words following the same flow: slim head → 7-paragraph essay with inline links to enterprise SEO, e-commerce SEO and local SEO → 5 FAQs.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-real-estate/ — flow to be confirmed individually first, then built.
+
+### R-121 — 2026-11-21 — Industries v2, Page 11 of 27: SEO for Real Estate rebuilt as pure Q&A
+- Flow confirmed individually first: the reference page is a pure Q&A page — headed question blocks carry the whole body, with no separate FAQ section.
+- /industries/seo-for-real-estate/ rebuilt in RI's own words following the same flow: slim head → 8 headed Q&A blocks (what the work involves, ongoing need, timelines, competing with portals, choosing a partner, measurement, new developments, AI search) with inline links to local SEO and hyper-local SEO. No separate FAQ.
+- Build note: first attempt crashed on a missing qa_stack import in pages_industries.py; the stale v1 file was caught by verification (byte count), the import was added, and the page rebuilt and re-verified before pushing — nothing stale was pushed.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-travel-website/ — flow to be confirmed individually first, then built.
