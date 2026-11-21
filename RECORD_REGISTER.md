@@ -649,3 +649,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-dentist/ rebuilt in RI's own words following the same flow: slim head → intro prose → 4 foundation sections → 4 trust/experience sections → 3 frontier sections (voice/AI, community authority, patient-based measurement) with inline links to local SEO, SEO audit, AI SEO and website design → 6 FAQs.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-b2b/ — flow to be confirmed individually first, then built.
+
+### R-125 — 2026-11-21 — Industries v2, Page 15 of 27: SEO for B2B rebuilt as pure Q&A
+- Flow confirmed individually first: the reference page is a pure Q&A page — headed question blocks carry the whole body, with no separate FAQ section.
+- /industries/seo-for-b2b/ rebuilt in RI's own words following the same flow: slim head → 8 headed Q&A blocks (worth, B2B vs B2C difference with a cross-link to the B2C page, content types by buying stage, timelines, pipeline-based measurement, review cadence, strategy components, niche markets). No separate FAQ.
+- Verified: balanced, zero dead links, serve 200, new copy confirmed in page. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-law-firm/ — flow to be confirmed individually first, then built.
