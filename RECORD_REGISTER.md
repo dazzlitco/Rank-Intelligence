@@ -437,3 +437,9 @@ Maintained by: Muse, for the user
 - /magento-development-services/ rebuilt to match, all in RI's own words: slim head → 9 question blocks (service scope, why specialists, migration to Magento with a link to e-commerce migration, M1→M2 upgrades, security & performance as a discipline, modular feature development, multi-store & B2B, post-launch support, cost) → 4 FAQs (all from R-047).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /webflow-development-services/ — flow to be confirmed individually first, then built.
+
+### R-091 — 2026-11-21 — Service pages v2, Page 39: Webflow Development rebuilt as Q&A-led page
+- Flow confirmed individually first: the reference page is the Q&A-led archetype — headed question blocks are the entire body, with no separate FAQ block (business-listing block skipped as a plugin artifact).
+- /webflow-development-services/ rebuilt to match, all in RI's own words: slim head → 10 question blocks (integrated design/dev/SEO discipline, honest platform fit, DIY vs professional, Webflow SEO setup, CMS at content scale, migration without downtime, enterprise suitability with a link to enterprise SEO, e-commerce limits, cost, team handover). No separate FAQ block, matching the reference structure.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /wix-development-services/ — flow to be confirmed individually first, then built.
