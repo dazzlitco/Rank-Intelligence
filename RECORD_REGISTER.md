@@ -576,3 +576,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-educational/ rebuilt in RI's own words with RI components: slim head → intro prose (the researched enrolment journey, students and parents as parallel audiences) → 5 numbered benefits → priorities checklist (Foundations / Growth) → 6 numbered component sections (program keyword research, two-audience content, technical foundations, campus local SEO, ecosystem authority, enrolment measurement) → 6 FAQs.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /seo-for-health-care/ — flow to be confirmed individually first, then built. (Angle: providers and practices — patient acquisition; the later /industries/seo-for-healthcare/ will take the brands/systems angle.)
+
+### R-113 — 2026-11-21 — Industries v2, Page 3 of 27: SEO for Health Care rebuilt (providers & practices angle)
+- Flow confirmed individually first: the reference page's captured structure is an essay/includes body closing with a 7-question FAQ block (measurement, mobile, scope, outsourcing, usage, cost, timelines).
+- /seo-for-health-care/ rebuilt in RI's own words, providers-and-practices angle: slim head → intro prose (patient search journey; regulated, trust-critical category, clinician-reviewed content) → 6 numbered includes (technical foundations, local visibility/profiles, treatment & location pages, compliant credible content, reviews/reputation, AI readiness) → 7 FAQs. The later /industries/seo-for-healthcare/ will take the brands/systems angle.
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-pest-control/ — flow to be confirmed individually first, then built.
