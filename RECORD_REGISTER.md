@@ -329,3 +329,9 @@ Maintained by: Muse, for the user
 - /guest-posting-services/ rebuilt: slim head → 8-paragraph essay written in RI's own words (what a guest post really is, vetting publications beyond metrics, the pitch as an editor's problem solved, writing that survives real editors, bylines building brand, natural link placement, competitor-profile research, the patience the work takes) with inline links to e-commerce SEO, link building and blogger outreach → 8 FAQs (4 from R-045 + 4 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /digital-marketing-services/ — flow to be confirmed individually first, then built. This completes the content & links group; the platform SEO group follows.
+
+### R-073 — 2026-11-21 — Service pages v2, Page 21: Digital Marketing Services rebuilt as services-tour essay + FAQ
+- Flow confirmed individually first: the reference page is Archetype B — a long prose essay touring each service area with an inline link per service, followed by process paragraphs (goals, tailored strategy, research, audits, implementation, tracking) and an FAQ block.
+- /digital-marketing-services/ rebuilt to match, all in RI's own words: slim head → 16-paragraph essay (one-system framing, then SEO, audit, e-commerce SEO, local SEO, enterprise SEO, penalty recovery, link building, content writing, YouTube/Amazon/ASO, AI & LLM SEO, CRO — each with its inline service link — closing with goals, per-business strategy, implementation discipline and measurement) → 10 FAQs (4 from R-045 + 6 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /shopify-seo-services/ — the platform SEO group begins; flow to be confirmed individually first, then built.
