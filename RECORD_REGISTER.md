@@ -425,3 +425,9 @@ Maintained by: Muse, for the user
 - /woocommerce-development-services/ rebuilt to match, all in RI's own words: slim head → 6-paragraph essay (search as a build foundation, speed engineered not rescued, mobile as the primary storefront, catalogue architecture as search strategy, scalability decided by the build, checkout & integration discipline) with an inline link to e-commerce SEO → 8 FAQs (4 from R-047 + 4 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /shopify-development-services/ — flow to be confirmed individually first, then built.
+
+### R-089 — 2026-11-21 — Service pages v2, Page 37: Shopify Development rebuilt as intro + headed sections + FAQ
+- Flow confirmed individually first: the reference page is Archetype B with headed sections — an intro, three headed sections, then an FAQ block (business-listing block skipped as a plugin artifact). Their page is migration-framed; RI keeps its development focus since /shopify-migration-services/ exists separately.
+- /shopify-development-services/ rebuilt to match, all in RI's own words: slim head → intro → 4 headed sections (custom theme development, functionality & app discipline, migrations treated as an SEO project with a link to the dedicated migration page, performance & search foundations with a link to Shopify SEO) → 9 FAQs (4 from R-047 + 5 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /magento-development-services/ — flow to be confirmed individually first, then built.
