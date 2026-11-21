@@ -538,3 +538,9 @@ Maintained by: Muse, for the user
 - /hyper-local-seo-services/ rebuilt in RI's own words with RI components: slim head + 3 trust bullets → grounded stats band → 3 numbered intro sections (what it is, why it matters, who benefits) → 3 numbered mechanics sections (ranking factors, Business Profile, Local Pack/geo-grids) → 3 numbered strategy sections (neighbourhood keywords, location pages with real proof, community signals) → 2 numbered closing sections → 7 FAQs (4 from batch 6 + 3 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /seo-agency-for-manufacturing/ — flow to be confirmed individually first, then built.
+
+### R-107 — 2026-11-21 — Service pages v2, Page 55: SEO Agency for Manufacturing rebuilt as process essay + FAQ
+- Flow confirmed individually first: the reference page is Archetype B — a process essay walking the manufacturing engagement stage by stage with inline links, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /seo-agency-for-manufacturing/ rebuilt to match, all in RI's own words: slim head → 10-paragraph process essay (buyer discovery → intent mapping → specification keyword research → roadmap → product/capability page engineering → technical content → technical SEO → export markets → industry authority → AI readiness) with inline links to flagship SEO, content writing, technical SEO, international SEO and AI SEO → 8 FAQs (4 from batch 6 + 4 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /local-seo-india/ — flow to be confirmed individually first, then built.
