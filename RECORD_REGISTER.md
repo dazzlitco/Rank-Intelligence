@@ -513,3 +513,9 @@ Maintained by: Muse, for the user
 - /conversion-rate-optimization/ rebuilt to match, all in RI's own words: slim head → 9 Q&A blocks (what CRO is, our approach, defining conversions, the ideal-rate question, data analysed, budget, geographies, practices that work, recurring costs & revenue effect) → 5 FAQs (4 from R-048 + 1 new).
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /pay-per-click-ppc-services/ — closes the redesign/speed/migration/CRO/PPC group; flow to be confirmed individually first, then built.
+
+### R-103 — 2026-11-21 — Service pages v2, Page 51: PPC rebuilt as essay + FAQ (redesign/speed/migration group complete)
+- Flow confirmed individually first: the reference page is Archetype B — a ten-paragraph essay walking the PPC discipline end to end, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /pay-per-click-ppc-services/ rebuilt to match, all in RI's own words: slim head → 10-paragraph essay (audit first, audience targeting, search advertising, remarketing, social advertising, Amazon advertising, landing pages & tracking, smart bidding & Quality Score, ad copy testing, revenue reporting & budget reallocation) with inline links to SEO audit, flagship SEO, content writing, Amazon SEO and CRO → 8 FAQs (4 from R-048 + 4 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records. The redesign/speed/migration/CRO/PPC group (B5) is now fully rebuilt in v2.
+- Next page (named in advance): /seo-consultants/ — opens the final group of six; flow to be confirmed individually first, then built.
