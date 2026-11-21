@@ -673,3 +673,9 @@ Maintained by: Muse, for the user
 - /industries/seo-for-restaurant/ rebuilt in RI's own words following the same flow: slim head → 8 problem-led paragraphs with inline links to local SEO and delivery services SEO → 6 FAQs.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /industries/seo-for-b2c/ — flow to be confirmed individually first, then built.
+
+### R-129 — 2026-11-21 — Industries v2, Page 19 of 27: SEO for B2C rebuilt as strategy essay + FAQ
+- Flow confirmed individually first: the reference page is a strategy essay (traffic-vs-revenue intent matching, challenging big brands via specificity, ranking volatility causes, intent-layered keyword strategy, seasonal/evergreen balance, trust signals, competing with marketplaces, business metrics) closing with an FAQ block.
+- /industries/seo-for-b2c/ rebuilt in RI's own words following the same flow: slim head → 8-paragraph essay with inline links to SEO services, SEO audit and e-commerce SEO → 6 FAQs (including the B2B contrast, cross-linked both ways with Page 15).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /industries/seo-for-cannabis/ — flow to be confirmed individually first, then built.
