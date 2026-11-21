@@ -407,3 +407,9 @@ Maintained by: Muse, for the user
 - /website-design-packages/ rebuilt to match, all in RI's own words and framed on RI's own packages concept (fixed scopes, named deliverables, SEO in every tier): slim head → 7-paragraph essay (honest package-fit consultation → structure first → custom design within scope → clean scalable development → SEO & measurement built in → testing & client review gate → deployment, monitoring, packages that extend) with inline links to content writing, SEO and the bespoke design service. No FAQ block, matching the reference structure.
 - Verified: balanced, zero dead links, serve 200. Pushed with these records.
 - Next page (named in advance): /website-development-services/ — flow to be confirmed individually first, then built.
+
+### R-086 — 2026-11-21 — Service pages v2, Page 34: Website Development rebuilt as problem-led essay + FAQ
+- Flow confirmed individually first: the reference page is Archetype B in a problem-led form — an essay of unheaded paragraphs, each diagnosing a failure mode, with an inline link, then an FAQ block (business-listing block skipped as a plugin artifact).
+- /website-development-services/ rebuilt to match, all in RI's own words: slim head → 8-paragraph problem-led essay (broken measurement, page weight & speed, conversion leaks, mobile exposure, crawl structure, AI-extraction readiness, security & scalability, measurement built in) with inline links to Core Web Vitals, AI SEO and maintenance → 8 FAQs (4 from R-047 + 4 new).
+- Verified: balanced, zero dead links, serve 200. Pushed with these records.
+- Next page (named in advance): /wordpress-development-services/ — flow to be confirmed individually first, then built.
