@@ -939,3 +939,58 @@ Maintained by: Muse, for the user
 - Same-defect sweep: the pattern only bites where a long heading shares a grid/flex row with media or cards — About intro + recognition photos (same starvation), Media Coverage card headlines (nowrap inside grid cards), Teams photo/CTA columns, Awards banner column. The other site pages were scanned: their in-grid H2s are the shared lead-form headings, which carry their own white-space:normal override, so they were not affected.
 - All 12 core inner pages rebuilt and pushed in 4 batches; live byte-parity exact on all 12.
 - Visually verified after deploy: About intro photo now 520x520 with the full photo visible; recognition photo 520x440 normal; Media Coverage cards wrap their headlines inside a 3-column grid that fits the page with no horizontal overflow.
+
+### R-171 — 2026-11-22 — Services v3 batch of 10 begins: /seo-search-engine-optimization/ rebuilt to the reference's VISUAL flow (user-directed)
+
+- Governing instruction (user, 2026-11-22): "Take 1 page (services) from https://www.infidigit.com/ and clone it on https://rankintelligence.net/ same to same, then redesign it with our design and colors. Create related images to replace theirs. Keep sections headings in the center of section. Maintain each sections top-bottom paddings, pills style, below buttons as we have on our homepage." Batch of 10 named in advance: SEO, Technical SEO, On-Page SEO, Local SEO, E-commerce SEO, Enterprise SEO, Small Business SEO, Professional SEO, SEO Audit, SEO Penalty Recovery.
+- Method: every reference page visually inventoried first (browser scroll-through, structure/headings only — no reference text, stats or testimonials copied). New builder pages_services3.py: shared v3 components (photo hero with breadcrumb/pill/partners/faces strips/+520% chip/Get-cited-in badge/stats band, clients marquee, benefits cards, challenges + why-us accordions, numbered process, growth prose/blocks, industries + solutions grids, quote, RI real location links, FAQ, Ask-AI band, imported homepage cs-h/testi-h sections and the real lead form). CSS3 enforces the user's standards: section headings centered, 72px section rhythm, homepage pill/button styles. All copy RI-original; all photos newly generated.
+- Flagship flow (19 sections): hero (generated svc3-seo-hero.webp) -> clients -> benefits (6) -> awards band -> challenges (8) -> Our Work (cs-h) -> why-us (6) -> testimonials (testi-h) -> process (11) -> plans (4 tiers) -> growth (generated photo + checklist) -> industries -> solutions -> quote -> locations -> full package comparison table -> FAQ (8) -> Ask-AI -> lead form.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 044b0e3e; live byte-parity exact (3,295,163 bytes). Browser visual verification PASSED (hero photo full portrait, all sections in order, no overflow). Two headings the verifier read as left-aligned were proven CENTERED by pixel measurement — no fix needed.
+- DEFECT FOUND during verification (pre-existing, NOT from this build): the header logo renders squeezed at 34x36px on the flagship page, /about/ AND the homepage (natural image 760x111) — a site-wide header fault; the same image renders correctly in the footer. Diagnosis in progress as its own pass.
+
+### R-172 — 2026-11-22 — /technical-seo-services/ rebuilt v3
+
+- Flow per its visual inventory (no plans/table on the reference page): hero (generated svc3-technical-hero.webp) -> clients -> benefits (6) -> challenges (8) -> why-us (6) -> Our Work -> process (9) -> testimonials -> growth prose -> industries -> solutions -> quote -> locations -> FAQ -> Ask-AI -> lead form. 16 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head bee526dd; live byte-parity exact (2,637,436 bytes).
+
+### R-173 — 2026-11-22 — /on-page-seo-services/ rebuilt v3
+
+- Flow: hero (generated svc3-onpage-hero.webp) -> clients -> benefits (6) -> challenges (10) -> Our Work -> why-us (6) -> testimonials -> process (10) -> growth prose -> industries -> solutions -> quote -> locations -> FAQ -> Ask-AI -> lead form. 16 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 7fc2e004; live byte-parity exact (2,622,792 bytes).
+
+### R-174 — 2026-11-22 — /local-seo/ rebuilt v3
+
+- Flow: hero (generated svc3-local-hero.webp) -> clients -> benefits (6) -> awards band -> challenges (8) -> why-us (6) -> Our Work -> process (8) -> testimonials -> growth blocks (5 sub-blocks: Getting found / Getting chosen / Getting contacted / Where AI fits in / Tracking what matters) -> industries -> solutions -> quote -> locations -> FAQ -> Ask-AI -> lead form. 17 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head dea2cc82; live byte-parity exact (2,753,824 bytes).
+
+### R-175 — 2026-11-22 — /e-commerce-seo/ rebuilt v3
+
+- Flow (reference order followed, incl. Locations before Solutions and Industries after the quote): hero (generated svc3-ecom-hero.webp) -> clients -> benefits (6) -> challenges (7) -> Our Work -> testimonials -> why-us (6) -> process (8) -> plans (3 tiers + a "Specific needs?" consultation card) -> growth (generated photo; Shopify/Magento/WooCommerce/custom platforms) -> locations -> solutions -> quote -> industries -> package comparison table (RI 3-tier data) -> FAQ (8) -> Ask-AI -> lead form. 18 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 9b62387f; live byte-parity exact (3,480,452 bytes).
+
+### R-176 — 2026-11-22 — /enterprise-seo-services/ rebuilt v3
+
+- Flow (no plans/table on the reference page): hero (generated svc3-enterprise-hero.webp) -> clients -> benefits (6) -> challenges (8) -> Our Work -> why-us (6) -> process (9) -> testimonials -> growth prose -> industries -> solutions -> quote -> locations -> FAQ -> Ask-AI -> lead form. 16 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head b97852c4; live byte-parity exact (2,667,185 bytes).
+
+### R-177 — 2026-11-22 — /small-business-seo-services/ rebuilt v3
+
+- Flow (reference order differs: why-us before cases, plans before testimonials): hero (generated svc3-smallbiz-hero.webp) -> clients -> benefits (6) -> challenges (8) -> why-us (6) -> Our Work -> process (8) -> plans (4 tiers; compare link to /seo-pricing-p1/ — this page has no table) -> testimonials -> growth blocks (3) -> industries -> solutions -> quote -> locations -> FAQ -> Ask-AI -> lead form. 17 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head a51316b4; live byte-parity exact (2,793,539 bytes).
+
+### R-178 — 2026-11-22 — /professional-seo-services/ rebuilt v3
+
+- The reference hero is a form-hero (email field); built with the standard RI photo hero instead (generated svc3-professional-hero.webp) — RI's full lead form closes the page, as on every v3 page. Disclosed adaptation.
+- Flow: hero -> clients -> benefits (6) -> challenges (8) -> Our Work -> testimonials -> why-us (6) -> process (8) -> growth blocks (8 topic blocks: Voice Search, Featured Snippets, Evolving Trends, International SEO, Penalties, Local SEO, AI SEO, LLM SEO) -> industries -> solutions -> quote -> locations -> FAQ -> Ask-AI -> lead form. 16 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head a19be82e; live byte-parity exact (2,720,024 bytes).
+
+### R-179 — 2026-11-22 — /seo-audit/ rebuilt v3
+
+- Flow: hero (generated svc3-audit-hero.webp) -> clients -> benefits (6) -> challenges (8) -> why-us (6) -> Our Work -> single Standard plan card (RI facts only: full-website audit, strategy included, severity-rated findings + 90-day roadmap, walkthrough call, report in 5-10 business days — the reference's "45 days" NOT copied) -> process (8) -> testimonials -> deliverables blocks -> industries -> solutions -> quote -> locations -> full RI audit checklist (15 groups / 86 items) -> FAQ (8) -> Ask-AI -> lead form. 18 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head f90c0589; live byte-parity exact (2,749,010 bytes).
+
+### R-180 — 2026-11-22 — /seo-penalty-recovery/ rebuilt v3 — batch of 10 COMPLETE
+
+- Flow (reference order: cases before why-us, Locations before Solutions, Industries after quote): hero (generated svc3-penalty-hero.webp — analyst diagnosing a traffic drop) -> clients -> benefits (6 recovery-themed) -> challenges (8 quoted) -> Our Work -> testimonials -> why-us (6) -> process (8: diagnosis, audit, backlink cleanup, content, technical fixes, reconsideration, monitoring, prevention) -> growth prose -> locations -> solutions -> quote -> industries -> FAQ (6: RI set + manual-vs-algorithmic + rejected-reconsideration) -> Ask-AI -> lead form. 16 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head cd520a81; live byte-parity exact (2,574,727 bytes).
+- Batch state: all 10 named service pages are now v3 (visual-flow) builds, live and byte-verified. 47 service pages remain on v2 (text-confirmed flows) for later batches on the user's direction. OPEN: the site-wide header-logo squeeze found at R-171 (34x36px render of a 760x111 image, homepage included) — diagnosis/fix is a separate pass.

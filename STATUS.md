@@ -76,3 +76,8 @@ All-core-pages audit pass complete: every core page re-checked against the butto
 
 ## Latest — R-170 (2026-11-22)
 Collapsed-image fix: the shared stylesheet's homepage rule section h2{white-space:nowrap} was starving photo columns next to long headings (About "Who We Are" photo rendered 49px wide). The nowrap is removed from tpl-style.html; all 12 core inner pages rebuilt, pushed, byte-parity exact, and visually verified (About photos full-size, Media cards wrap cleanly). Homepage unaffected (own stylesheet).
+
+
+## Latest — R-180 (2026-11-22)
+
+Services v3 batch of 10 COMPLETE (R-171–R-180): SEO, Technical SEO, On-Page SEO, Local SEO, E-commerce SEO, Enterprise SEO, Small Business SEO, Professional SEO, SEO Audit and SEO Penalty Recovery were each visually inventoried on the reference site (browser scroll-through, structure only) and rebuilt one at a time in the new pages_services3.py builder to that page's rendered flow — RI design and colors, all-original RI copy, newly generated photos replacing the reference's, section headings centered, 72px section rhythm, homepage pills/buttons, homepage components imported (Our Work, Testimonials, lead form). Every page verified balanced with zero dead links and pushed with live byte-parity exact. The flagship page also passed a full browser visual verification. Remaining: 47 service pages still on v2 builds (text-confirmed flows), the 27 industry pages likewise, and the 141 generated pages — further batches only on the user's direction. OPEN DEFECT (pre-existing, found during R-171 verification): the header logo renders squeezed at 34x36px site-wide, homepage included (natural 760x111; renders correctly in the footer) — diagnosis/fix is a separate pass, not yet landed.
