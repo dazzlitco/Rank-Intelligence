@@ -917,3 +917,8 @@ Maintained by: Muse, for the user
 - Images: no broken or missing images on any core page (all embedded); the homepage's empty-src <img> tags are placeholders its testimonial rotator fills by script — working as designed, left alone.
 - Hero buttons untouched on every page, per instruction (the only remaining audit flags are the deliberate hero exceptions).
 - Verified: all 12 pages tag-balanced, zero dead internal links; pushed in 4 batches (final head 9debfc2b); live byte-parity exact on all 12 pages.
+
+### R-168 — 2026-11-22 — /services/ clientele slider gap below heading (user-directed)
+
+- The logo slider sat 6px under the "Brands that trust Rank Intelligence" heading; the gap is now 32px (.svcclients margin-top), matching the page's internal section spacing.
+- Verified in the build and live with byte-parity.
