@@ -922,3 +922,11 @@ Maintained by: Muse, for the user
 
 - The logo slider sat 6px under the "Brands that trust Rank Intelligence" heading; the gap is now 32px (.svcclients margin-top), matching the page's internal section spacing.
 - Verified in the build and live with byte-parity.
+
+### R-169 — 2026-11-22 — Heading alignment rule applied across all core pages (user-directed)
+
+- Rule: every section heading top-center; hero headings left; exceptions only where a heading belongs to a column, card, band or sidebar.
+- Full audit of every H1/H2 on all 13 core pages (homepage + /services/ + 11 rebuilt). Already compliant: homepage (section headings centered via its center wraps), About (.abh2c headings centered), Teams (caps heading centered), Get Started proof heading and Careers perks heading centered, Services Clientele/Testimonials/Why It Matters/Outcomes/Why RI headings centered.
+- Legitimate exceptions kept: all photo-hero H1s left; Teams and Testimonials heroes centered by their reference design; column headings (About intro + recognition, Teams people + CTA band, Awards banner, Proven hero, Get Started steps/form card); card titles (Clients, Media); Proven "Filter By" sidebar header; homepage CTA-band and Proudly Featured header-block headings (two-column bands).
+- Fixed (2): /services/ "What We Do" heading was left-aligned in a full-width section — now centered. /contact-us/ FAQ heading (.cfh2) was text-align:left — now centered.
+- Verified in builds; pushed; live byte-parity checked on both pages.
