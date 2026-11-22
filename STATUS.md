@@ -5,9 +5,9 @@ Full history: see `RECORD_REGISTER.md` in this folder. This file is the current 
 
 ## What this project is
 
-A clone of https://rankintelligence.net/ — homepage rebuilt as a faithful visual clone under a production design system, plus 242 inner pages generated from the Infidigit sitemap structure (services, industries, locations, pricing, tools, case-study indexes, core, resources, legal).
+A clone of https://rankintelligence.net/ — homepage rebuilt as a faithful visual clone under a production design system, plus inner pages cloned from the Infidigit sitemap structure (services, industries, locations, pricing, tools, case-study indexes, core, resources, legal).
 
-- Live clone: **https://rankintelligence.pages.dev/** (Cloudflare Pages; auto-deploys from GitHub `main` on every push)
+- Live clone: **https://rankintelligence.net/** (Cloudflare Pages; auto-deploys from GitHub `main` on every push; rankintelligence.pages.dev still resolves)
 - Repo: https://github.com/dazzlitco/Rank-Intelligence (`main`; text-only snapshot pushes — images embedded as data URIs)
 - Design system: Production Design System v3 (repo `DESIGN_SYSTEM.md`) — live identity + all owner decisions; apply automatically, ask only when an asset is genuinely missing
 - Standing rules: SERPLoft™ replaces DazziGrowth™ everywhere (never revert); footer offices are Orlando FL + Islamabad (locked, do not switch to live's Greenville/Layyah); every push verified by head-commit read-back; verify edits landed BEFORE pushing (edit and push are separate steps)
@@ -17,18 +17,32 @@ A clone of https://rankintelligence.net/ — homepage rebuilt as a faithful visu
 | Component | State | Notes |
 |---|---|---|
 | Homepage | ✅ Complete & live | All 15 sections in live order; fully balanced valid HTML (R-040 audit); no horizontal overflow |
-| Header mega menu | ✅ Done (homepage) | Infidigit-style: 6 items, full-width hover panels, 99 links all verified live pages, Get Free Proposal CTA (R-039) |
-| Inner pages (242) | ✅ Live | 12 core pages REBUILT to Infidigit per-page flow (R-050, supersedes R-043 template build) + ALL 57 service pages (R-044–R-049) rebuilt in the full homepage design incl. mega menu; the other 173 remain generated placeholder pages with the OLD simple header (see Open items) |
+| Header mega menu | ✅ Done (homepage + all 96 hand-built pages) | Infidigit-style: 6 items, full-width hover panels, 99 links all verified live pages, Get Free Proposal CTA (R-039) |
+| Core pages (12) | ✅ Rebuilt v2 & live | Rebuilt to Infidigit per-page flows, all-original RI copy (R-050, supersedes R-043 template build); second-pass fixes R-052 (Clients 23/23 logos, About trust strip, Awards captions, Contact Q&A, History timeline) |
+| Service pages (57) | ✅ Rebuilt v2 & live, 57/57 | One page at a time, per-page flows confirmed individually (R-053–R-109); archetypes vary: packages tables, checklists, Q&A, essays, rich marketing/landing |
+| Industries pages (27) | ✅ Rebuilt & live, 27/27 | Hub + 26 industry pages, one at a time, none skipped (R-111–R-137) |
+| Hand-built total | ✅ 96 pages | 12 core + 57 services + 27 industries, all verified balanced, zero dead links, live byte-identical at push |
+| Pakistan pages | ✅ Live | /local-seo-pakistan/ and /seo-consulting-pakistan/ fully rewritten for Pakistan (R-110); old India URLs 301 to them; India pages can be re-added later on expansion |
+| 96-page audit | ⚠️ Fixes built, live deploy still propagating at 06:32–06:36 PST 2026-11-21 — seo-audit expansion flipped live mid-check (14 groups / 80 items, not ~100 as R-138 states); shopify-migration, website-speed-optimization and seo-contract-staffing fixes were in local files but not yet live at 06:36. Re-check live before calling R-138 complete. |
+| Industries CSS leak | ⚠️ Builder fixed, all 27 rebuilt locally. Visual live sweep 2026-11-21 10:51–10:53 PST: 11 CLEAN (hub, contractor, ecommerce, automotive, dentist, b2b, doctor, b2c, cannabis, bfsi, delivery-services), 16 still LEAKING (educational, health-care, pest-control, fmcg, fitness, plumbing, real-estate, travel-website, healthcare, law-firm, restaurant, roofing, fashion-ecommerce, insurance, gaming, ott). Re-push of the 16 in progress with R-140. |
+| Character-paragraph bug | ⚠️ Found in the same sweep: 33 pages rendered paragraphs as vertical single letters (helpers iterated plain strings char by char). Helpers fixed, all 33 rebuilt, zero occurrences remain locally. Pushed in this pass; live re-check pending. |
 | Design System | ✅ v3 current | v1/v2 preserved as DESIGN_SYSTEM_V1/V2.md |
 | Favicon + logo | ✅ Done | User's icon traced to SVG, linked on all pages (R-031); user's logo as WebP in header/footer (R-030) |
-| Auto-behaviors | ✅ Verified live | Performance tabs 5.6s + progress bar; Case Studies 10s; Testimonials 15s tabs / 5s reviewers; clientele marquee; CTA word rotator. None pause on hover (R-037/R-040) |
-| Project records | ✅ Created 2026-11-20 | This file + RECORD_REGISTER.md (R-001–R-043), updated after each step/session per user's rule; mirrored in the repo root and pushed with each update (R-042 — so any future AI can pick up from the repo alone; publicly served, accepted by the user) |
+| Auto-behaviors | ✅ Verified live | Performance tabs 5.6s; Case Studies 10s; Testimonials 15s tabs / 5s reviewers; clientele marquee; CTA word rotator. None pause on hover (R-037/R-040) |
+| Project records | ✅ Current through R-138 | This file + RECORD_REGISTER.md (R-001–R-138), updated after each step/session per user's rule; mirrored in the repo root and pushed with each update (R-042 — so any future AI can pick up from the repo alone; publicly served, accepted by the user) |
+
+## R-138 audit fixes applied (2026-11-21)
+
+- Services: seo-contract-staffing, shopify-migration, core-web-vitals, hyper-local-seo, logo-design gained case cards + quotes; wix-development gained brands strip + quote + case cards; website-speed-optimization gained grounded stats band + closing lead form; ecommerce- and bfsi-content-writing gained client brands strip; seo-audit checklist expanded 10 groups / ~51 items → 15 headings / 80 checklist items (14 groups + 6-item "What your report includes" = 86 checkmarked lines; R-138's "~100 items" is overstated — correct it in the Register).
+- Industries: delivery-services and seo-for-ott gained 2 testimonial quotes each and full 3 case cards (case-key casing bug fixed — 'Casper'/'Adobe'/'instacart' keys are mixed-case in core_data.json); FMCG gained brands strip + 3 case cards + 2 quotes; fashion-ecommerce and BFSI case grids completed to 3 cards and gained brands strips; pest-control gained stats band and its lead form moved ahead of the closing FAQ to match reference order.
+- Not defects, left as built: FAQ-count deltas where structure matches; reference's duplicated hub cards and duplicated FAQ presentations (not reproduced); business-listing plugin block at end of reference pages (skipped by design since R-043).
+- Core 12: no structural defects. Differences are documented honest subsets (RI's real 23 clients / 21 testimonials / 10 outlets / real award honours) and asset gaps already on record.
 
 ## Open items (all waiting on the user — do not invent or nudge)
 
 | Item | What's needed |
 |---|---|
-| Mega menu on remaining inner pages | The 12 core pages carry it (R-050); the other 230 generated pages still show the old 4-link header — rollout is part of each upcoming batch as those pages get rebuilt (core pages are hand-built now; do NOT re-run generate.py over them) |
+| Remaining generated pages (141) | Locations (35), Pricing (15), Tools (23), case-study indexes (59), plus resources/legal remainder — still on the generated template with the old 4-link header; rebuild one page at a time on the user's direction, next group in roadmap order is Locations |
 | 3 case-study logos | BioDigital, MyVitaminStore.pk, Instacart logos — cards show styled text wordmarks until the user uploads them |
 | Footer social links | Real Rank Intelligence profile URLs — icons currently link to the platform homepages |
 | Footer phone / Skype | +1-856-481-6893 (WhatsApp) and a Skype link appear on the live site; asked, unconfirmed — not added |
@@ -37,8 +51,8 @@ A clone of https://rankintelligence.net/ — homepage rebuilt as a faithful visu
 | "View All Case Studies" button | Sits inside the last tab's panel, so it only shows on the Content Marketing tab (flagged in the R-040 audit; move only if the user asks) |
 | Phone-width rendering | Not live-tested in Muse's browser (window can't resize); covered by static CSS audit only — user can eyeball on a phone |
 | KB illustration | AI-generated stand-in (user approved generating); replace if the user supplies the real asset |
-| Inner-page content | Placeholder-standard copy throughout; real per-page content/cases can replace it page by page |
+| Inner-page content | Placeholder-standard copy on the remaining generated pages; real per-page content/cases can replace it page by page |
 
 ## Next step when the user returns
 
-Whatever section/page the user names next — build to Design System v3, push, verify live, then append a Register entry and refresh this STATUS.
+Whatever section/page the user names next — build to Design System v3, push, verify live, then append a Register entry and refresh this STATUS. Roadmap order for the remaining groups is Locations (35) first.
