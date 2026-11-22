@@ -811,3 +811,8 @@ Maintained by: Muse, for the user
 ### R-150 — 2026-11-22 — /services/: broken section-to-section gap fixed
 
 - Cause: the "Awards & Recognition" pill added in R-146 was a bare element floating between the grey Our Work section and the white Awards section, on neither section's background and with its own margins — a visible broken strip in the section flow. It now sits inside a white band with the awards section's own background and top padding, so it reads as the top of that section; the generic pill-row margin was also tightened (22px to 16px) to match the in-section pills. Verified: zero stray elements between sections. Pushed as head f473f85e; live byte-parity checked.
+
+### R-151 — 2026-11-22 — /services/: real AI platform logos in the "Get cited in" badge
+
+- User asked for the real platform logos instead of the R-147 approximations. The four drawn approximations (OpenAI knot, Perplexity mark, Gemini sparkle, Claude starburst) are replaced with the platforms' official logo artwork from the Simple Icons set (CC0), stored locally at `img/cite-logos/` (openai.svg, perplexity.svg, googlegemini.svg, claude.svg) and inlined by the builder at build time — no external requests on the page. The multicolor Google G was already the genuine logo and is unchanged.
+- Verified in the built page and live: the real OpenAI knot path, Perplexity title/mark, Gemini brand fill and Claude brand fill are all present in the badge; approximations gone. Pushed as head cabd4d7d; live byte-parity checked.
