@@ -68,3 +68,7 @@ The 11-core-pages round is COMPLETE: every core page has been visually inventori
 ## Latest — R-165 (2026-11-22)
 
 Button pass on the user's direction (R-164 homepage, R-165 /services/): homepage Our Work gained a persistent "Read all Case Studies" button below the cards in the Testimonials button style, and all homepage section buttons are rectangular with rounded corners plus hover/active colours (hero buttons and header CTA unchanged by design). On /services/, section buttons now match the homepage outline-button design and the Clientele, Awards, Outcomes and Why Rank Intelligence buttons were removed (What We Do, Our Work, Testimonials and Why It Matters keep theirs). Both pages live and byte-verified. Still open: the 141 generated pages and a possible visual re-verification of the service/industry pages.
+
+
+## Latest — R-167 (2026-11-22)
+All-core-pages audit pass complete: every core page re-checked against the button/layout/image/color standards and fixed at builder level — About's unstyled ghost buttons defined, pill buttons rectangularised (Clients filters, Awards banner, Careers Apply/sidebar, Media Visit), missing hover/active states added (Proven filters, Contact link, Ask-AI bands, shared .btn press state), Careers search green aligned to palette, Teams flush section padding removed. Hero buttons untouched. All 12 pages live, byte-parity exact.

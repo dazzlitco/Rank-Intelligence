@@ -908,3 +908,12 @@ Maintained by: Muse, for the user
 
 - The Our Clientele slider section carried an inline padding-bottom:6px left over from when the section's button (removed in R-165) supplied the visual bottom space; without the button the slider sat almost on the next section. The inline override is removed, so the section takes the standard .c2sec rhythm — 72px top and 72px bottom, equal as directed.
 - Verified: section tag clean, balanced markup; pushed as head 6e972dcf; live byte-parity checked.
+
+### R-167 — 2026-11-22 — All-core-pages audit pass: buttons, layout, images, colors (user-directed)
+
+- Programmatic audit of all 12 core pages (homepage + /services/ + the 11 rebuilt pages) against the R-164/165/166 standards, then fixes at builder level, all 12 inner pages rebuilt and re-audited clean.
+- Buttons: About's two ghost buttons ("Read Our Story", "See Our Awards") had NO CSS rule at all and rendered as plain links — .btnghost now defined to the standard outline design with hover/active. Clients filter pills 999px -> 10px rectangular + :active. Awards white banner button 999px pill -> 8px + hover/active. Careers Apply + sidebar outline buttons 999px -> 8px + active states; careers search button green aligned to the site palette (#00A651 / hover #008000 / active #006400), corners 10px. Media "Visit Outlet" 999px -> 8px + active. Proven-results sidebar All-reset and filter options gained hover/active. Contact "View Services" link gained hover/active. All 9 Ask-AI bands' round buttons gained hover/active tints. Shared stylesheet: .btn gained an :active press state (covers contact-us / get-started form buttons and all inner pages using the shared button).
+- Layout: Teams carried a flush inline padding-top:6px on one section (same defect class as R-166) — removed, standard rhythm restored. No other flush sections found.
+- Images: no broken or missing images on any core page (all embedded); the homepage's empty-src <img> tags are placeholders its testimonial rotator fills by script — working as designed, left alone.
+- Hero buttons untouched on every page, per instruction (the only remaining audit flags are the deliberate hero exceptions).
+- Verified: all 12 pages tag-balanced, zero dead internal links; pushed in 4 batches (final head 9debfc2b); live byte-parity exact on all 12 pages.
