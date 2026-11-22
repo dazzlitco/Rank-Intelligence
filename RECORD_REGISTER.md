@@ -1002,3 +1002,59 @@ Maintained by: Muse, for the user
 - Fix (appended override block in tpl-style.html and the homepage's own stylesheet): header wrap widened to 1380px (24px padding); .logo and the logo img set flex:none with the img at 32px height (~219px wide, matching the footer's 32px); menu gap 22->18px, toplink padding 10->9px, nav gap 26->20px; a compact set below 1340px (logo 25px, toplinks 13.5px/7px padding, tighter gaps, CTA padding 14px); the existing burger/mobile-nav rules extended from 900px up to 1200px so the row never has to crush anything.
 - Scope: homepage edited directly; all 96 hand-built inner pages (12 core incl. /services/, 57 services v2+v3, 27 industries) rebuilt through their builders with the fixed shared stylesheet and pushed in 14 size-capped batches (~4.5MB each; an 8-file/8.6MB batch was rejected HTTP 413). The 141 generated pages carry the old simple header (text wordmark, no mega menu) and were not affected.
 - Verified: homepage measured live in the browser — logo 219x32px, wordmark legible, header row on one line with no overlap or horizontal scrollbar, mega menu still opens on hover. Live byte-parity exact on samples from every builder family (about, seo-audit, content-writing-services, seo-content-writing-services, industries/seo-for-plumbing). Final head 66cbc98c.
+
+### R-182 — 2026-11-22 — /content-marketing/ rebuilt v3 (services v3 batch 2, page 1 of 10)
+
+- The reference page is a LANDING-style page, not the standard template: form hero (dark panel + form panel; their form embeds were broken) -> orange results ticker (4) -> case studies (3 cards) -> testimonials -> tabbed client grid (6 tabs) -> awards image band. No benefits/challenges/process/FAQ/plans.
+- RI build: navy form hero with RI's REAL lead form imported into the right panel (heading "Get Your Free Content Marketing Plan"); left = breadcrumb, pill, H1, lede, CMO faces, 4-item checklist, 3 award badges. Orange ticker with 4 RI case results; 3 Content Marketing case cards + "Read all Case Studies" button; homepage testimonials; tabbed client grid from RI's 23 clients in 6 groups (All 23, Fintech 3, SaaS & Technology 8, E-commerce & Retail 4, Travel & Lifestyle 4, Health, Education & More 4), tab buttons rectangular 10px per the button standard; awards band; Ask-AI. 6 sections; scripts (0,3), no duplicate lead form.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 0a357ea4; live byte-parity exact (1,564,247 bytes).
+
+### R-183 — 2026-11-22 — /content-marketing-services/ rebuilt v3
+
+- Flow: centred form-hero pattern built RI-style (centred hero, buttons to the lead form — the reference's email field not replicated, per the professional-SEO precedent) -> clients -> benefits (6) -> awards band -> challenges (10) -> why-us (4) -> Our Work -> process -> testimonials -> growth (generated svc3-cms-growth.webp) -> industries -> solutions -> locations -> FAQ -> Ask-AI -> lead form. 16 sections.
+- Fix within the step: the hero lede first used an undefined class (herolede); corrected to the real svclede class, rebuilt and re-pushed.
+- Verified: balanced, 1 H1, zero dead links; final head a1e33522; live byte-parity exact (2,829,399 bytes).
+
+### R-184 — 2026-11-22 — /content-writing-services/ rebuilt v3
+
+- Flow: hero (generated svc3-cw-hero.webp) -> clients -> benefits (6) -> awards band -> challenges (8) -> why-us (6) -> Our Work -> process (4) -> testimonials -> plans (2 RI tiers, no prices) -> industries -> 2-package comparison table (3 groups / 14 rows, RI data) -> "What We Write" blocks (6) -> solutions -> quote -> locations -> FAQ (6) -> Ask-AI -> lead form. 19 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head d04a0b87; live byte-parity exact (2,721,303 bytes).
+
+### R-185 — 2026-11-22 — /seo-content-writing-services/ rebuilt v3
+
+- The reference page is a LEAN prose/accordion template (no plans/industries/solutions/locations/lead form; headings mostly left-aligned there — RI kept headings centred per the user's standing rule).
+- Flow: hero (generated svc3-scw-hero.webp) -> prose intro -> 6 RI stat cards -> awards band -> definition prose -> why-specialist accordion (6) -> clients -> quote -> included accordion (6) -> 3 case cards + CTA -> why-choose accordion (5) -> 12-platform wordmark grid -> FAQ (5) -> Ask-AI -> lead form. 15 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 8e0be4b2; live byte-parity exact (1,810,666 bytes).
+
+### R-186 — 2026-11-22 — /ecommerce-content-writing-services/ rebuilt v3
+
+- Flow: centred hero (RI pattern) -> clients -> benefits (6) -> awards band -> why-us accordion (5) beside a photo (generated svc3-ecw-why.webp) -> Our Work -> testimonials -> process (4) -> industries -> solutions -> locations -> FAQ (5) -> Ask-AI -> lead form. 14 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head bd891151; live byte-parity exact (2,721,316 bytes).
+
+### R-187 — 2026-11-22 — /bfsi-content-writing-services/ rebuilt v3
+
+- Flow: centred hero (RI pattern) -> clients -> benefits (6) -> awards band -> why-us accordion (4, BFSI/compliance-themed) beside a photo (generated svc3-bfsi-why.webp) -> Our Work -> process (4) -> testimonials -> growth (generated svc3-bfsi-growth.webp, portrait) -> industries -> solutions -> locations -> FAQ (6) -> Ask-AI -> lead form. 15 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 9539d96d; live byte-parity exact (3,236,823 bytes).
+
+### R-188 — 2026-11-22 — /link-building/ rebuilt v3
+
+- Flow: centred hero (RI pattern) -> clients -> benefits (6) -> awards band -> challenges (8) -> why-us (6) -> Our Work -> process (4) -> testimonials -> growth (generated svc3-lb-growth.webp) -> industries -> solutions -> quote -> locations -> FAQ (6) -> Ask-AI -> lead form. 17 sections. No pricing on the reference page; none added.
+- Verified: balanced, 1 H1, zero dead links; pushed as head e9be5e4f; live byte-parity exact (2,863,143 bytes).
+
+### R-189 — 2026-11-22 — /blogger-outreach-services/ rebuilt v3
+
+- Discovery: the reference site REDIRECTS /blogger-outreach-services/ to its /guest-posting-services/ page — one merged page serves both slugs there. RI keeps two distinct pages (its own SVC content differs per service); this page was built to that page's rendered flow.
+- Flow: hero (generated svc3-bo-hero.webp) -> clients -> benefits (6) -> awards band -> challenges (8) -> why-us (5) -> Our Work -> process (4) -> testimonials -> growth (generated svc3-bo-growth.webp) -> industries -> solutions -> quote -> locations -> FAQ (5) -> Ask-AI -> lead form. 17 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head c0e41e68; live byte-parity exact (3,340,762 bytes; first parity check caught the deploy mid-propagation, re-check matched).
+
+### R-190 — 2026-11-22 — /guest-posting-services/ rebuilt v3
+
+- Built to the same reference page inventoried at R-189 (the reference serves this exact page for both slugs), with RI's distinct guest-posting content.
+- Flow: hero (generated svc3-gp-hero.webp) -> clients -> benefits (6) -> awards band -> challenges (8) -> why-us (5) -> Our Work -> process (4) -> testimonials -> growth (generated svc3-gp-growth.webp) -> industries -> solutions -> quote -> locations -> FAQ (5) -> Ask-AI -> lead form. 17 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 05522a13; live byte-parity exact (3,282,951 bytes).
+
+### R-191 — 2026-11-22 — /digital-marketing-services/ rebuilt v3 — batch of 10 COMPLETE
+
+- The reference page differs from the standard template: NO challenges accordion, NO standalone process section, NO industries grid — instead a 20-row framework accordion (14 channel entries + 6 process rows). RI build follows it: hero (generated svc3-dm-hero.webp) -> clients -> benefits (6) -> awards band -> Our Work -> why-us (6) -> testimonials -> framework accordion (16 rows: 12 RI channel entries + the page's 4 RI process steps) -> growth (generated svc3-dm-growth.webp) -> solutions -> quote -> locations -> FAQ (6) -> Ask-AI -> lead form. 15 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 11ea4363; live byte-parity exact (3,311,001 bytes).
+- Batch state: services v3 batch 2 (pages 11-20 of the list) is COMPLETE — Content Marketing, Content Marketing Services, Content Writing, SEO Content Writing, E-commerce Content Writing, BFSI Content Writing, Link Building, Blogger Outreach, Guest Posting, Digital Marketing. 20 of 57 service pages are now v3; 37 remain on v2 (list items 21-55; items 56/57 are the stale India dict entries converted to Pakistan at R-110) for later batches on the user's direction.
