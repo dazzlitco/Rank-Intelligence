@@ -930,3 +930,12 @@ Maintained by: Muse, for the user
 - Legitimate exceptions kept: all photo-hero H1s left; Teams and Testimonials heroes centered by their reference design; column headings (About intro + recognition, Teams people + CTA band, Awards banner, Proven hero, Get Started steps/form card); card titles (Clients, Media); Proven "Filter By" sidebar header; homepage CTA-band and Proudly Featured header-block headings (two-column bands).
 - Fixed (2): /services/ "What We Do" heading was left-aligned in a full-width section — now centered. /contact-us/ FAQ heading (.cfh2) was text-align:left — now centered.
 - Verified in builds; pushed; live byte-parity checked on both pages.
+
+### R-170 — 2026-11-22 — Collapsed About "Who We Are" image: root cause fixed at the shared stylesheet (user-reported)
+
+- Symptom (verified by live measurement): the About intro photo rendered 49px wide x 520px tall — a thin vertical strip showing only the middle of the sign; the text column had expanded to 1042px of the 1140px section.
+- Root cause: the shared stylesheet (tpl-style.html, extracted from the homepage) carried the homepage rule section h2{white-space:nowrap}. On inner pages, any long H2 inside a grid column cannot wrap, so the column's minimum width becomes the heading on one line (~1038px here) and the neighbouring photo track is starved to the leftover space. The image file and its own CSS were never broken.
+- Fix: white-space:nowrap removed from section h2 in tpl-style.html (the <=760px media query already set white-space:normal, so only desktop was affected). Homepage does not use this stylesheet and is unchanged.
+- Same-defect sweep: the pattern only bites where a long heading shares a grid/flex row with media or cards — About intro + recognition photos (same starvation), Media Coverage card headlines (nowrap inside grid cards), Teams photo/CTA columns, Awards banner column. The other site pages were scanned: their in-grid H2s are the shared lead-form headings, which carry their own white-space:normal override, so they were not affected.
+- All 12 core inner pages rebuilt and pushed in 4 batches; live byte-parity exact on all 12.
+- Visually verified after deploy: About intro photo now 520x520 with the full photo visible; recognition photo 520x440 normal; Media Coverage cards wrap their headlines inside a 3-column grid that fits the page with no horizontal overflow.

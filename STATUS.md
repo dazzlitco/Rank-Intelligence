@@ -72,3 +72,7 @@ Button pass on the user's direction (R-164 homepage, R-165 /services/): homepage
 
 ## Latest — R-167 (2026-11-22)
 All-core-pages audit pass complete: every core page re-checked against the button/layout/image/color standards and fixed at builder level — About's unstyled ghost buttons defined, pill buttons rectangularised (Clients filters, Awards banner, Careers Apply/sidebar, Media Visit), missing hover/active states added (Proven filters, Contact link, Ask-AI bands, shared .btn press state), Careers search green aligned to palette, Teams flush section padding removed. Hero buttons untouched. All 12 pages live, byte-parity exact.
+
+
+## Latest — R-170 (2026-11-22)
+Collapsed-image fix: the shared stylesheet's homepage rule section h2{white-space:nowrap} was starving photo columns next to long headings (About "Who We Are" photo rendered 49px wide). The nowrap is removed from tpl-style.html; all 12 core inner pages rebuilt, pushed, byte-parity exact, and visually verified (About photos full-size, Media cards wrap cleanly). Homepage unaffected (own stylesheet).
