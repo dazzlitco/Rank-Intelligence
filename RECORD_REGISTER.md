@@ -798,3 +798,16 @@ Maintained by: Muse, for the user
 - Our Work: the user rejected the R-146 custom case cards outright ("can not simply import homepage cards here?"). They were right — the custom cards were a downgrade. The whole custom block (cards + logo lookup) is deleted and the section now imports the homepage's own Case Studies section (section('cs-h')) unchanged, with its auto-rotate script restored. Standing lesson recorded: when a homepage component exists, import it — never rebuild a lookalike.
 - Outcomes: heading centered; the "The proof is in the portfolio:" paragraph removed completely. Why Rank Intelligence: heading centered.
 - Verified: hero pill left (8 centered pills remain), citation badge with 5 glyphs, CMO nowrap rule live, 57 card photos with the full-width rule, zero custom work cards, proof text absent, both headings centered, balanced markup, zero dead links; pushed as head 6d3d9aeb; live byte-parity checked.
+
+### R-148 — 2026-11-22 — /services/: alternating section colours with contrast check
+
+- User asked for section colour contrast / alternation. Audit found the page was mostly white-on-white: Clientele, Services, Testimonials, Why It Matters and Outcomes all sat on white, broken only by the hero gradient, the grey case-studies and CTA bands, white awards and the grey lead band.
+- Fix: Services (What We Do), Testimonials and Outcomes now use the homepage's own alternate tint #F4F2FE, giving a clean rhythm — hero gradient / white / tint / grey / white / tint / white / tint / grey / white / lead grey. Contrast verified numerically on both grounds: headings #102088 13.3:1 on white and 12.0:1 on the tint, body #414E6B 8.3:1 / 7.5:1, muted #5A6B8C 5.4:1 / 4.9:1, pill text 12.9:1 — all pass WCAG AA. Pushed as head 22ba946a (with R-149).
+
+### R-149 — 2026-11-22 — /services/: duplicate "Our Work" pill removed
+
+- User spotted two pills over Our Work: the homepage case-studies section carries its own "Our Work" pill, and R-147 had added a second one above it. The added pill is removed; the section's own pill remains. Pushed as head 22ba946a (with R-148).
+
+### R-150 — 2026-11-22 — /services/: broken section-to-section gap fixed
+
+- Cause: the "Awards & Recognition" pill added in R-146 was a bare element floating between the grey Our Work section and the white Awards section, on neither section's background and with its own margins — a visible broken strip in the section flow. It now sits inside a white band with the awards section's own background and top padding, so it reads as the top of that section; the generic pill-row margin was also tightened (22px to 16px) to match the in-section pills. Verified: zero stray elements between sections. Pushed as head f473f85e; live byte-parity checked.
