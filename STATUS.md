@@ -56,3 +56,7 @@ A clone of https://rankintelligence.net/ — homepage rebuilt as a faithful visu
 ## Next step when the user returns
 
 Whatever section/page the user names next — build to Design System v3, push, verify live, then append a Register entry and refresh this STATUS. Roadmap order for the remaining groups is Locations (35) first.
+
+## Latest — R-141 (2026-11-21, evening)
+
+/services/ was rebuilt to the reference page's true rendered flow (hero + stats, client slider, 57 service cards, case tabs, awards, testimonials, growth section, CTA, why-us accordion, lead form) after the user found the essay-only version wanting and a visual inventory confirmed the gap; live and byte-verified (head 3238f6c4). Lesson recorded in R-141: reference flows must be confirmed visually, not by text fetch. A visual re-verification of the other hand-built pages is proposed and awaiting the user's go-ahead.
