@@ -903,3 +903,8 @@ Maintained by: Muse, for the user
 - Section buttons (.secbtn) restyled from the orange pill to the homepage's outline-button design: white, ink 1.5px border, 8px radius, 48px min-height, grey hover (#F5F5F5) and active (#E6E9F0) colours. The page's tab buttons followed: services group tabs (.tabbtn) and the imported Case Studies tabs are now 10px-radius rectangles with hover/active colours (page-scoped override for the imported section).
 - Buttons removed, as directed: Clientele ("View Case Studies"), Awards ("View All Awards"), Outcomes ("Get Free Proposal"), Why Rank Intelligence ("Get Started"). Kept: What We Do ("Get Free Proposal"), Our Work ("View All Case Studies"), Testimonials ("Read All Testimonials"), Why It Matters ("Start Your Growth Plan"). Hero buttons untouched.
 - Build repair: build_services called section() without importing it (latent since a pre-round edit); a local `from build_core import section` was added — no output change beyond this pass. Verified: exactly the 4 kept buttons remain, balanced markup, zero dead links; pushed as head a8b867db; live byte-parity checked.
+
+### R-166 — 2026-11-22 — /services/ clientele section bottom padding restored (user-reported)
+
+- The Our Clientele slider section carried an inline padding-bottom:6px left over from when the section's button (removed in R-165) supplied the visual bottom space; without the button the slider sat almost on the next section. The inline override is removed, so the section takes the standard .c2sec rhythm — 72px top and 72px bottom, equal as directed.
+- Verified: section tag clean, balanced markup; pushed as head 6e972dcf; live byte-parity checked.
