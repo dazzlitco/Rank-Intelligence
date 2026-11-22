@@ -762,3 +762,9 @@ Maintained by: Muse, for the user
 
 - At the user's request, a new services-themed hero illustration was generated for Rank Intelligence (flat vector style: analytics dashboard with growth charts, SEO magnifier, content and code cards, rising arrows; RI navy/sky/green palette on a pale-blue ground matching the hero gradient) and placed on the right side of the /services/ hero, replacing the homepage illustration the R-141 rebuild had reused.
 - Asset: `img/services-hero.webp` in the project files (137 KB WebP), embedded as a data URI by build_services() in pages_core2.py. Page rebuilt (2,073,775 bytes), pushed as head 90b471c9, live byte-parity verified.
+
+### R-143 — 2026-11-21 — Partner logos in the /services/ hero + an illustration on every service card
+
+- At the user's request: (1) a partner logo row (6 client logos, "Trusted by teams at") now sits in the hero's right column, below the hero illustration and level with the proposal-button side; (2) every one of the 57 service cards now carries its own related illustration below the service title.
+- Card artwork: four generated 4x4 illustration sheets (64 mini-illustrations in the RI navy/sky/green flat style, no text) were sliced into per-service tiles (420x315 WebP, ~4 KB each, 229 KB total) under `img/cards/<slug>.webp`, mapped to services in card order and verified visually sheet by sheet before slicing. The builder embeds each tile as a data URI under the card title.
+- Verified: 57 card images + 6 partner logos in the built page, balanced markup, zero dead links; pushed as head 7b5dd00a; live byte-parity checked.
