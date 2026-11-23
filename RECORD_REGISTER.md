@@ -1058,3 +1058,55 @@ Maintained by: Muse, for the user
 - The reference page differs from the standard template: NO challenges accordion, NO standalone process section, NO industries grid — instead a 20-row framework accordion (14 channel entries + 6 process rows). RI build follows it: hero (generated svc3-dm-hero.webp) -> clients -> benefits (6) -> awards band -> Our Work -> why-us (6) -> testimonials -> framework accordion (16 rows: 12 RI channel entries + the page's 4 RI process steps) -> growth (generated svc3-dm-growth.webp) -> solutions -> quote -> locations -> FAQ (6) -> Ask-AI -> lead form. 15 sections.
 - Verified: balanced, 1 H1, zero dead links; pushed as head 11ea4363; live byte-parity exact (3,311,001 bytes).
 - Batch state: services v3 batch 2 (pages 11-20 of the list) is COMPLETE — Content Marketing, Content Marketing Services, Content Writing, SEO Content Writing, E-commerce Content Writing, BFSI Content Writing, Link Building, Blogger Outreach, Guest Posting, Digital Marketing. 20 of 57 service pages are now v3; 37 remain on v2 (list items 21-55; items 56/57 are the stale India dict entries converted to Pakistan at R-110) for later batches on the user's direction.
+
+### R-192 — 2026-11-23 — /shopify-seo-services/ rebuilt v3
+
+- Standard rich reference template, photo hero, no pricing. Flow: hero (generated svc3-shopify-hero.webp) -> clients -> benefits (6) -> awards band -> challenges (8, Shopify-themed) -> Our Work -> why-us (6) -> testimonials -> process (4) -> growth (generated svc3-shopify-growth.webp) -> industries -> solutions -> quote -> locations -> FAQ (6) -> Ask-AI -> lead form. 17 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head fa507bd0; live byte-parity exact (3,401,670 bytes).
+
+### R-193 — 2026-11-23 — /wordpress-seo-services/ rebuilt v3
+
+- Standard rich reference template, photo hero, no pricing. Flow: hero (generated svc3-wp-hero.webp) -> clients -> benefits (6) -> awards band -> challenges (8, WordPress-themed) -> Our Work -> why-us (6) -> testimonials -> process (4) -> growth (generated svc3-wp-growth.webp) -> industries -> solutions -> quote -> locations -> FAQ (6) -> Ask-AI -> lead form. 17 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 5e327750; live byte-parity exact (3,194,843 bytes).
+
+### R-194 — 2026-11-23 — /amazon-seo-services/ rebuilt v3
+
+- Reference order differs: NO why-us section; locations before solutions, industries last. RI follows it: hero (generated svc3-amz-hero.webp) -> clients -> benefits (6) -> awards band -> challenges (8, Amazon-themed) -> Our Work -> testimonials -> process (4) -> growth (generated svc3-amz-growth.webp) -> locations -> solutions -> quote -> industries -> FAQ (6) -> Ask-AI -> lead form. 16 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 87de40a6; live byte-parity exact (3,266,784 bytes).
+
+### R-195 — 2026-11-23 — /seo-services-amazon/ rebuilt v3
+
+- Discovery: the reference REDIRECTS /seo-services-amazon/ to its /amazon-seo-services/ page — one page serves both slugs there. RI keeps two distinct pages (the v2 deliberate split: listing SEO vs dual-channel brand growth); this page was built to the R-194-inventoried flow with dual-channel content.
+- Flow: hero (generated svc3-amzg-hero.webp) -> clients -> benefits (6) -> awards band -> challenges (8, dual-channel-themed) -> Our Work -> testimonials -> process (4) -> growth (generated svc3-amzg-growth.webp) -> locations -> solutions -> quote -> industries -> FAQ (6) -> Ask-AI -> lead form. 16 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 9f0a31a5; live byte-parity exact (3,286,245 bytes).
+
+### R-196 — 2026-11-23 — /youtube-seo-services/ rebuilt v3
+
+- Reference: centred FORM hero + stats band; process before why-us; FAQ only 4. RI build: centred hero (RI pattern) -> clients -> benefits (6) -> awards band -> challenges (8, YouTube-themed) -> Our Work -> process (4) -> why-us (6) -> growth (generated svc3-yt-growth.webp) -> testimonials -> industries -> solutions -> quote -> locations -> FAQ (4) -> Ask-AI -> lead form. 17 sections.
+- Push incident: the first push was interrupted by a service restart; a live check showed the old v2 page still serving, so the push was retried and landed. Verified: balanced, 1 H1, zero dead links; pushed as head be61d7e5; live byte-parity exact (2,788,611 bytes).
+
+### R-197 — 2026-11-23 — /mobile-seo-services/ rebuilt v3
+
+- Standard rich reference template, photo hero, no pricing. Flow: hero (generated svc3-mob-hero.webp) -> clients -> benefits (6) -> awards band -> challenges (8, mobile-themed) -> Our Work -> why-us (6) -> testimonials -> process (4) -> growth (generated svc3-mob-growth.webp) -> industries -> solutions -> quote -> locations -> FAQ (6) -> Ask-AI -> lead form. 17 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head f687cb47; live byte-parity exact (3,221,100 bytes).
+
+### R-198 — 2026-11-23 — /ai-seo-services/ rebuilt v3
+
+- Reference: centred FORM hero + stats band, with a distinctive platforms carousel and 4 pricing tiers (no prices; its compare link anchors back to the plans block — no separate table). RI build: centred hero (RI pattern) -> clients -> benefits (6) -> awards band -> challenges (8, AI-search-themed) -> Our Work -> why-us (5) -> testimonials -> platforms grid (8 AI assistants as wordmark tiles) -> process (4) -> plans (4 RI tiers, no prices) -> growth (generated svc3-ai-growth.webp) -> industries -> solutions -> quote -> locations -> FAQ (6) -> Ask-AI -> lead form. 19 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 601a13cc; live byte-parity exact (2,821,481 bytes).
+
+### R-199 — 2026-11-23 — /llm-seo-services/ rebuilt v3
+
+- The richest reference page in the batch: photo hero -> clients -> benefits (6) -> 5-model tools row -> cases -> challenges (8) -> testimonials -> 3-column comparison table (8 rows) -> key-elements accordion (6) -> TWO photo CTA bands -> process -> why-us (6) -> plans (4) -> sector prose -> industries -> solutions -> quote -> locations -> FAQ (7) -> lead form -> Ask-AI. RI build follows it, with the two photo CTA bands merged into the single imported homepage CTA band (disclosed adaptation): hero (generated svc3-llm-hero.webp) -> clients -> benefits (6) -> models row (5 wordmark tiles) -> Our Work -> challenges (8) -> testimonials -> comparison table (RI packages-table component: unmanaged vs managed model perception, 8 rows) -> key elements (6) -> CTA band (homepage component) -> process (4) -> why-us (6) -> plans (4 RI tiers) -> growth (generated svc3-llm-growth.webp) -> industries -> solutions -> quote -> locations -> FAQ (6) -> Ask-AI -> lead form. 21 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 64f16b6f; live byte-parity exact (3,311,984 bytes).
+
+### R-200 — 2026-11-23 — /saas-seo-services/ rebuilt v3
+
+- Standard rich reference template with 4 pricing tiers (no prices, no table). Flow: hero (generated svc3-saas-hero.webp) -> clients -> benefits (6) -> awards band -> challenges (8, SaaS-themed) -> Our Work -> why-us (6) -> testimonials -> process (4) -> plans (4 RI tiers) -> growth (generated svc3-saas-growth.webp) -> industries -> solutions -> quote -> locations -> FAQ (5) -> Ask-AI -> lead form. 18 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 3a7c2c1a; live byte-parity exact (3,203,011 bytes).
+
+### R-201 — 2026-11-23 — /aso-app-store-optimization/ rebuilt v3 — batch of 10 COMPLETE
+
+- Reference: centred FORM hero + stats band; TWO prose sections; a features accordion (8) between why-us and process; NO pricing, NO quote block, NO awards band. RI build follows it: centred hero (RI pattern) -> clients -> benefits (6) -> challenges (8, ASO-themed) -> Our Work -> intro prose -> testimonials -> growth (generated svc3-aso-growth.webp) -> why-us (6) -> features accordion (8) -> process (4) -> industries -> solutions -> locations -> FAQ (6) -> Ask-AI -> lead form. 17 sections.
+- Verified: balanced, 1 H1, zero dead links; pushed as head 0894501e; live byte-parity exact (2,670,970 bytes).
+- Batch state: services v3 batch 3 (pages 21-30 of the list) is COMPLETE — Shopify SEO, WordPress SEO, Amazon SEO, SEO Services for Amazon, YouTube SEO, Mobile SEO, AI SEO, LLM SEO, SaaS SEO, ASO. 30 of 57 service pages are now v3; 27 remain on v2 (list items 31-55) for later batches on the user's direction.
